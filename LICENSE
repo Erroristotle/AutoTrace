@@ -1,0 +1,32 @@
+Academic Non-Commercial License
+
+Copyright (c) 2026 AutoTrace Authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, and distribute the Software for academic, research, and
+educational purposes only, subject to the following conditions:
+
+1. The above copyright notice and this permission notice shall be included in
+   all copies or substantial portions of the Software.
+
+2. Any academic publication, presentation, or report that uses this Software
+   or its derivatives must cite the associated paper:
+
+   [AutoTrace: From Patches to Triggers via Agentic Interprocedural Exploration]
+
+3. Commercial use of the Software, including but not limited to use in
+   commercial products, services, or internal business operations, is
+   prohibited without prior written permission from the authors. For
+   commercial licensing inquiries, contact the authors.
+
+4. Redistribution of the Software or its derivatives must retain this license
+   and may not be relicensed under a more permissive license.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

@@ -1,0 +1,1900 @@
+=== DeepSeek-R1-Distill-Llama-8B (H200) ===
+Pipeline ready on cuda:0
+Dataset: 2594 samples
+Resuming: 2399 samples already done, skipping.
+Processing 415 samples...
+
+[    1] CVE-2014-7826_syscall_nr_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 0.0%
+[    2] CVE-2014-7826_syscall_nr_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[    3] CVE-2014-7937_ptns_to_read_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 33.3%
+[    4] CVE-2014-7937_ptns_to_read_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[    5] CVE-2014-8130__TIFFmalloc_vulnerable               | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 40.0%
+[    6] CVE-2014-8130__TIFFmalloc_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[    7] CVE-2014-8176_rdata_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 42.9%
+[    8] CVE-2014-8176_rdata_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[    9] CVE-2014-8176_data_vulnerable                      | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 44.4%
+[   10] CVE-2014-8176_data_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[   11] CVE-2014-8546_cinepak_decode_vectors_vulnerable    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 45.5%
+[   12] CVE-2014-8546_cinepak_decode_vectors_safe          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[   13] CVE-2014-8884_cmd_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 46.2%
+[   14] CVE-2014-8884_cmd_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[   15] CVE-2014-9318_width_t0_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 46.7%
+[   16] CVE-2014-9318_width_t0_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[   17] CVE-2014-9318_width_t1_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 47.1%
+[   18] CVE-2014-9318_width_t1_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[   19] CVE-2014-9318_width_t2_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 47.4%
+[   20] CVE-2014-9318_width_t2_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[   21] CVE-2014-9319_sps_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 47.6%
+[   22] CVE-2014-9319_sps_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[   23] CVE-2014-9496_count_t0_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 47.8%
+[   24] CVE-2014-9496_count_t0_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[   25] CVE-2014-9496_count_t1_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 48.0%
+[   26] CVE-2014-9496_count_t1_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[   27] CVE-2014-9662_builder_t0_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 48.1%
+[   28] CVE-2014-9662_builder_t0_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[   29] CVE-2014-9662_builder_t1_vulnerable                | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 51.7%
+[   30] CVE-2014-9662_builder_t1_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.3%
+[   31] CVE-2014-9662_builder_t2_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 51.6%
+[   32] CVE-2014-9662_builder_t2_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.1%
+[   33] CVE-2014-9665_map_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 51.5%
+[   34] CVE-2014-9666_strike_index_array_t0_vulnerable     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   35] CVE-2014-9666_strike_index_array_t0_safe           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 51.4%
+[   36] CVE-2014-9666_strike_index_array_t1_vulnerable     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   37] CVE-2014-9666_strike_index_array_t1_safe           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 51.4%
+[   38] CVE-2014-9669_end_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   39] CVE-2014-9669_end_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 51.3%
+[   40] CVE-2014-9672_string_count_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   41] CVE-2014-9672_string_count_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 51.2%
+[   42] CVE-2014-9683_dst_byte_offset_vulnerable           | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   43] CVE-2014-9683_dst_byte_offset_safe                 | Truth: Safe       | Pred: Safe       | ✅ | Acc: 51.2%
+[   44] CVE-2014-9683_dst_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   45] CVE-2014-9683_dst_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 51.1%
+[   46] CVE-2015-0288_pktmp_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   47] CVE-2015-0288_pktmp_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 51.1%
+[   48] CVE-2015-0289_p7_t0_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   49] CVE-2015-0289_p7_t0_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 51.0%
+[   50] CVE-2015-0289_p7_t1_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   51] CVE-2015-0289_p7_t1_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 51.0%
+[   52] CVE-2015-0289_p7_t2_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   53] CVE-2015-0289_p7_t2_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.9%
+[   54] CVE-2015-0289_sign_t0_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   55] CVE-2015-0289_sign_t0_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.9%
+[   56] CVE-2015-0289_sign_t1_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   57] CVE-2015-0289_sign_t1_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.9%
+[   58] CVE-2015-0289_sign_t2_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   59] CVE-2015-0289_sign_t2_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.8%
+[   60] CVE-2015-1790_enc_data_t0_vulnerable               | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   61] CVE-2015-1790_enc_data_t0_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.8%
+[   62] CVE-2015-1790_enc_data_t1_vulnerable               | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   63] CVE-2015-1790_enc_data_t1_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.8%
+[   64] CVE-2015-1790_data_body_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   65] CVE-2015-1790_data_body_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.8%
+[   66] CVE-2015-3456_pos_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   67] CVE-2015-3456_pos_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.7%
+[   68] CVE-2015-4002_data_len_t0_vulnerable               | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   69] CVE-2015-4002_data_len_t0_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.7%
+[   70] CVE-2015-4002_data_len_t1_vulnerable               | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   71] CVE-2015-4002_data_len_t1_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.7%
+[   72] CVE-2015-4003_unit_size_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   73] CVE-2015-4003_unit_size_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.7%
+[   74] CVE-2015-4003_body_vulnerable                      | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   75] CVE-2015-4003_body_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.7%
+[   76] CVE-2015-6031_cureltname_t0_vulnerable             | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   77] CVE-2015-6031_cureltname_t0_safe                   | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.6%
+[   78] CVE-2015-6031_cureltname_t1_vulnerable             | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   79] CVE-2015-6031_cureltname_t1_safe                   | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.6%
+[   80] CVE-2015-6819_is16bit_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   81] CVE-2015-6819_is16bit_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.6%
+[   82] CVE-2015-8317_RAW_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   83] CVE-2015-8317_RAW_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.6%
+[   84] CVE-2015-8363_marker_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   85] CVE-2015-8363_marker_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.6%
+[   86] CVE-2015-8900_value_expected_t0_vulnerable         | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   87] CVE-2015-8900_value_expected_t0_safe               | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.6%
+[   88] CVE-2015-8900_value_expected_t1_vulnerable         | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   89] CVE-2015-8900_value_expected_t1_safe               | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.6%
+[   90] CVE-2015-8900_size_t_t0_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   91] CVE-2015-8900_size_t_t0_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.5%
+[   92] CVE-2015-8900_size_t_t1_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   93] CVE-2015-8900_size_t_t1_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.5%
+[   94] CVE-2015-8900_size_t_t2_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   95] CVE-2015-8900_size_t_t2_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.5%
+[   96] CVE-2015-8957_maplength_t0_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[   97] CVE-2015-8957_maplength_t1_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.5%
+[   98] CVE-2016-0797_bn_vulnerable                        | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.0%
+[   99] CVE-2016-0797_bn_safe                              | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.5%
+[  100] CVE-2016-10028_max_size_t0_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.0%
+[  101] CVE-2016-10028_max_size_t0_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.5%
+[  102] CVE-2016-10028_max_size_t1_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.0%
+[  103] CVE-2016-10028_max_size_t1_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.5%
+[  104] CVE-2016-10159_manifest_index_vulnerable           | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.0%
+[  105] CVE-2016-10159_manifest_index_safe                 | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.5%
+[  106] CVE-2016-10161_YYLIMIT_t0_vulnerable               | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.1%
+[  107] CVE-2016-10161_YYLIMIT_t0_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.5%
+[  108] CVE-2016-10161_YYLIMIT_t1_vulnerable               | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.1%
+[  109] CVE-2016-10161_YYLIMIT_t1_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.5%
+[  110] CVE-2016-10161_yych_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.1%
+[  111] CVE-2016-10161_yych_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.5%
+[  112] CVE-2016-10267_early_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.1%
+[  113] CVE-2016-10267_early_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.6%
+[  114] CVE-2012-6616_end_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.1%
+[  115] CVE-2012-6616_end_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.6%
+[  116] CVE-2016-1834_str2_vulnerable                      | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.1%
+[  117] CVE-2016-1834_str2_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.6%
+[  118] CVE-2016-1836_end_t0_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.2%
+[  119] CVE-2016-1836_end_t0_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.6%
+[  120] CVE-2016-1836_end_t1_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.2%
+[  121] CVE-2016-1836_end_t1_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.6%
+[  122] CVE-2016-1840_cur_t0_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.2%
+[  123] CVE-2016-1840_cur_t0_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.6%
+[  124] CVE-2016-1840_cur_t1_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.2%
+[  125] CVE-2016-1840_cur_t1_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.6%
+[  126] CVE-2016-2070_prior_cwnd_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.2%
+[  127] CVE-2016-2070_prior_cwnd_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.6%
+[  128] CVE-2016-2105_num_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.2%
+[  129] CVE-2016-2105_num_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.6%
+[  130] CVE-2016-2106_can_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.2%
+[  131] CVE-2016-2106_can_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.6%
+[  132] CVE-2016-2108_bn_vulnerable                        | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.2%
+[  133] CVE-2016-2108_bn_safe                              | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.6%
+[  134] CVE-2016-2177_session_id_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.3%
+[  135] CVE-2016-2177_session_id_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.6%
+[  136] CVE-2017-0375_purpose_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.3%
+[  137] CVE-2017-0375_purpose_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.6%
+[  138] CVE-2016-2181_item_vulnerable                      | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.3%
+[  139] CVE-2016-2181_item_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.6%
+[  140] CVE-2016-2857_length_t0_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.3%
+[  141] CVE-2016-2857_length_t0_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.6%
+[  142] CVE-2016-2857_length_t1_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.3%
+[  143] CVE-2016-2857_length_t1_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  144] CVE-2016-5126_cmd_len_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.3%
+[  145] CVE-2016-5126_cmd_len_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  146] CVE-2016-5352_eapol_len_t0_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.3%
+[  147] CVE-2016-5352_eapol_len_t0_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  148] CVE-2016-5352_eapol_len_t1_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.3%
+[  149] CVE-2016-5352_eapol_len_t1_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  150] CVE-2016-5689_trigger_1_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.3%
+[  151] CVE-2016-5689_trigger_1_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  152] CVE-2016-6303_len_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.3%
+[  153] CVE-2016-6303_len_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  154] CVE-2016-6304_tlsext_ocsp_ids_vulnerable           | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.4%
+[  155] CVE-2016-6304_tlsext_ocsp_ids_safe                 | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  156] CVE-2016-6304_dsize_t0_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.4%
+[  157] CVE-2016-6304_dsize_t0_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  158] CVE-2016-6304_dsize_t1_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.4%
+[  159] CVE-2016-6304_dsize_t1_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  160] CVE-2016-6304_dsize_t2_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.4%
+[  161] CVE-2016-6304_dsize_t2_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  162] CVE-2016-6309_size_vulnerable                      | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.4%
+[  163] CVE-2016-6309_size_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  164] CVE-2016-6491_name_vulnerable                      | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.4%
+[  165] CVE-2016-6491_name_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  166] CVE-2016-6888_max_frags_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.4%
+[  167] CVE-2016-6888_max_frags_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  168] CVE-2016-6911_but_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.4%
+[  169] CVE-2016-6911_but_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  170] CVE-2016-7116_wnames_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.4%
+[  171] CVE-2016-7116_wnames_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  172] CVE-2016-7127_im_vulnerable                        | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.4%
+[  173] CVE-2016-7127_im_safe                              | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  174] CVE-2016-7422_iov_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.4%
+[  175] CVE-2016-7422_iov_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  176] CVE-2016-7799_format_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.4%
+[  177] CVE-2016-7799_format_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  178] CVE-2016-7908_length_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.4%
+[  179] CVE-2016-7908_length_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  180] CVE-2016-7913_fname_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.4%
+[  181] CVE-2016-7913_fname_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  182] CVE-2016-8669_divider_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.5%
+[  183] CVE-2016-8669_divider_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  184] CVE-2014-9317_state_t0_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.5%
+[  185] CVE-2014-9317_state_t0_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  186] CVE-2014-9317_state_t1_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.5%
+[  187] CVE-2014-9317_state_t1_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  188] CVE-2016-9298_columns_t0_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.5%
+[  189] CVE-2016-9298_columns_t0_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  190] CVE-2016-9298_columns_t1_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.5%
+[  191] CVE-2016-9298_columns_t1_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  192] CVE-2016-9298_columns_t2_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.5%
+[  193] CVE-2016-9298_columns_t2_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  194] CVE-2016-9538_spp_t0_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.5%
+[  195] CVE-2016-9538_spp_t0_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  196] CVE-2016-9538_spp_t1_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.5%
+[  197] CVE-2016-9538_spp_t1_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  198] CVE-2016-9539_trigger_1_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.5%
+[  199] CVE-2016-9539_trigger_1_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.7%
+[  200] CVE-2016-9540_colb_t0_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.5%
+[  201] CVE-2016-9540_colb_t0_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  202] CVE-2016-9540_colb_t1_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.5%
+[  203] CVE-2016-9540_colb_t1_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  204] CVE-2017-1000414_m_anSofHorzSampFact_Hi_vulnerable | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.5%
+[  205] CVE-2017-1000414_m_anSofHorzSampFact_Hi_safe       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  206] CVE-2017-11523_blob_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.5%
+[  207] CVE-2017-11523_blob_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  208] CVE-2017-11719_mb_height_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.5%
+[  209] CVE-2017-11719_mb_height_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  210] CVE-2017-12997_tlv_len_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.5%
+[  211] CVE-2017-12997_tlv_len_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  212] CVE-2017-12997_sublen_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.5%
+[  213] CVE-2017-12997_sublen_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  214] CVE-2017-12999_alen_t0_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.5%
+[  215] CVE-2017-12999_alen_t0_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  216] CVE-2017-12999_alen_t1_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.5%
+[  217] CVE-2017-12999_alen_t1_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  218] CVE-2017-12999_alen_t2_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.5%
+[  219] CVE-2017-12999_alen_t2_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  220] CVE-2017-13000_h->caplen_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.5%
+[  221] CVE-2017-13000_h->caplen_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  222] CVE-2017-13013_ar_pro_t0_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.5%
+[  223] CVE-2017-13013_ar_pro_t0_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  224] CVE-2017-13013_ar_pro_t1_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.6%
+[  225] CVE-2017-13013_ar_pro_t1_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  226] CVE-2017-13013_ar_pro_t2_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.6%
+[  227] CVE-2017-13013_ar_pro_t2_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  228] CVE-2017-13013_ar_pro_t3_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.6%
+[  229] CVE-2017-13013_ar_pro_t3_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  230] CVE-2017-13021_bp_t0_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.6%
+[  231] CVE-2017-13021_bp_t0_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  232] CVE-2017-13021_bp_t1_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.6%
+[  233] CVE-2017-13021_bp_t1_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  234] CVE-2017-13024_len_vulnerable                      | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.6%
+[  235] CVE-2017-13024_len_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  236] CVE-2017-13032_length_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.6%
+[  237] CVE-2017-13032_length_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  238] CVE-2017-13032_data_t0_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.6%
+[  239] CVE-2017-13032_data_t0_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  240] CVE-2017-13032_data_t1_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.6%
+[  241] CVE-2017-13032_data_t1_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  242] CVE-2017-13033_len_vulnerable                      | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.6%
+[  243] CVE-2017-13033_len_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  244] CVE-2017-13036_hello_options_vulnerable            | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.6%
+[  245] CVE-2017-13036_hello_options_safe                  | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  246] CVE-2017-13039_totlen_t0_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.6%
+[  247] CVE-2017-13039_totlen_t0_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  248] CVE-2017-13039_totlen_t1_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.6%
+[  249] CVE-2017-13039_totlen_t1_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  250] CVE-2017-13040_opt_len_t2_vulnerable               | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.6%
+[  251] CVE-2017-13040_opt_len_t2_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  252] CVE-2017-13040_mdss_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.6%
+[  253] CVE-2017-13043_pptr_t0_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.4%
+[  254] CVE-2017-13043_pptr_t0_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.6%
+[  255] CVE-2017-13043_pptr_t1_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.4%
+[  256] CVE-2017-13043_pptr_t1_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.6%
+[  257] CVE-2017-14058_reload_count_vulnerable             | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.4%
+[  258] CVE-2017-14058_reload_count_safe                   | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.6%
+[  259] CVE-2017-14164_p_data_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.4%
+[  260] CVE-2017-14246_count_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.2%
+[  261] CVE-2017-14246_count_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.4%
+[  262] CVE-2017-14608_curve_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.2%
+[  263] CVE-2017-14608_curve_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.4%
+[  264] CVE-2017-5973_link_cnt_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.2%
+[  265] CVE-2017-5973_link_cnt_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.4%
+[  266] CVE-2017-6887_len_t0_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.2%
+[  267] CVE-2017-6887_len_t0_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.4%
+[  268] CVE-2017-6887_len_t1_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.3%
+[  269] CVE-2017-6887_len_t1_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.4%
+[  270] CVE-2017-6887_len_t2_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.3%
+[  271] CVE-2017-6887_len_t2_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.4%
+[  272] CVE-2017-6887_hlen_t0_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.3%
+[  273] CVE-2017-6887_hlen_t0_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.5%
+[  274] CVE-2017-6887_hlen_t1_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.3%
+[  275] CVE-2017-6887_hlen_t1_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.5%
+[  276] CVE-2017-7857_face_vulnerable                      | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 49.6%
+[  277] CVE-2017-7858_face_vulnerable                      | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 49.8%
+[  278] CVE-2017-7870_nPos_vulnerable                      | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.6%
+[  279] CVE-2017-7870_nPos_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  280] CVE-2017-7962_rctx_vulnerable                      | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.6%
+[  281] CVE-2017-7962_rctx_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  282] CVE-2017-8070_usbdev_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.6%
+[  283] CVE-2017-8070_usbdev_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.8%
+[  284] CVE-2017-8361_psf_vulnerable                       | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 50.0%
+[  285] CVE-2018-1000039_mask_colorspace_vulnerable        | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  286] CVE-2018-1000039_mask_colorspace_safe              | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  287] CVE-2018-1002209_name_t0_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  288] CVE-2018-1002209_name_t0_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  289] CVE-2018-1002209_name_t1_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  290] CVE-2018-1002209_name_t1_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  291] CVE-2018-10768_inkList_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  292] CVE-2018-10768_inkList_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  293] CVE-2018-11378_count_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  294] CVE-2018-11378_count_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  295] CVE-2018-11506_cgc_vulnerable                      | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  296] CVE-2018-11506_cgc_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  297] CVE-2018-14395_channels_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  298] CVE-2018-14395_channels_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  299] CVE-2018-14395_version_t0_vulnerable               | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  300] CVE-2018-14395_version_t0_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  301] CVE-2018-14395_version_t1_vulnerable               | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  302] CVE-2018-14395_version_t1_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  303] CVE-2018-16435_nFields_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  304] CVE-2018-16435_nFields_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  305] CVE-2018-16541_i_ctx_p_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  306] CVE-2018-16541_i_ctx_p_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  307] CVE-2018-17205_rule_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  308] CVE-2018-17205_rule_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  309] CVE-2018-19058_m_objStr_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  310] CVE-2018-19058_m_objStr_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  311] CVE-2018-20650_obj1_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  312] CVE-2018-20650_obj1_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  313] CVE-2018-20783_manifest_len_vulnerable             | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  314] CVE-2018-20783_manifest_len_safe                   | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  315] CVE-2018-5810_image_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  316] CVE-2018-5810_image_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  317] CVE-2018-5815_save_t0_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  318] CVE-2018-5815_save_t0_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  319] CVE-2018-5815_save_t1_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  320] CVE-2018-5815_save_t1_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  321] CVE-2018-5815_save_t2_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  322] CVE-2018-5815_save_t2_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  323] CVE-2018-5816_width_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  324] CVE-2018-5816_width_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  325] CVE-2018-6767_ckSize_t0_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  326] CVE-2018-6767_ckSize_t0_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  327] CVE-2018-6767_ckSize_t1_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  328] CVE-2018-6767_ckSize_t1_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  329] CVE-2018-7584_tcp_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  330] CVE-2018-7584_tcp_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  331] CVE-2018-7751_end_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  332] CVE-2018-7751_end_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  333] CVE-2018-8043_start_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.8%
+[  334] CVE-2018-8043_start_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  335] CVE-2019-10873_yy_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.9%
+[  336] CVE-2019-10873_yy_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  337] CVE-2019-11034_dir_start_t0_vulnerable             | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.9%
+[  338] CVE-2019-11034_dir_start_t0_safe                   | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  339] CVE-2019-11034_dir_start_t1_vulnerable             | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.9%
+[  340] CVE-2019-11034_dir_start_t1_safe                   | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  341] CVE-2019-11040_size_t0_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.9%
+[  342] CVE-2019-11040_size_t1_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  343] CVE-2019-11040_size_t1_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  344] CVE-2019-12614_name_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  345] CVE-2019-12614_name_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  346] CVE-2019-13308_rows_t0_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  347] CVE-2019-13308_rows_t0_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  348] CVE-2019-13308_rows_t1_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  349] CVE-2019-13308_rows_t1_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  350] CVE-2019-13308_columns_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  351] CVE-2019-13308_columns_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  352] CVE-2019-13308_GetPixelChannels_t0_vulnerable      | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  353] CVE-2019-13308_GetPixelChannels_t0_safe            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  354] CVE-2019-13308_GetPixelChannels_t1_vulnerable      | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  355] CVE-2019-13308_GetPixelChannels_t1_safe            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  356] CVE-2019-19317_pExpr_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  357] CVE-2019-19317_pExpr_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  358] CVE-2019-19646_pTab_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  359] CVE-2019-19646_pTab_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  360] CVE-2019-19880_bIntToNull_vulnerable               | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  361] CVE-2019-19880_bIntToNull_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  362] CVE-2019-19923_pSubitem_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  363] CVE-2019-19923_pSubitem_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  364] CVE-2019-7396_sixel_pixels_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  365] CVE-2019-7396_sixel_pixels_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  366] CVE-2019-7396_image_t0_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  367] CVE-2019-7396_image_t0_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  368] CVE-2019-7396_image_t1_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  369] CVE-2019-7396_image_t1_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  370] CVE-2019-7396_image_t2_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  371] CVE-2019-7396_image_t2_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  372] CVE-2019-7396_image_t3_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  373] CVE-2019-7396_image_t3_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  374] CVE-2019-7396_image_t4_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  375] CVE-2019-7396_image_t4_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  376] CVE-2019-7396_image_t5_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  377] CVE-2019-7396_image_t5_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  378] CVE-2019-9021_pos_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  379] CVE-2019-9021_pos_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  380] CVE-2019-9021_filename_len_t0_vulnerable           | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  381] CVE-2019-9021_filename_len_t0_safe                 | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  382] CVE-2019-9021_filename_len_t1_vulnerable           | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  383] CVE-2019-9021_filename_len_t1_safe                 | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  384] CVE-2019-9022_type_to_fetch_vulnerable             | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  385] CVE-2019-9022_type_to_fetch_safe                   | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  386] CVE-2019-9200_nBits_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  387] CVE-2019-9200_nBits_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  388] CVE-2019-9959_bufSize_t0_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  389] CVE-2019-9959_bufSize_t0_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  390] CVE-2019-9959_bufSize_t1_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 49.7%
+[  391] CVE-2019-9959_bufSize_t1_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.9%
+[  392] CVE-2013-0878_advance_line_t0_vulnerable           | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 50.0%
+[  393] CVE-2013-0878_advance_line_t1_vulnerable           | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 50.1%
+[  394] CVE-2010-4157_ha_vulnerable                        | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[  395] CVE-2010-4157_ha_safe                              | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.1%
+[  396] CVE-2010-2959_nframes_t0_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[  397] CVE-2010-2959_nframes_t0_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.1%
+[  398] CVE-2010-2959_nframes_t1_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[  399] CVE-2010-2959_nframes_t1_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.1%
+[  400] CVE-2010-2959_nframes_t2_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[  401] CVE-2010-2959_nframes_t2_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.1%
+[  402] CVE-2010-2959_datalen_t0_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[  403] CVE-2010-2959_datalen_t0_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.1%
+[  404] CVE-2010-2959_datalen_t1_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[  405] CVE-2010-2959_datalen_t1_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.1%
+[  406] CVE-2014-9659_bitCount_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[  407] CVE-2014-9659_bitCount_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.1%
+[  408] CVE-2010-3084_tp_vulnerable                        | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[  409] CVE-2010-3084_tp_safe                              | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.1%
+[  410] CVE-2010-3015_ec_block_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[  411] CVE-2010-3015_ec_block_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.1%
+[  412] CVE-2010-3080_dp_vulnerable                        | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[  413] CVE-2010-3080_dp_safe                              | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.1%
+[  414] CVE-2016-10269_sp_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 50.0%
+[  415] CVE-2016-10269_sp_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.1%
+
+Done. 208/415 correct (50.1%)
+Results: /users/azibaeir/Research/Autotrace/logs/hf_benchmark/results_deepseek_ai_DeepSeek_R1_Distill_Llama_8B_20260423_230148.jsonl
+=== Qwen3.5-9B (H200) ===
+Pipeline ready on cuda:0
+Dataset: 2594 samples
+Resuming: 2202 samples already done, skipping.
+Processing 612 samples...
+
+[    1] CVE-2008-2826_addr_num_t0_vulnerable               | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 100.0%
+[    2] CVE-2008-2826_addr_num_t0_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 100.0%
+[    3] CVE-2008-2826_addr_num_t1_vulnerable               | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 100.0%
+[    4] CVE-2008-2826_addr_num_t1_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 100.0%
+[    5] CVE-2008-3275_dentry_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 100.0%
+[    6] CVE-2008-3275_dentry_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 100.0%
+[    7] CVE-2008-3911_len_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 85.7%
+[    8] CVE-2008-3911_len_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 87.5%
+[    9] CVE-2009-2287_vcpu_vulnerable                      | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 88.9%
+[   10] CVE-2009-2767_nsleep_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 90.0%
+[   11] CVE-2009-2767_nsleep_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 90.9%
+[   12] CVE-2009-2768_bprm_vulnerable                      | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 91.7%
+[   13] CVE-2009-2768_bprm_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 92.3%
+[   14] CVE-2010-0006_net_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 85.7%
+[   15] CVE-2010-0006_net_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 86.7%
+[   16] CVE-2010-2478_rule_cnt_t0_vulnerable               | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 81.2%
+[   17] CVE-2010-2478_rule_cnt_t0_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 82.4%
+[   18] CVE-2010-2478_rule_cnt_t1_vulnerable               | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 77.8%
+[   19] CVE-2010-2478_rule_cnt_t1_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 78.9%
+[   20] CVE-2010-3067_nr_vulnerable                        | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 80.0%
+[   21] CVE-2010-3067_nr_safe                              | Truth: Safe       | Pred: Safe       | ✅ | Acc: 81.0%
+[   22] CVE-2010-3880_bc_vulnerable                        | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 77.3%
+[   23] CVE-2010-3880_bc_safe                              | Truth: Safe       | Pred: Safe       | ✅ | Acc: 78.3%
+[   24] CVE-2010-4162_end_t0_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 79.2%
+[   25] CVE-2010-4162_end_t1_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 80.0%
+[   26] CVE-2010-4162_end_t2_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 80.8%
+[   27] CVE-2010-4162_end_t3_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 81.5%
+[   28] CVE-2010-4162_start_t0_vulnerable                  | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 82.1%
+[   29] CVE-2010-4162_start_t1_vulnerable                  | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 82.8%
+[   30] CVE-2010-4162_start_t2_vulnerable                  | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 83.3%
+[   31] CVE-2010-4164_len_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 80.6%
+[   32] CVE-2010-4164_len_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 81.2%
+[   33] CVE-2010-4263_vlan_tag_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 78.8%
+[   34] CVE-2010-4263_vlan_tag_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 79.4%
+[   35] CVE-2010-4342_edev_vulnerable                      | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 80.0%
+[   36] CVE-2010-4342_edev_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 80.6%
+[   37] CVE-2010-4527_name_t0_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 78.4%
+[   38] CVE-2010-4527_name_t0_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 78.9%
+[   39] CVE-2010-4527_name_t1_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 76.9%
+[   40] CVE-2010-4527_name_t1_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 77.5%
+[   41] CVE-2011-1478_vlan_tci_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 75.6%
+[   42] CVE-2011-1478_vlan_tci_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 76.2%
+[   43] CVE-2011-1598_sk_t0_vulnerable                     | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 76.7%
+[   44] CVE-2011-1598_sk_t0_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 77.3%
+[   45] CVE-2011-1598_sk_t1_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 75.6%
+[   46] CVE-2011-1598_sk_t1_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 76.1%
+[   47] CVE-2011-1748_sk_t0_vulnerable                     | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 76.6%
+[   48] CVE-2011-1748_sk_t0_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 77.1%
+[   49] CVE-2011-1748_sk_t1_vulnerable                     | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 77.6%
+[   50] CVE-2011-1748_sk_t1_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 78.0%
+[   51] CVE-2011-1748_sk_t2_vulnerable                     | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 78.4%
+[   52] CVE-2011-1748_sk_t2_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 78.8%
+[   53] CVE-2011-1748_sock->sk_t0_vulnerable               | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 79.2%
+[   54] CVE-2011-1748_sock->sk_t0_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 79.6%
+[   55] CVE-2011-1748_sock->sk_t1_vulnerable               | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 80.0%
+[   56] CVE-2011-1748_sock->sk_t1_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 80.4%
+[   57] CVE-2011-1748_sock->sk_t2_vulnerable               | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 80.7%
+[   58] CVE-2011-1748_sock->sk_t2_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 81.0%
+[   59] CVE-2011-1771_private_data_t0_vulnerable           | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 81.4%
+[   60] CVE-2011-1771_private_data_t0_safe                 | Truth: Safe       | Pred: Safe       | ✅ | Acc: 81.7%
+[   61] CVE-2011-1771_private_data_t1_vulnerable           | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 82.0%
+[   62] CVE-2011-1771_private_data_t1_safe                 | Truth: Safe       | Pred: Safe       | ✅ | Acc: 82.3%
+[   63] CVE-2011-2213_cc_vulnerable                        | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 82.5%
+[   64] CVE-2011-2213_cc_safe                              | Truth: Safe       | Pred: Safe       | ✅ | Acc: 82.8%
+[   65] CVE-2011-2521_hwc_vulnerable                       | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 83.1%
+[   66] CVE-2011-3929_ach_t0_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 83.3%
+[   67] CVE-2011-3929_ach_t0_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 83.6%
+[   68] CVE-2011-3929_ach_t1_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 83.8%
+[   69] CVE-2011-3929_ach_t1_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 84.1%
+[   70] CVE-2011-4031_asf_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 82.9%
+[   71] CVE-2011-4031_asf_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 83.1%
+[   72] CVE-2011-4621_tsk_vulnerable                       | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 83.3%
+[   73] CVE-2011-4621_tsk_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 83.6%
+[   74] CVE-2012-0038_count_vulnerable                     | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 83.8%
+[   75] CVE-2012-0038_count_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 84.0%
+[   76] CVE-2012-0044_num_clips_t0_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 82.9%
+[   77] CVE-2012-0044_num_clips_t0_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 83.1%
+[   78] CVE-2012-0044_num_clips_t1_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 82.1%
+[   79] CVE-2012-0044_num_clips_t1_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 82.3%
+[   80] CVE-2012-0855_numXtiles_t0_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 81.2%
+[   81] CVE-2012-0855_numXtiles_t0_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 81.5%
+[   82] CVE-2012-0855_numXtiles_t1_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 80.5%
+[   83] CVE-2012-0855_numXtiles_t1_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 80.7%
+[   84] CVE-2012-0856_height_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 81.0%
+[   85] CVE-2012-0859_y0_vulnerable                        | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 81.2%
+[   86] CVE-2012-0859_y0_safe                              | Truth: Safe       | Pred: Safe       | ✅ | Acc: 81.4%
+[   87] CVE-2012-1146_primary_t0_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 80.5%
+[   88] CVE-2012-1146_primary_t0_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 80.7%
+[   89] CVE-2012-1146_primary_t1_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 79.8%
+[   90] CVE-2012-1146_primary_t1_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 80.0%
+[   91] CVE-2012-2100_s_log_groups_per_flex_t0_vulnerable  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 79.1%
+[   92] CVE-2012-2100_s_log_groups_per_flex_t0_safe        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 79.3%
+[   93] CVE-2012-2100_s_log_groups_per_flex_t1_vulnerable  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 78.5%
+[   94] CVE-2012-2100_s_log_groups_per_flex_t1_safe        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 78.7%
+[   95] CVE-2012-2100_s_log_groups_per_flex_t2_vulnerable  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 77.9%
+[   96] CVE-2012-2100_s_log_groups_per_flex_t2_safe        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 78.1%
+[   97] CVE-2012-5669_glyph_enc_t0_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 77.3%
+[   98] CVE-2012-5669_glyph_enc_t0_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 77.6%
+[   99] CVE-2012-5669_glyph_enc_t1_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 76.8%
+[  100] CVE-2012-5669_glyph_enc_t1_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 77.0%
+[  101] CVE-2012-5669_have_t0_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 76.2%
+[  102] CVE-2012-5669_have_t0_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 76.5%
+[  103] CVE-2012-5669_have_t1_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 75.7%
+[  104] CVE-2012-5669_have_t1_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 76.0%
+[  105] CVE-2012-5670_glyph_enc_t0_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 75.2%
+[  106] CVE-2012-5670_glyph_enc_t0_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 75.5%
+[  107] CVE-2012-5670_glyph_enc_t1_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.8%
+[  108] CVE-2012-5670_glyph_enc_t1_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 75.0%
+[  109] CVE-2013-0859_count_t0_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.3%
+[  110] CVE-2013-0859_count_t0_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.5%
+[  111] CVE-2013-0859_count_t1_vulnerable                  | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.8%
+[  112] CVE-2013-0859_count_t1_safe                        | Truth: Safe       | Pred: Vulnerable | ❌ | Acc: 74.1%
+[  113] CVE-2013-0868_len1_vulnerable                      | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.3%
+[  114] CVE-2013-0868_len1_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.6%
+[  115] CVE-2013-0877_decoded_size_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.9%
+[  116] CVE-2013-0877_decoded_size_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.1%
+[  117] CVE-2016-10169_bytecnt_t0_vulnerable               | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.5%
+[  118] CVE-2016-10169_bytecnt_t0_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.7%
+[  119] CVE-2016-10169_bytecnt_t1_vulnerable               | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.9%
+[  120] CVE-2016-10169_bytecnt_t1_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.2%
+[  121] CVE-2013-1415_issuer_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.6%
+[  122] CVE-2013-1415_issuer_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.8%
+[  123] CVE-2013-1415_serial_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.2%
+[  124] CVE-2013-1415_serial_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.4%
+[  125] CVE-2013-3670_pd_vulnerable                        | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.8%
+[  126] CVE-2013-3670_pd_safe                              | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.0%
+[  127] CVE-2013-3671_type_vulnerable                      | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.4%
+[  128] CVE-2013-3671_type_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.7%
+[  129] CVE-2013-4263_sar_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.1%
+[  130] CVE-2013-4263_sar_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.3%
+[  131] CVE-2013-4514_u16_vulnerable                       | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 72.5%
+[  132] CVE-2013-7009_pixel_ptr_t0_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.0%
+[  133] CVE-2013-7009_pixel_ptr_t0_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.2%
+[  134] CVE-2013-7009_pixel_ptr_t1_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 71.6%
+[  135] CVE-2013-7009_pixel_ptr_t1_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 71.9%
+[  136] CVE-2013-7010_dst_t0_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 71.3%
+[  137] CVE-2013-7010_dst_t0_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 71.5%
+[  138] CVE-2013-7010_dst_t1_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 71.0%
+[  139] CVE-2013-7010_dst_t1_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 71.2%
+[  140] CVE-2013-7014_add_bytes_l2_c_t0_vulnerable         | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 71.4%
+[  141] CVE-2013-7014_add_bytes_l2_c_t0_safe               | Truth: Safe       | Pred: Safe       | ✅ | Acc: 71.6%
+[  142] CVE-2013-7014_add_bytes_l2_c_t1_vulnerable         | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 71.8%
+[  143] CVE-2013-7014_add_bytes_l2_c_t1_safe               | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.0%
+[  144] CVE-2013-7023_overread_index_t0_vulnerable         | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 71.5%
+[  145] CVE-2013-7023_overread_index_t0_safe               | Truth: Safe       | Pred: Safe       | ✅ | Acc: 71.7%
+[  146] CVE-2013-7023_overread_index_t1_vulnerable         | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 71.9%
+[  147] CVE-2013-7023_overread_index_t1_safe               | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.1%
+[  148] CVE-2013-7023_next_t0_vulnerable                   | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 72.3%
+[  149] CVE-2013-7023_next_t0_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.5%
+[  150] CVE-2013-7023_next_t1_vulnerable                   | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 72.7%
+[  151] CVE-2013-7023_next_t1_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.8%
+[  152] CVE-2013-7023_next_t2_vulnerable                   | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.0%
+[  153] CVE-2013-7023_next_t2_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.2%
+[  154] CVE-2013-7023_new_buffer_t0_vulnerable             | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.4%
+[  155] CVE-2013-7023_new_buffer_t0_safe                   | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.5%
+[  156] CVE-2013-7023_new_buffer_t1_vulnerable             | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.7%
+[  157] CVE-2013-7023_new_buffer_t1_safe                   | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.9%
+[  158] CVE-2013-7023_new_buffer_t2_vulnerable             | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.1%
+[  159] CVE-2013-7023_new_buffer_t2_safe                   | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.2%
+[  160] CVE-2013-7024_codsty_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.4%
+[  161] CVE-2013-7024_codsty_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.5%
+[  162] CVE-2013-7339_device_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.1%
+[  163] CVE-2013-7339_device_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.2%
+[  164] CVE-2014-0160_rrec_vulnerable                      | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.4%
+[  165] CVE-2014-0160_rrec_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.5%
+[  166] CVE-2014-0195_frag_vulnerable                      | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.1%
+[  167] CVE-2014-0195_frag_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.3%
+[  168] CVE-2013-0876_decoded_size_t0_vulnerable           | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.8%
+[  169] CVE-2013-0876_decoded_size_t0_safe                 | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.0%
+[  170] CVE-2013-0876_decoded_size_t1_vulnerable           | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.5%
+[  171] CVE-2013-0876_decoded_size_t1_safe                 | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.7%
+[  172] CVE-2014-3144_len_t0_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.3%
+[  173] CVE-2014-3144_len_t0_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.4%
+[  174] CVE-2014-3144_len_t1_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.0%
+[  175] CVE-2014-3144_len_t1_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.1%
+[  176] CVE-2014-3145_len_t0_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.7%
+[  177] CVE-2014-3145_len_t0_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.9%
+[  178] CVE-2014-3145_len_t1_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.5%
+[  179] CVE-2014-3145_len_t1_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.6%
+[  180] CVE-2014-3145_len_t2_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.2%
+[  181] CVE-2014-3145_len_t2_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.4%
+[  182] CVE-2014-3183_count_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.0%
+[  183] CVE-2014-3183_count_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.1%
+[  184] CVE-2014-3512_cAB_t0_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 71.7%
+[  185] CVE-2014-3512_cAB_t0_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 71.9%
+[  186] CVE-2014-3512_cAB_t1_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 71.5%
+[  187] CVE-2014-3512_cAB_t1_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 71.7%
+[  188] CVE-2014-3512_cAB_t2_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 71.3%
+[  189] CVE-2014-3512_cAB_t2_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 71.4%
+[  190] CVE-2014-4608_ip_t0_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 71.1%
+[  191] CVE-2014-4608_ip_t0_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 71.2%
+[  192] CVE-2014-4608_ip_t1_vulnerable                     | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 71.4%
+[  193] CVE-2014-4608_ip_t1_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 71.5%
+[  194] CVE-2014-4608_ip_t2_vulnerable                     | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 71.6%
+[  195] CVE-2014-4608_ip_t2_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 71.8%
+[  196] CVE-2014-4656_card_vulnerable                      | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 71.4%
+[  197] CVE-2014-4656_card_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 71.6%
+[  198] CVE-2014-7826_syscall_nr_vulnerable                | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 71.7%
+[  199] CVE-2014-7826_syscall_nr_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 71.9%
+[  200] CVE-2014-7937_ptns_to_read_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 71.5%
+[  201] CVE-2014-7937_ptns_to_read_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 71.6%
+[  202] CVE-2014-8130__TIFFmalloc_vulnerable               | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 71.3%
+[  203] CVE-2014-8130__TIFFmalloc_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 71.4%
+[  204] CVE-2014-8176_rdata_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 71.1%
+[  205] CVE-2014-8176_rdata_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 71.2%
+[  206] CVE-2014-8176_data_vulnerable                      | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 71.4%
+[  207] CVE-2014-8176_data_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 71.5%
+[  208] CVE-2014-8546_cinepak_decode_vectors_vulnerable    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 71.6%
+[  209] CVE-2014-8546_cinepak_decode_vectors_safe          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 71.8%
+[  210] CVE-2014-8884_cmd_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 71.4%
+[  211] CVE-2014-8884_cmd_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 71.6%
+[  212] CVE-2014-9318_width_t0_vulnerable                  | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 71.7%
+[  213] CVE-2014-9318_width_t0_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 71.8%
+[  214] CVE-2014-9318_width_t1_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 71.5%
+[  215] CVE-2014-9318_width_t1_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 71.6%
+[  216] CVE-2014-9318_width_t2_vulnerable                  | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 71.8%
+[  217] CVE-2014-9318_width_t2_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 71.9%
+[  218] CVE-2014-9319_sps_vulnerable                       | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 72.0%
+[  219] CVE-2014-9319_sps_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.1%
+[  220] CVE-2014-9496_count_t0_vulnerable                  | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 72.3%
+[  221] CVE-2014-9496_count_t0_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.4%
+[  222] CVE-2014-9496_count_t1_vulnerable                  | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 72.5%
+[  223] CVE-2014-9496_count_t1_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.6%
+[  224] CVE-2014-9662_builder_t0_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.3%
+[  225] CVE-2014-9662_builder_t0_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.4%
+[  226] CVE-2014-9662_builder_t1_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.1%
+[  227] CVE-2014-9662_builder_t1_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.2%
+[  228] CVE-2014-9662_builder_t2_vulnerable                | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 72.4%
+[  229] CVE-2014-9662_builder_t2_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.5%
+[  230] CVE-2014-9665_map_vulnerable                       | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 72.6%
+[  231] CVE-2014-9666_strike_index_array_t0_vulnerable     | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 72.7%
+[  232] CVE-2014-9666_strike_index_array_t0_safe           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.8%
+[  233] CVE-2014-9666_strike_index_array_t1_vulnerable     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.5%
+[  234] CVE-2014-9666_strike_index_array_t1_safe           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.6%
+[  235] CVE-2014-9669_end_vulnerable                       | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 72.8%
+[  236] CVE-2014-9669_end_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.9%
+[  237] CVE-2014-9672_string_count_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.6%
+[  238] CVE-2014-9672_string_count_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.7%
+[  239] CVE-2014-9683_dst_byte_offset_vulnerable           | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.4%
+[  240] CVE-2014-9683_dst_byte_offset_safe                 | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.5%
+[  241] CVE-2014-9683_dst_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.2%
+[  242] CVE-2014-9683_dst_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.3%
+[  243] CVE-2015-0288_pktmp_vulnerable                     | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 72.4%
+[  244] CVE-2015-0288_pktmp_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.5%
+[  245] CVE-2015-0289_p7_t0_vulnerable                     | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 72.7%
+[  246] CVE-2015-0289_p7_t0_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.8%
+[  247] CVE-2015-0289_p7_t1_vulnerable                     | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 72.9%
+[  248] CVE-2015-0289_p7_t1_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.0%
+[  249] CVE-2015-0289_p7_t2_vulnerable                     | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.1%
+[  250] CVE-2015-0289_p7_t2_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.2%
+[  251] CVE-2015-0289_sign_t0_vulnerable                   | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.3%
+[  252] CVE-2015-0289_sign_t0_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.4%
+[  253] CVE-2015-0289_sign_t1_vulnerable                   | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.5%
+[  254] CVE-2015-0289_sign_t1_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.6%
+[  255] CVE-2015-0289_sign_t2_vulnerable                   | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.7%
+[  256] CVE-2015-0289_sign_t2_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.8%
+[  257] CVE-2015-1790_enc_data_t0_vulnerable               | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.9%
+[  258] CVE-2015-1790_enc_data_t0_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.0%
+[  259] CVE-2015-1790_enc_data_t1_vulnerable               | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.1%
+[  260] CVE-2015-1790_enc_data_t1_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.2%
+[  261] CVE-2015-1790_data_body_vulnerable                 | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.3%
+[  262] CVE-2015-1790_data_body_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.4%
+[  263] CVE-2015-3456_pos_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.1%
+[  264] CVE-2015-3456_pos_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.2%
+[  265] CVE-2015-4002_data_len_t0_vulnerable               | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.0%
+[  266] CVE-2015-4002_data_len_t0_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.1%
+[  267] CVE-2015-4002_data_len_t1_vulnerable               | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.8%
+[  268] CVE-2015-4002_data_len_t1_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.9%
+[  269] CVE-2015-4003_unit_size_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.6%
+[  270] CVE-2015-4003_unit_size_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.7%
+[  271] CVE-2015-4003_body_vulnerable                      | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.4%
+[  272] CVE-2015-4003_body_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.5%
+[  273] CVE-2015-6031_cureltname_t0_vulnerable             | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.6%
+[  274] CVE-2015-6031_cureltname_t0_safe                   | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.7%
+[  275] CVE-2015-6031_cureltname_t1_vulnerable             | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.8%
+[  276] CVE-2015-6031_cureltname_t1_safe                   | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.9%
+[  277] CVE-2015-6819_is16bit_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.6%
+[  278] CVE-2015-6819_is16bit_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.7%
+[  279] CVE-2015-8317_RAW_vulnerable                       | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.8%
+[  280] CVE-2015-8317_RAW_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.9%
+[  281] CVE-2015-8363_marker_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.7%
+[  282] CVE-2015-8363_marker_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.8%
+[  283] CVE-2015-8900_value_expected_t0_vulnerable         | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.5%
+[  284] CVE-2015-8900_value_expected_t0_safe               | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.6%
+[  285] CVE-2015-8900_value_expected_t1_vulnerable         | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.3%
+[  286] CVE-2015-8900_value_expected_t1_safe               | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.4%
+[  287] CVE-2015-8900_size_t_t0_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.2%
+[  288] CVE-2015-8900_size_t_t0_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.3%
+[  289] CVE-2015-8900_size_t_t1_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.0%
+[  290] CVE-2015-8900_size_t_t1_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.1%
+[  291] CVE-2015-8900_size_t_t2_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.9%
+[  292] CVE-2015-8900_size_t_t2_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.9%
+[  293] CVE-2015-8957_maplength_t0_vulnerable              | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.0%
+[  294] CVE-2015-8957_maplength_t1_vulnerable              | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.1%
+[  295] CVE-2016-0797_bn_vulnerable                        | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.9%
+[  296] CVE-2016-0797_bn_safe                              | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.0%
+[  297] CVE-2016-10028_max_size_t0_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.7%
+[  298] CVE-2016-10028_max_size_t0_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.8%
+[  299] CVE-2016-10028_max_size_t1_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.6%
+[  300] CVE-2016-10028_max_size_t1_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.7%
+[  301] CVE-2016-10159_manifest_index_vulnerable           | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.4%
+[  302] CVE-2016-10159_manifest_index_safe                 | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.5%
+[  303] CVE-2016-10161_YYLIMIT_t0_vulnerable               | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 72.6%
+[  304] CVE-2016-10161_YYLIMIT_t0_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.7%
+[  305] CVE-2016-10161_YYLIMIT_t1_vulnerable               | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 72.8%
+[  306] CVE-2016-10161_YYLIMIT_t1_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.9%
+[  307] CVE-2016-10161_yych_vulnerable                     | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.0%
+[  308] CVE-2016-10161_yych_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.1%
+[  309] CVE-2016-10267_early_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.8%
+[  310] CVE-2016-10267_early_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.9%
+[  311] CVE-2012-6616_end_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.7%
+[  312] CVE-2012-6616_end_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.8%
+[  313] CVE-2016-1834_str2_vulnerable                      | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 72.8%
+[  314] CVE-2016-1834_str2_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.9%
+[  315] CVE-2016-1836_end_t0_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.0%
+[  316] CVE-2016-1836_end_t0_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.1%
+[  317] CVE-2016-1836_end_t1_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.2%
+[  318] CVE-2016-1836_end_t1_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.3%
+[  319] CVE-2016-1840_cur_t0_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.4%
+[  320] CVE-2016-1840_cur_t0_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.4%
+[  321] CVE-2016-1840_cur_t1_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.5%
+[  322] CVE-2016-1840_cur_t1_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.6%
+[  323] CVE-2016-2070_prior_cwnd_vulnerable                | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.7%
+[  324] CVE-2016-2070_prior_cwnd_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.8%
+[  325] CVE-2016-2105_num_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.5%
+[  326] CVE-2016-2105_num_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.6%
+[  327] CVE-2016-2106_can_vulnerable                       | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.7%
+[  328] CVE-2016-2106_can_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.8%
+[  329] CVE-2016-2108_bn_vulnerable                        | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.9%
+[  330] CVE-2016-2108_bn_safe                              | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.9%
+[  331] CVE-2016-2177_session_id_vulnerable                | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.0%
+[  332] CVE-2016-2177_session_id_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.1%
+[  333] CVE-2017-0375_purpose_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.9%
+[  334] CVE-2017-0375_purpose_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.0%
+[  335] CVE-2016-2181_item_vulnerable                      | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.7%
+[  336] CVE-2016-2181_item_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.8%
+[  337] CVE-2016-2857_length_t0_vulnerable                 | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.9%
+[  338] CVE-2016-2857_length_t0_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.0%
+[  339] CVE-2016-2857_length_t1_vulnerable                 | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.0%
+[  340] CVE-2016-2857_length_t1_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.1%
+[  341] CVE-2016-5126_cmd_len_vulnerable                   | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.2%
+[  342] CVE-2016-5126_cmd_len_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.3%
+[  343] CVE-2016-5352_eapol_len_t0_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.1%
+[  344] CVE-2016-5352_eapol_len_t0_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.1%
+[  345] CVE-2016-5352_eapol_len_t1_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.9%
+[  346] CVE-2016-5352_eapol_len_t1_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.0%
+[  347] CVE-2016-5689_trigger_1_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.8%
+[  348] CVE-2016-5689_trigger_1_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.9%
+[  349] CVE-2016-6303_len_vulnerable                       | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.9%
+[  350] CVE-2016-6303_len_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.0%
+[  351] CVE-2016-6304_tlsext_ocsp_ids_vulnerable           | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.1%
+[  352] CVE-2016-6304_tlsext_ocsp_ids_safe                 | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.1%
+[  353] CVE-2016-6304_dsize_t0_vulnerable                  | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.2%
+[  354] CVE-2016-6304_dsize_t0_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.3%
+[  355] CVE-2016-6304_dsize_t1_vulnerable                  | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.4%
+[  356] CVE-2016-6304_dsize_t1_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.4%
+[  357] CVE-2016-6304_dsize_t2_vulnerable                  | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.5%
+[  358] CVE-2016-6304_dsize_t2_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.6%
+[  359] CVE-2016-6309_size_vulnerable                      | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.4%
+[  360] CVE-2016-6309_size_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.4%
+[  361] CVE-2016-6491_name_vulnerable                      | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.5%
+[  362] CVE-2016-6491_name_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.6%
+[  363] CVE-2016-6888_max_frags_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.4%
+[  364] CVE-2016-6888_max_frags_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.5%
+[  365] CVE-2016-6911_but_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.2%
+[  366] CVE-2016-6911_but_safe                             | Truth: Safe       | Pred: Vulnerable | ❌ | Acc: 74.0%
+[  367] CVE-2016-7116_wnames_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.8%
+[  368] CVE-2016-7116_wnames_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.9%
+[  369] CVE-2016-7127_im_vulnerable                        | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.7%
+[  370] CVE-2016-7127_im_safe                              | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.8%
+[  371] CVE-2016-7422_iov_vulnerable                       | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.9%
+[  372] CVE-2016-7422_iov_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.9%
+[  373] CVE-2016-7799_format_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.0%
+[  374] CVE-2016-7799_format_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.1%
+[  375] CVE-2016-7908_length_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.9%
+[  376] CVE-2016-7908_length_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.9%
+[  377] CVE-2016-7913_fname_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.7%
+[  378] CVE-2016-7913_fname_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.8%
+[  379] CVE-2016-8669_divider_vulnerable                   | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.9%
+[  380] CVE-2016-8669_divider_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.9%
+[  381] CVE-2014-9317_state_t0_vulnerable                  | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.0%
+[  382] CVE-2014-9317_state_t0_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.1%
+[  383] CVE-2014-9317_state_t1_vulnerable                  | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.2%
+[  384] CVE-2014-9317_state_t1_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.2%
+[  385] CVE-2016-9298_columns_t0_vulnerable                | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.3%
+[  386] CVE-2016-9298_columns_t0_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.4%
+[  387] CVE-2016-9298_columns_t1_vulnerable                | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.4%
+[  388] CVE-2016-9298_columns_t1_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.5%
+[  389] CVE-2016-9298_columns_t2_vulnerable                | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.6%
+[  390] CVE-2016-9298_columns_t2_safe                      | Truth: Safe       | Pred: Vulnerable | ❌ | Acc: 74.4%
+[  391] CVE-2016-9538_spp_t0_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.2%
+[  392] CVE-2016-9538_spp_t0_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.2%
+[  393] CVE-2016-9538_spp_t1_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.3%
+[  394] CVE-2016-9538_spp_t1_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.4%
+[  395] CVE-2016-9539_trigger_1_vulnerable                 | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.4%
+[  396] CVE-2016-9539_trigger_1_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.5%
+[  397] CVE-2016-9540_colb_t0_vulnerable                   | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.6%
+[  398] CVE-2016-9540_colb_t0_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.6%
+[  399] CVE-2016-9540_colb_t1_vulnerable                   | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.7%
+[  400] CVE-2016-9540_colb_t1_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.8%
+[  401] CVE-2017-1000414_m_anSofHorzSampFact_Hi_vulnerable | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.6%
+[  402] CVE-2017-1000414_m_anSofHorzSampFact_Hi_safe       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.6%
+[  403] CVE-2017-11523_blob_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.4%
+[  404] CVE-2017-11523_blob_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.5%
+[  405] CVE-2017-11719_mb_height_vulnerable                | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.6%
+[  406] CVE-2017-11719_mb_height_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.6%
+[  407] CVE-2017-12997_tlv_len_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.4%
+[  408] CVE-2017-12997_tlv_len_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.5%
+[  409] CVE-2017-12997_sublen_vulnerable                   | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.3%
+[  410] CVE-2017-12997_sublen_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.4%
+[  411] CVE-2017-12999_alen_t0_vulnerable                  | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.5%
+[  412] CVE-2017-12999_alen_t0_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.5%
+[  413] CVE-2017-12999_alen_t1_vulnerable                  | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.6%
+[  414] CVE-2017-12999_alen_t1_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.6%
+[  415] CVE-2017-12999_alen_t2_vulnerable                  | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.7%
+[  416] CVE-2017-12999_alen_t2_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.8%
+[  417] CVE-2017-13000_h->caplen_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.6%
+[  418] CVE-2017-13000_h->caplen_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.6%
+[  419] CVE-2017-13013_ar_pro_t0_vulnerable                | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.7%
+[  420] CVE-2017-13013_ar_pro_t0_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.8%
+[  421] CVE-2017-13013_ar_pro_t1_vulnerable                | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.8%
+[  422] CVE-2017-13013_ar_pro_t1_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.9%
+[  423] CVE-2017-13013_ar_pro_t2_vulnerable                | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.9%
+[  424] CVE-2017-13013_ar_pro_t2_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 75.0%
+[  425] CVE-2017-13013_ar_pro_t3_vulnerable                | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 75.1%
+[  426] CVE-2017-13013_ar_pro_t3_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 75.1%
+[  427] CVE-2017-13021_bp_t0_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.9%
+[  428] CVE-2017-13021_bp_t0_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 75.0%
+[  429] CVE-2017-13021_bp_t1_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.8%
+[  430] CVE-2017-13021_bp_t1_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.9%
+[  431] CVE-2017-13024_len_vulnerable                      | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.7%
+[  432] CVE-2017-13024_len_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.8%
+[  433] CVE-2017-13032_length_vulnerable                   | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.8%
+[  434] CVE-2017-13032_length_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.9%
+[  435] CVE-2017-13032_data_t0_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.7%
+[  436] CVE-2017-13032_data_t0_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.8%
+[  437] CVE-2017-13032_data_t1_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.6%
+[  438] CVE-2017-13032_data_t1_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.7%
+[  439] CVE-2017-13033_len_vulnerable                      | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.5%
+[  440] CVE-2017-13033_len_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.5%
+[  441] CVE-2017-13036_hello_options_vulnerable            | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.4%
+[  442] CVE-2017-13036_hello_options_safe                  | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.4%
+[  443] CVE-2017-13039_totlen_t0_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.3%
+[  444] CVE-2017-13039_totlen_t0_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.3%
+[  445] CVE-2017-13039_totlen_t1_vulnerable                | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.4%
+[  446] CVE-2017-13039_totlen_t1_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.4%
+[  447] CVE-2017-13040_opt_len_t2_vulnerable               | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.3%
+[  448] CVE-2017-13040_opt_len_t2_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.3%
+[  449] CVE-2017-13040_mdss_vulnerable                     | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.4%
+[  450] CVE-2017-13043_pptr_t0_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.2%
+[  451] CVE-2017-13043_pptr_t0_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.3%
+[  452] CVE-2017-13043_pptr_t1_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.1%
+[  453] CVE-2017-13043_pptr_t1_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.2%
+[  454] CVE-2017-14058_reload_count_vulnerable             | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.0%
+[  455] CVE-2017-14058_reload_count_safe                   | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.1%
+[  456] CVE-2017-14164_p_data_vulnerable                   | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.1%
+[  457] CVE-2017-14246_count_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.0%
+[  458] CVE-2017-14246_count_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.0%
+[  459] CVE-2017-14608_curve_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.9%
+[  460] CVE-2017-14608_curve_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.9%
+[  461] CVE-2017-5973_link_cnt_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.8%
+[  462] CVE-2017-5973_link_cnt_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.8%
+[  463] CVE-2017-6887_len_t0_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.9%
+[  464] CVE-2017-6887_len_t0_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.9%
+[  465] CVE-2017-6887_len_t1_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.0%
+[  466] CVE-2017-6887_len_t1_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.0%
+[  467] CVE-2017-6887_len_t2_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.1%
+[  468] CVE-2017-6887_len_t2_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.1%
+[  469] CVE-2017-6887_hlen_t0_vulnerable                   | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.2%
+[  470] CVE-2017-6887_hlen_t0_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.3%
+[  471] CVE-2017-6887_hlen_t1_vulnerable                   | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.3%
+[  472] CVE-2017-6887_hlen_t1_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.4%
+[  473] CVE-2017-7857_face_vulnerable                      | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.4%
+[  474] CVE-2017-7858_face_vulnerable                      | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.5%
+[  475] CVE-2017-7870_nPos_vulnerable                      | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.5%
+[  476] CVE-2017-7870_nPos_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.6%
+[  477] CVE-2017-7962_rctx_vulnerable                      | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.4%
+[  478] CVE-2017-7962_rctx_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.5%
+[  479] CVE-2017-8070_usbdev_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.3%
+[  480] CVE-2017-8070_usbdev_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.4%
+[  481] CVE-2017-8361_psf_vulnerable                       | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.4%
+[  482] CVE-2018-1000039_mask_colorspace_vulnerable        | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.5%
+[  483] CVE-2018-1000039_mask_colorspace_safe              | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.5%
+[  484] CVE-2018-1002209_name_t0_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.4%
+[  485] CVE-2018-1002209_name_t0_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.4%
+[  486] CVE-2018-1002209_name_t1_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.3%
+[  487] CVE-2018-1002209_name_t1_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.3%
+[  488] CVE-2018-10768_inkList_vulnerable                  | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.4%
+[  489] CVE-2018-10768_inkList_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.4%
+[  490] CVE-2018-11378_count_vulnerable                    | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.3%
+[  491] CVE-2018-11378_count_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.3%
+[  492] CVE-2018-11506_cgc_vulnerable                      | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.2%
+[  493] CVE-2018-11506_cgc_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.2%
+[  494] CVE-2018-14395_channels_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.1%
+[  495] CVE-2018-14395_channels_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.1%
+[  496] CVE-2018-14395_version_t0_vulnerable               | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.2%
+[  497] CVE-2018-14395_version_t0_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.2%
+[  498] CVE-2018-14395_version_t1_vulnerable               | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.1%
+[  499] CVE-2018-14395_version_t1_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.1%
+[  500] CVE-2018-16435_nFields_vulnerable                  | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.2%
+[  501] CVE-2018-16435_nFields_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.3%
+[  502] CVE-2018-16541_i_ctx_p_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.1%
+[  503] CVE-2018-16541_i_ctx_p_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.2%
+[  504] CVE-2018-17205_rule_vulnerable                     | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.2%
+[  505] CVE-2018-17205_rule_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.3%
+[  506] CVE-2018-19058_m_objStr_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.1%
+[  507] CVE-2018-19058_m_objStr_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.2%
+[  508] CVE-2018-20650_obj1_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.0%
+[  509] CVE-2018-20650_obj1_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.1%
+[  510] CVE-2018-20783_manifest_len_vulnerable             | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.9%
+[  511] CVE-2018-20783_manifest_len_safe                   | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.0%
+[  512] CVE-2018-5810_image_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.8%
+[  513] CVE-2018-5810_image_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.9%
+[  514] CVE-2018-5815_save_t0_vulnerable                   | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.9%
+[  515] CVE-2018-5815_save_t0_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.0%
+[  516] CVE-2018-5815_save_t1_vulnerable                   | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.0%
+[  517] CVE-2018-5815_save_t1_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.1%
+[  518] CVE-2018-5815_save_t2_vulnerable                   | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.1%
+[  519] CVE-2018-5815_save_t2_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.2%
+[  520] CVE-2018-5816_width_vulnerable                     | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 74.2%
+[  521] CVE-2018-5816_width_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.3%
+[  522] CVE-2018-6767_ckSize_t0_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.1%
+[  523] CVE-2018-6767_ckSize_t0_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.2%
+[  524] CVE-2018-6767_ckSize_t1_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.0%
+[  525] CVE-2018-6767_ckSize_t1_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.1%
+[  526] CVE-2018-7584_tcp_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 74.0%
+[  527] CVE-2018-7584_tcp_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 74.0%
+[  528] CVE-2018-7751_end_vulnerable                       | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.9%
+[  529] CVE-2018-7751_end_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.9%
+[  530] CVE-2018-8043_start_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.8%
+[  531] CVE-2018-8043_start_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.8%
+[  532] CVE-2019-10873_yy_vulnerable                       | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.9%
+[  533] CVE-2019-10873_yy_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.9%
+[  534] CVE-2019-11034_dir_start_t0_vulnerable             | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.8%
+[  535] CVE-2019-11034_dir_start_t0_safe                   | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.8%
+[  536] CVE-2019-11034_dir_start_t1_vulnerable             | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.7%
+[  537] CVE-2019-11034_dir_start_t1_safe                   | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.7%
+[  538] CVE-2019-11040_size_t0_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.6%
+[  539] CVE-2019-11040_size_t1_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.5%
+[  540] CVE-2019-11040_size_t1_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.5%
+[  541] CVE-2019-12614_name_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.4%
+[  542] CVE-2019-12614_name_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.4%
+[  543] CVE-2019-13308_rows_t0_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.3%
+[  544] CVE-2019-13308_rows_t0_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.3%
+[  545] CVE-2019-13308_rows_t1_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.2%
+[  546] CVE-2019-13308_rows_t1_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.3%
+[  547] CVE-2019-13308_columns_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.1%
+[  548] CVE-2019-13308_columns_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.2%
+[  549] CVE-2019-13308_GetPixelChannels_t0_vulnerable      | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.2%
+[  550] CVE-2019-13308_GetPixelChannels_t0_safe            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.3%
+[  551] CVE-2019-13308_GetPixelChannels_t1_vulnerable      | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.3%
+[  552] CVE-2019-13308_GetPixelChannels_t1_safe            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.4%
+[  553] CVE-2019-19317_pExpr_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.4%
+[  554] CVE-2019-19317_pExpr_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.5%
+[  555] CVE-2019-19646_pTab_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.3%
+[  556] CVE-2019-19646_pTab_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.4%
+[  557] CVE-2019-19880_bIntToNull_vulnerable               | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.4%
+[  558] CVE-2019-19880_bIntToNull_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.5%
+[  559] CVE-2019-19923_pSubitem_vulnerable                 | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.3%
+[  560] CVE-2019-19923_pSubitem_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.4%
+[  561] CVE-2019-7396_sixel_pixels_vulnerable              | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.3%
+[  562] CVE-2019-7396_sixel_pixels_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.3%
+[  563] CVE-2019-7396_image_t0_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.2%
+[  564] CVE-2019-7396_image_t0_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.2%
+[  565] CVE-2019-7396_image_t1_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.1%
+[  566] CVE-2019-7396_image_t1_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.1%
+[  567] CVE-2019-7396_image_t2_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.0%
+[  568] CVE-2019-7396_image_t2_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.1%
+[  569] CVE-2019-7396_image_t3_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.9%
+[  570] CVE-2019-7396_image_t3_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.0%
+[  571] CVE-2019-7396_image_t4_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.9%
+[  572] CVE-2019-7396_image_t4_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.9%
+[  573] CVE-2019-7396_image_t5_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.8%
+[  574] CVE-2019-7396_image_t5_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.8%
+[  575] CVE-2019-9021_pos_vulnerable                       | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 72.9%
+[  576] CVE-2019-9021_pos_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.9%
+[  577] CVE-2019-9021_filename_len_t0_vulnerable           | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.0%
+[  578] CVE-2019-9021_filename_len_t0_safe                 | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.0%
+[  579] CVE-2019-9021_filename_len_t1_vulnerable           | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.1%
+[  580] CVE-2019-9021_filename_len_t1_safe                 | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.1%
+[  581] CVE-2019-9022_type_to_fetch_vulnerable             | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.0%
+[  582] CVE-2019-9022_type_to_fetch_safe                   | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.0%
+[  583] CVE-2019-9200_nBits_vulnerable                     | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 72.9%
+[  584] CVE-2019-9200_nBits_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 72.9%
+[  585] CVE-2019-9959_bufSize_t0_vulnerable                | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.0%
+[  586] CVE-2019-9959_bufSize_t0_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.0%
+[  587] CVE-2019-9959_bufSize_t1_vulnerable                | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.1%
+[  588] CVE-2019-9959_bufSize_t1_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.1%
+[  589] CVE-2013-0878_advance_line_t0_vulnerable           | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.2%
+[  590] CVE-2013-0878_advance_line_t1_vulnerable           | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.2%
+[  591] CVE-2010-4157_ha_vulnerable                        | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.1%
+[  592] CVE-2010-4157_ha_safe                              | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.1%
+[  593] CVE-2010-2959_nframes_t0_vulnerable                | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.2%
+[  594] CVE-2010-2959_nframes_t0_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.2%
+[  595] CVE-2010-2959_nframes_t1_vulnerable                | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.3%
+[  596] CVE-2010-2959_nframes_t1_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.3%
+[  597] CVE-2010-2959_nframes_t2_vulnerable                | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.4%
+[  598] CVE-2010-2959_nframes_t2_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.4%
+[  599] CVE-2010-2959_datalen_t0_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.3%
+[  600] CVE-2010-2959_datalen_t0_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.3%
+[  601] CVE-2010-2959_datalen_t1_vulnerable                | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.2%
+[  602] CVE-2010-2959_datalen_t1_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.3%
+[  603] CVE-2014-9659_bitCount_vulnerable                  | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.1%
+[  604] CVE-2014-9659_bitCount_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.2%
+[  605] CVE-2010-3084_tp_vulnerable                        | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.1%
+[  606] CVE-2010-3084_tp_safe                              | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.1%
+[  607] CVE-2010-3015_ec_block_vulnerable                  | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.1%
+[  608] CVE-2010-3015_ec_block_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.2%
+[  609] CVE-2010-3080_dp_vulnerable                        | Truth: Vulnerable | Pred: Safe       | ❌ | Acc: 73.1%
+[  610] CVE-2010-3080_dp_safe                              | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.1%
+[  611] CVE-2016-10269_sp_vulnerable                       | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 73.2%
+[  612] CVE-2016-10269_sp_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 73.2%
+
+Done. 448/612 correct (73.2%)
+Results: /users/azibaeir/Research/Autotrace/logs/hf_benchmark/results_Qwen_Qwen3.5_9B_20260423_230901.jsonl
+=== gemini-3-flash-preview (CPU/API) ===
+Found 11 Gemini API keys.
+☁️ Initializing Vertex AI client for project: project-1af82b74-b65d-45d8-8fb (location: global)
+Resuming from logs/gemini_benchmark/results_20260413_184001.jsonl
+Starting benchmark on dataset/train.jsonl
+Results: logs/gemini_benchmark/results_20260413_184001.jsonl
+Total samples to process: 844 (Already processed: 1956)
+[1957] CVE-2008-2826_addr_num_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1958] CVE-2008-2826_addr_num_t0_safe... Truth: Safe | Pred: Safe | ✅
+[1959] CVE-2008-2826_addr_num_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1960] CVE-2008-2826_addr_num_t1_safe... Truth: Safe | Pred: Safe | ✅
+[1961] CVE-2008-3275_dentry_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1962] CVE-2008-3275_dentry_safe... Truth: Safe | Pred: Safe | ✅
+[1963] CVE-2008-3911_len_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1964] CVE-2008-3911_len_safe... Truth: Safe | Pred: Safe | ✅
+[1965] CVE-2009-2287_vcpu_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1966] CVE-2009-2767_nsleep_vulnerable... Truth: Vulnerable | Pred: Safe | ❌
+[1967] CVE-2009-2767_nsleep_safe... Truth: Safe | Pred: Safe | ✅
+[1968] CVE-2009-2768_bprm_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1969] CVE-2009-2768_bprm_safe... Truth: Safe | Pred: Safe | ✅
+[1970] CVE-2010-0006_net_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1971] CVE-2010-0006_net_safe... Truth: Safe | Pred: Safe | ✅
+[1972] CVE-2010-2478_rule_cnt_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1973] CVE-2010-2478_rule_cnt_t0_safe... Truth: Safe | Pred: Safe | ✅
+[1974] CVE-2010-2478_rule_cnt_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1975] CVE-2010-2478_rule_cnt_t1_safe... Truth: Safe | Pred: Safe | ✅
+[1976] CVE-2010-3067_nr_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1977] CVE-2010-3067_nr_safe... Truth: Safe | Pred: Safe | ✅
+[1978] CVE-2010-3855_runcnt_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1979] CVE-2010-3855_runcnt_t0_safe... Truth: Safe | Pred: Safe | ✅
+[1980] CVE-2010-3855_runcnt_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1981] CVE-2010-3855_runcnt_t1_safe... Truth: Safe | Pred: Safe | ✅
+[1982] CVE-2010-3880_bc_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1983] CVE-2010-3880_bc_safe... Truth: Safe | Pred: Safe | ✅
+[1984] CVE-2010-4162_end_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1985] CVE-2010-4162_end_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1986] CVE-2010-4162_end_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1987] CVE-2010-4162_end_t3_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1988] CVE-2010-4162_start_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1989] CVE-2010-4162_start_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1990] CVE-2010-4162_start_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1991] CVE-2010-4164_len_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1992] CVE-2010-4164_len_safe... Truth: Safe | Pred: Safe | ✅
+[1993] CVE-2010-4263_vlan_tag_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1994] CVE-2010-4263_vlan_tag_safe... Truth: Safe | Pred: Safe | ✅
+[1995] CVE-2010-4342_edev_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1996] CVE-2010-4342_edev_safe... Truth: Safe | Pred: Safe | ✅
+[1997] CVE-2010-4527_name_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[1998] CVE-2010-4527_name_t0_safe... Truth: Safe | Pred: Safe | ✅
+[1999] CVE-2010-4527_name_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2000] CVE-2010-4527_name_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2001] CVE-2011-1478_vlan_tci_vulnerable... Truth: Vulnerable | Pred: Safe | ❌
+[2002] CVE-2011-1478_vlan_tci_safe... Truth: Safe | Pred: Safe | ✅
+[2003] CVE-2011-1598_sk_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2004] CVE-2011-1598_sk_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2005] CVE-2011-1598_sk_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2006] CVE-2011-1598_sk_t1_safe... Truth: Safe | Pred: Vulnerable | ❌
+[2007] CVE-2011-1748_sk_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2008] CVE-2011-1748_sk_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2009] CVE-2011-1748_sk_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2010] CVE-2011-1748_sk_t1_safe... Truth: Safe | Pred: Vulnerable | ❌
+[2011] CVE-2011-1748_sk_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2012] CVE-2011-1748_sk_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2013] CVE-2011-1748_sock->sk_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2014] CVE-2011-1748_sock->sk_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2015] CVE-2011-1748_sock->sk_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2016] CVE-2011-1748_sock->sk_t1_safe... Truth: Safe | Pred: Vulnerable | ❌
+[2017] CVE-2011-1748_sock->sk_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2018] CVE-2011-1748_sock->sk_t2_safe... Truth: Safe | Pred: Vulnerable | ❌
+[2019] CVE-2011-1771_private_data_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2020] CVE-2011-1771_private_data_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2021] CVE-2011-1771_private_data_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2022] CVE-2011-1771_private_data_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2023] CVE-2011-2213_cc_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2024] CVE-2011-2213_cc_safe... Truth: Safe | Pred: Safe | ✅
+[2025] CVE-2011-2521_hwc_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2026] CVE-2011-3602_name_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2027] CVE-2011-3602_name_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2028] CVE-2011-3602_name_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2029] CVE-2011-3602_name_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2030] CVE-2011-3929_ach_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2031] CVE-2011-3929_ach_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2032] CVE-2011-3929_ach_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2033] CVE-2011-3929_ach_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2034] CVE-2011-4031_asf_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+⚠️ Rate limit hit for key 1. Attempt 1/3
+[2035] CVE-2011-4031_asf_safe... Truth: Safe | Pred: Safe | ✅
+[2036] CVE-2011-4621_tsk_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2037] CVE-2011-4621_tsk_safe... Truth: Safe | Pred: Safe | ✅
+[2038] CVE-2012-0038_count_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2039] CVE-2012-0038_count_safe... Truth: Safe | Pred: Safe | ✅
+[2040] CVE-2012-0044_num_clips_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2041] CVE-2012-0044_num_clips_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2042] CVE-2012-0044_num_clips_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2043] CVE-2012-0044_num_clips_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2044] CVE-2012-0855_numXtiles_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2045] CVE-2012-0855_numXtiles_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2046] CVE-2012-0855_numXtiles_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2047] CVE-2012-0855_numXtiles_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2048] CVE-2012-0856_height_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2049] CVE-2012-0859_y0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2050] CVE-2012-0859_y0_safe... Truth: Safe | Pred: Safe | ✅
+[2051] CVE-2012-1146_primary_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2052] CVE-2012-1146_primary_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2053] CVE-2012-1146_primary_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2054] CVE-2012-1146_primary_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2055] CVE-2012-2100_s_log_groups_per_flex_t0_v... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2056] CVE-2012-2100_s_log_groups_per_flex_t0_s... Truth: Safe | Pred: Safe | ✅
+[2057] CVE-2012-2100_s_log_groups_per_flex_t1_v... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2058] CVE-2012-2100_s_log_groups_per_flex_t1_s... Truth: Safe | Pred: Safe | ✅
+[2059] CVE-2012-2100_s_log_groups_per_flex_t2_v... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2060] CVE-2012-2100_s_log_groups_per_flex_t2_s... Truth: Safe | Pred: Safe | ✅
+[2061] CVE-2012-5668_props_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2062] CVE-2012-5668_props_safe... Truth: Safe | Pred: Safe | ✅
+[2063] CVE-2012-5669_glyph_enc_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2064] CVE-2012-5669_glyph_enc_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2065] CVE-2012-5669_glyph_enc_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2066] CVE-2012-5669_glyph_enc_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2067] CVE-2012-5669_have_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2068] CVE-2012-5669_have_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2069] CVE-2012-5669_have_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2070] CVE-2012-5669_have_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2071] CVE-2012-5670_glyph_enc_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2072] CVE-2012-5670_glyph_enc_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2073] CVE-2012-5670_glyph_enc_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2074] CVE-2012-5670_glyph_enc_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2075] CVE-2012-6607_to_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2076] CVE-2012-6607_to_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2077] CVE-2012-6607_to_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2078] CVE-2012-6607_to_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2079] CVE-2012-6607_to_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2080] CVE-2012-6607_to_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2081] CVE-2012-6607_to_t3_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2082] CVE-2012-6607_to_t3_safe... Truth: Safe | Pred: Safe | ✅
+[2083] CVE-2013-0859_count_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2084] CVE-2013-0859_count_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2085] CVE-2013-0859_count_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2086] CVE-2013-0859_count_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2087] CVE-2013-0868_len1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2088] CVE-2013-0868_len1_safe... Truth: Safe | Pred: Safe | ✅
+[2089] CVE-2013-0877_decoded_size_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2090] CVE-2013-0877_decoded_size_safe... Truth: Safe | Pred: Safe | ✅
+[2091] CVE-2016-10169_bytecnt_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2092] CVE-2016-10169_bytecnt_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2093] CVE-2016-10169_bytecnt_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2094] CVE-2016-10169_bytecnt_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2095] CVE-2013-1415_issuer_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2096] CVE-2013-1415_issuer_safe... Truth: Safe | Pred: Safe | ✅
+[2097] CVE-2013-1415_serial_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2098] CVE-2013-1415_serial_safe... Truth: Safe | Pred: Safe | ✅
+[2099] CVE-2013-1416_data_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2100] CVE-2013-1416_data_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2101] CVE-2013-1416_data_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2102] CVE-2013-1416_data_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2103] CVE-2013-1416_data_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2104] CVE-2013-1416_data_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2105] CVE-2013-2127_data_maximum_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2106] CVE-2013-2127_data_maximum_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2107] CVE-2013-2127_data_maximum_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2108] CVE-2013-2127_data_maximum_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2109] CVE-2013-3670_pd_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2110] CVE-2013-3670_pd_safe... Truth: Safe | Pred: Safe | ✅
+[2111] CVE-2013-3671_type_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2112] CVE-2013-3671_type_safe... Truth: Safe | Pred: Safe | ✅
+[2113] CVE-2013-4263_sar_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2114] CVE-2013-4263_sar_safe... Truth: Safe | Pred: Safe | ✅
+[2115] CVE-2013-4514_u16_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2116] CVE-2013-7009_pixel_ptr_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2117] CVE-2013-7009_pixel_ptr_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2118] CVE-2013-7009_pixel_ptr_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2119] CVE-2013-7009_pixel_ptr_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2120] CVE-2013-7010_dst_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2121] CVE-2013-7010_dst_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2122] CVE-2013-7010_dst_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2123] CVE-2013-7010_dst_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2124] CVE-2013-7014_add_bytes_l2_c_t0_vulnerab... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2125] CVE-2013-7014_add_bytes_l2_c_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2126] CVE-2013-7014_add_bytes_l2_c_t1_vulnerab... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2127] CVE-2013-7014_add_bytes_l2_c_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2128] CVE-2013-7023_overread_index_t0_vulnerab... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2129] CVE-2013-7023_overread_index_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2130] CVE-2013-7023_overread_index_t1_vulnerab... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2131] CVE-2013-7023_overread_index_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2132] CVE-2013-7023_next_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2133] CVE-2013-7023_next_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2134] CVE-2013-7023_next_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2135] CVE-2013-7023_next_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2136] CVE-2013-7023_next_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2137] CVE-2013-7023_next_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2138] CVE-2013-7023_new_buffer_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2139] CVE-2013-7023_new_buffer_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2140] CVE-2013-7023_new_buffer_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2141] CVE-2013-7023_new_buffer_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2142] CVE-2013-7023_new_buffer_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2143] CVE-2013-7023_new_buffer_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2144] CVE-2013-7024_codsty_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2145] CVE-2013-7024_codsty_safe... Truth: Safe | Pred: Safe | ✅
+[2146] CVE-2013-7339_device_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2147] CVE-2013-7339_device_safe... Truth: Safe | Pred: Safe | ✅
+[2148] CVE-2014-0160_rrec_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2149] CVE-2014-0160_rrec_safe... Truth: Safe | Pred: Safe | ✅
+[2150] CVE-2014-0195_frag_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2151] CVE-2014-0195_frag_safe... Truth: Safe | Pred: Safe | ✅
+[2152] CVE-2013-0876_decoded_size_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2153] CVE-2013-0876_decoded_size_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2154] CVE-2013-0876_decoded_size_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2155] CVE-2013-0876_decoded_size_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2156] CVE-2014-10073_fpath_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2157] CVE-2014-10073_fpath_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2158] CVE-2014-10073_fpath_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2159] CVE-2014-10073_fpath_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2160] CVE-2014-3144_len_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2161] CVE-2014-3144_len_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2162] CVE-2014-3144_len_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2163] CVE-2014-3144_len_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2164] CVE-2014-3145_len_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2165] CVE-2014-3145_len_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2166] CVE-2014-3145_len_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2167] CVE-2014-3145_len_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2168] CVE-2014-3145_len_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2169] CVE-2014-3145_len_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2170] CVE-2014-3183_count_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2171] CVE-2014-3183_count_safe... Truth: Safe | Pred: Safe | ✅
+[2172] CVE-2014-3512_cAB_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2173] CVE-2014-3512_cAB_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2174] CVE-2014-3512_cAB_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2175] CVE-2014-3512_cAB_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2176] CVE-2014-3512_cAB_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2177] CVE-2014-3512_cAB_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2178] CVE-2014-4344_length_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2179] CVE-2014-4344_length_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2180] CVE-2014-4344_length_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2181] CVE-2014-4344_length_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2182] CVE-2014-4344_value_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2183] CVE-2014-4344_value_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2184] CVE-2014-4344_value_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2185] CVE-2014-4344_value_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2186] CVE-2014-4608_ip_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2187] CVE-2014-4608_ip_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2188] CVE-2014-4608_ip_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2189] CVE-2014-4608_ip_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2190] CVE-2014-4608_ip_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2191] CVE-2014-4608_ip_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2192] CVE-2014-4656_card_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2193] CVE-2014-4656_card_safe... Truth: Safe | Pred: Safe | ✅
+[2194] CVE-2014-7826_syscall_nr_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2195] CVE-2014-7826_syscall_nr_safe... Truth: Safe | Pred: Safe | ✅
+[2196] CVE-2014-7937_ptns_to_read_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2197] CVE-2014-7937_ptns_to_read_safe... Truth: Safe | Pred: Safe | ✅
+[2198] CVE-2014-8130__TIFFmalloc_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2199] CVE-2014-8130__TIFFmalloc_safe... Truth: Safe | Pred: Vulnerable | ❌
+[2200] CVE-2014-8176_rdata_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2201] CVE-2014-8176_rdata_safe... Truth: Safe | Pred: Safe | ✅
+[2202] CVE-2014-8176_data_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2203] CVE-2014-8176_data_safe... Truth: Safe | Pred: Safe | ✅
+[2204] CVE-2014-8546_cinepak_decode_vectors_vul... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2205] CVE-2014-8546_cinepak_decode_vectors_saf... Truth: Safe | Pred: Safe | ✅
+[2206] CVE-2014-8884_cmd_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2207] CVE-2014-8884_cmd_safe... Truth: Safe | Pred: Safe | ✅
+[2208] CVE-2014-9318_width_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2209] CVE-2014-9318_width_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2210] CVE-2014-9318_width_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2211] CVE-2014-9318_width_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2212] CVE-2014-9318_width_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2213] CVE-2014-9318_width_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2214] CVE-2014-9319_sps_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2215] CVE-2014-9319_sps_safe... Truth: Safe | Pred: Safe | ✅
+[2216] CVE-2014-9496_count_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2217] CVE-2014-9496_count_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2218] CVE-2014-9496_count_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2219] CVE-2014-9496_count_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2220] CVE-2014-9656_num_glyphs_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2221] CVE-2014-9656_num_glyphs_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2222] CVE-2014-9656_num_glyphs_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2223] CVE-2014-9656_num_glyphs_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2224] CVE-2014-9656_p_limit_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2225] CVE-2014-9656_p_limit_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2226] CVE-2014-9656_p_limit_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2227] CVE-2014-9656_p_limit_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2228] CVE-2014-9657_num_records_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2229] CVE-2014-9657_num_records_safe... Truth: Safe | Pred: Safe | ✅
+[2230] CVE-2014-9657_version_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2231] CVE-2014-9657_version_safe... Truth: Safe | Pred: Safe | ✅
+[2232] CVE-2014-9662_builder_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2233] CVE-2014-9662_builder_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2234] CVE-2014-9662_builder_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2235] CVE-2014-9662_builder_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2236] CVE-2014-9662_builder_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2237] CVE-2014-9662_builder_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2238] CVE-2014-9663_length_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2239] CVE-2014-9663_length_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2240] CVE-2014-9663_length_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2241] CVE-2014-9663_length_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2242] CVE-2014-9665_map_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2243] CVE-2014-9666_strike_index_array_t0_vuln... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2244] CVE-2014-9666_strike_index_array_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2245] CVE-2014-9666_strike_index_array_t1_vuln... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2246] CVE-2014-9666_strike_index_array_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2247] CVE-2014-9669_end_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2248] CVE-2014-9669_end_safe... Truth: Safe | Pred: Safe | ✅
+[2249] CVE-2014-9672_string_count_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2250] CVE-2014-9672_string_count_safe... Truth: Safe | Pred: Safe | ✅
+[2251] CVE-2014-9683_dst_byte_offset_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2252] CVE-2014-9683_dst_byte_offset_safe... Truth: Safe | Pred: Safe | ✅
+[2253] CVE-2014-9683_dst_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2254] CVE-2014-9683_dst_safe... Truth: Safe | Pred: Safe | ✅
+[2255] CVE-2015-0288_pktmp_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2256] CVE-2015-0288_pktmp_safe... Truth: Safe | Pred: Safe | ✅
+[2257] CVE-2015-0289_p7_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2258] CVE-2015-0289_p7_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2259] CVE-2015-0289_p7_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2260] CVE-2015-0289_p7_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2261] CVE-2015-0289_p7_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2262] CVE-2015-0289_p7_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2263] CVE-2015-0289_sign_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2264] CVE-2015-0289_sign_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2265] CVE-2015-0289_sign_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2266] CVE-2015-0289_sign_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2267] CVE-2015-0289_sign_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2268] CVE-2015-0289_sign_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2269] CVE-2015-1790_enc_data_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2270] CVE-2015-1790_enc_data_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2271] CVE-2015-1790_enc_data_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2272] CVE-2015-1790_enc_data_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2273] CVE-2015-1790_data_body_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2274] CVE-2015-1790_data_body_safe... Truth: Safe | Pred: Safe | ✅
+[2275] CVE-2015-3456_pos_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2276] CVE-2015-3456_pos_safe... Truth: Safe | Pred: Safe | ✅
+[2277] CVE-2015-3885_len_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2278] CVE-2015-3885_len_safe... Truth: Safe | Pred: Safe | ✅
+[2279] CVE-2015-4002_data_len_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2280] CVE-2015-4002_data_len_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2281] CVE-2015-4002_data_len_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2282] CVE-2015-4002_data_len_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2283] CVE-2015-4003_unit_size_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2284] CVE-2015-4003_unit_size_safe... Truth: Safe | Pred: Safe | ✅
+[2285] CVE-2015-4003_body_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2286] CVE-2015-4003_body_safe... Truth: Safe | Pred: Safe | ✅
+[2287] CVE-2015-6031_cureltname_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2288] CVE-2015-6031_cureltname_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2289] CVE-2015-6031_cureltname_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2290] CVE-2015-6031_cureltname_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2291] CVE-2015-6819_is16bit_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2292] CVE-2015-6819_is16bit_safe... Truth: Safe | Pred: Safe | ✅
+[2293] CVE-2015-8317_RAW_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2294] CVE-2015-8317_RAW_safe... Truth: Safe | Pred: Safe | ✅
+[2295] CVE-2015-8363_marker_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2296] CVE-2015-8363_marker_safe... Truth: Safe | Pred: Safe | ✅
+[2297] CVE-2015-8784_occ_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2298] CVE-2015-8784_occ_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2299] CVE-2015-8784_occ_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2300] CVE-2015-8784_occ_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2301] CVE-2015-8784_occ_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2302] CVE-2015-8784_occ_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2303] CVE-2015-8900_value_expected_t0_vulnerab... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2304] CVE-2015-8900_value_expected_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2305] CVE-2015-8900_value_expected_t1_vulnerab... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2306] CVE-2015-8900_value_expected_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2307] CVE-2015-8900_size_t_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2308] CVE-2015-8900_size_t_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2309] CVE-2015-8900_size_t_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2310] CVE-2015-8900_size_t_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2311] CVE-2015-8900_size_t_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2312] CVE-2015-8900_size_t_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2313] CVE-2015-8957_maplength_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2314] CVE-2015-8957_maplength_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2315] CVE-2016-0797_bn_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2316] CVE-2016-0797_bn_safe... Truth: Safe | Pred: Safe | ✅
+[2317] CVE-2016-10028_max_size_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2318] CVE-2016-10028_max_size_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2319] CVE-2016-10028_max_size_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2320] CVE-2016-10028_max_size_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2321] CVE-2016-10159_manifest_index_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2322] CVE-2016-10159_manifest_index_safe... Truth: Safe | Pred: Safe | ✅
+[2323] CVE-2016-10161_YYLIMIT_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2324] CVE-2016-10161_YYLIMIT_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2325] CVE-2016-10161_YYLIMIT_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2326] CVE-2016-10161_YYLIMIT_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2327] CVE-2016-10161_yych_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2328] CVE-2016-10161_yych_safe... Truth: Safe | Pred: Safe | ✅
+[2329] CVE-2016-10266_td_imagelength_t0_vulnera... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2330] CVE-2016-10266_td_imagelength_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2331] CVE-2016-10266_td_imagelength_t1_vulnera... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2332] CVE-2016-10266_td_imagelength_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2333] CVE-2016-10266_rowsperstrip_t0_vulnerabl... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2334] CVE-2016-10266_rowsperstrip_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2335] CVE-2016-10266_rowsperstrip_t1_vulnerabl... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2336] CVE-2016-10266_rowsperstrip_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2337] CVE-2016-10267_early_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2338] CVE-2016-10267_early_safe... Truth: Safe | Pred: Safe | ✅
+[2339] CVE-2012-6616_end_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2340] CVE-2012-6616_end_safe... Truth: Safe | Pred: Safe | ✅
+[2341] CVE-2016-1834_str2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2342] CVE-2016-1834_str2_safe... Truth: Safe | Pred: Safe | ✅
+[2343] CVE-2016-1836_end_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2344] CVE-2016-1836_end_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2345] CVE-2016-1836_end_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2346] CVE-2016-1836_end_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2347] CVE-2016-1840_cur_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2348] CVE-2016-1840_cur_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2349] CVE-2016-1840_cur_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2350] CVE-2016-1840_cur_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2351] CVE-2016-2070_prior_cwnd_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2352] CVE-2016-2070_prior_cwnd_safe... Truth: Safe | Pred: Safe | ✅
+[2353] CVE-2016-2105_num_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2354] CVE-2016-2105_num_safe... Truth: Safe | Pred: Safe | ✅
+[2355] CVE-2016-2106_can_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2356] CVE-2016-2106_can_safe... Truth: Safe | Pred: Safe | ✅
+[2357] CVE-2016-2108_bn_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2358] CVE-2016-2108_bn_safe... Truth: Safe | Pred: Safe | ✅
+[2359] CVE-2016-2177_session_id_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2360] CVE-2016-2177_session_id_safe... Truth: Safe | Pred: Safe | ✅
+[2361] CVE-2017-0375_purpose_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2362] CVE-2017-0375_purpose_safe... Truth: Safe | Pred: Safe | ✅
+[2363] CVE-2016-2181_item_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2364] CVE-2016-2181_item_safe... Truth: Safe | Pred: Safe | ✅
+[2365] CVE-2016-2857_length_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2366] CVE-2016-2857_length_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2367] CVE-2016-2857_length_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2368] CVE-2016-2857_length_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2369] CVE-2016-5126_cmd_len_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2370] CVE-2016-5126_cmd_len_safe... Truth: Safe | Pred: Safe | ✅
+[2371] CVE-2016-5314_sp_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2372] CVE-2016-5314_sp_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2373] CVE-2016-5314_sp_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2374] CVE-2016-5314_sp_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2375] CVE-2016-5352_eapol_len_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2376] CVE-2016-5352_eapol_len_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2377] CVE-2016-5352_eapol_len_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2378] CVE-2016-5352_eapol_len_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2379] CVE-2016-5689_trigger_1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2380] CVE-2016-5689_trigger_1_safe... Truth: Safe | Pred: Safe | ✅
+[2381] CVE-2016-6303_len_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2382] CVE-2016-6303_len_safe... Truth: Safe | Pred: Safe | ✅
+[2383] CVE-2016-6304_tlsext_ocsp_ids_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2384] CVE-2016-6304_tlsext_ocsp_ids_safe... Truth: Safe | Pred: Safe | ✅
+[2385] CVE-2016-6304_dsize_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2386] CVE-2016-6304_dsize_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2387] CVE-2016-6304_dsize_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2388] CVE-2016-6304_dsize_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2389] CVE-2016-6304_dsize_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2390] CVE-2016-6304_dsize_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2391] CVE-2016-6309_size_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2392] CVE-2016-6309_size_safe... Truth: Safe | Pred: Safe | ✅
+[2393] CVE-2016-6491_name_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2394] CVE-2016-6491_name_safe... Truth: Safe | Pred: Safe | ✅
+[2395] CVE-2016-6888_max_frags_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2396] CVE-2016-6888_max_frags_safe... Truth: Safe | Pred: Safe | ✅
+[2397] CVE-2016-6911_but_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2398] CVE-2016-6911_but_safe... Truth: Safe | Pred: Safe | ✅
+[2399] CVE-2016-7116_wnames_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2400] CVE-2016-7116_wnames_safe... Truth: Safe | Pred: Safe | ✅
+[2401] CVE-2016-7127_im_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2402] CVE-2016-7127_im_safe... Truth: Safe | Pred: Safe | ✅
+[2403] CVE-2016-7422_iov_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2404] CVE-2016-7422_iov_safe... Truth: Safe | Pred: Safe | ✅
+[2405] CVE-2016-7799_format_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2406] CVE-2016-7799_format_safe... Truth: Safe | Pred: Safe | ✅
+[2407] CVE-2016-7908_length_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2408] CVE-2016-7908_length_safe... Truth: Safe | Pred: Safe | ✅
+[2409] CVE-2016-7912_ki_flags_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2410] CVE-2016-7912_ki_flags_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2411] CVE-2016-7912_ki_flags_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2412] CVE-2016-7912_ki_flags_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2413] CVE-2016-7912_private_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2414] CVE-2016-7912_private_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2415] CVE-2016-7912_private_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2416] CVE-2016-7912_private_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2417] CVE-2016-7912_ki_complete_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2418] CVE-2016-7912_ki_complete_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2419] CVE-2016-7912_ki_complete_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2420] CVE-2016-7912_ki_complete_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2421] CVE-2016-7913_fname_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2422] CVE-2016-7913_fname_safe... Truth: Safe | Pred: Vulnerable | ❌
+[2423] CVE-2016-8669_divider_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2424] CVE-2016-8669_divider_safe... Truth: Safe | Pred: Safe | ✅
+[2425] CVE-2014-9317_state_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2426] CVE-2014-9317_state_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2427] CVE-2014-9317_state_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2428] CVE-2014-9317_state_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2429] CVE-2016-9298_columns_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2430] CVE-2016-9298_columns_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2431] CVE-2016-9298_columns_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2432] CVE-2016-9298_columns_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2433] CVE-2016-9298_columns_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2434] CVE-2016-9298_columns_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2435] CVE-2016-9537_tif_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2436] CVE-2016-9537_tif_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2437] CVE-2016-9537_tif_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2438] CVE-2016-9537_tif_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2439] CVE-2016-9537_tif_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2440] CVE-2016-9537_tif_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2441] CVE-2016-9537_tif_t3_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2442] CVE-2016-9537_tif_t3_safe... Truth: Safe | Pred: Safe | ✅
+[2443] CVE-2016-9538_spp_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2444] CVE-2016-9538_spp_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2445] CVE-2016-9538_spp_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2446] CVE-2016-9538_spp_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2447] CVE-2016-9539_trigger_1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2448] CVE-2016-9539_trigger_1_safe... Truth: Safe | Pred: Safe | ✅
+[2449] CVE-2016-9540_colb_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2450] CVE-2016-9540_colb_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2451] CVE-2016-9540_colb_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2452] CVE-2016-9540_colb_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2453] CVE-2016-9540_imagew_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2454] CVE-2016-9540_imagew_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2455] CVE-2016-9540_imagew_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2456] CVE-2016-9540_imagew_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2457] CVE-2017-1000414_m_anSofHorzSampFact_Hi_... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2458] CVE-2017-1000414_m_anSofHorzSampFact_Hi_... Truth: Safe | Pred: Safe | ✅
+[2459] CVE-2017-11523_blob_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2460] CVE-2017-11523_blob_safe... Truth: Safe | Pred: Safe | ✅
+[2461] CVE-2017-11719_mb_height_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2462] CVE-2017-11719_mb_height_safe... Truth: Safe | Pred: Safe | ✅
+[2463] CVE-2017-12997_tlv_len_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2464] CVE-2017-12997_tlv_len_safe... Truth: Safe | Pred: Safe | ✅
+[2465] CVE-2017-12997_sublen_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2466] CVE-2017-12997_sublen_safe... Truth: Safe | Pred: Safe | ✅
+[2467] CVE-2017-12999_alen_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2468] CVE-2017-12999_alen_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2469] CVE-2017-12999_alen_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2470] CVE-2017-12999_alen_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2471] CVE-2017-12999_alen_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2472] CVE-2017-12999_alen_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2473] CVE-2017-13000_h->caplen_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2474] CVE-2017-13000_h->caplen_safe... Truth: Safe | Pred: Safe | ✅
+[2475] CVE-2017-13013_ar_pro_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2476] CVE-2017-13013_ar_pro_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2477] CVE-2017-13013_ar_pro_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2478] CVE-2017-13013_ar_pro_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2479] CVE-2017-13013_ar_pro_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2480] CVE-2017-13013_ar_pro_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2481] CVE-2017-13013_ar_pro_t3_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2482] CVE-2017-13013_ar_pro_t3_safe... Truth: Safe | Pred: Safe | ✅
+[2483] CVE-2017-13021_bp_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2484] CVE-2017-13021_bp_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2485] CVE-2017-13021_bp_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2486] CVE-2017-13021_bp_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2487] CVE-2017-13024_len_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2488] CVE-2017-13024_len_safe... Truth: Safe | Pred: Safe | ✅
+[2489] CVE-2017-13032_length_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2490] CVE-2017-13032_length_safe... Truth: Safe | Pred: Safe | ✅
+[2491] CVE-2017-13032_data_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2492] CVE-2017-13032_data_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2493] CVE-2017-13032_data_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2494] CVE-2017-13032_data_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2495] CVE-2017-13033_len_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2496] CVE-2017-13033_len_safe... Truth: Safe | Pred: Safe | ✅
+[2497] CVE-2017-13036_hello_options_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2498] CVE-2017-13036_hello_options_safe... Truth: Safe | Pred: Safe | ✅
+[2499] CVE-2017-13039_totlen_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2500] CVE-2017-13039_totlen_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2501] CVE-2017-13039_totlen_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2502] CVE-2017-13039_totlen_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2503] CVE-2017-13040_opt_len_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2504] CVE-2017-13040_opt_len_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2505] CVE-2017-13040_mdss_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2506] CVE-2017-13043_pptr_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2507] CVE-2017-13043_pptr_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2508] CVE-2017-13043_pptr_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2509] CVE-2017-13043_pptr_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2510] CVE-2017-14058_reload_count_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2511] CVE-2017-14058_reload_count_safe... Truth: Safe | Pred: Safe | ✅
+[2512] CVE-2017-14164_p_data_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2513] CVE-2017-14246_count_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2514] CVE-2017-14246_count_safe... Truth: Safe | Pred: Safe | ✅
+[2515] CVE-2017-14608_curve_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2516] CVE-2017-14608_curve_safe... Truth: Safe | Pred: Safe | ✅
+[2517] CVE-2017-16910_width_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2518] CVE-2017-16910_width_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2519] CVE-2017-16910_width_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2520] CVE-2017-16910_width_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2521] CVE-2017-16910_width_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2522] CVE-2017-16910_width_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2523] CVE-2017-18267_pos_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2524] CVE-2017-18267_pos_safe... Truth: Safe | Pred: Safe | ✅
+[2525] CVE-2017-5973_link_cnt_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2526] CVE-2017-5973_link_cnt_safe... Truth: Safe | Pred: Safe | ✅
+[2527] CVE-2017-6887_len_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2528] CVE-2017-6887_len_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2529] CVE-2017-6887_len_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2530] CVE-2017-6887_len_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2531] CVE-2017-6887_len_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2532] CVE-2017-6887_len_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2533] CVE-2017-6887_hlen_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2534] CVE-2017-6887_hlen_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2535] CVE-2017-6887_hlen_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2536] CVE-2017-6887_hlen_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2537] CVE-2017-7857_face_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2538] CVE-2017-7858_face_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2539] CVE-2017-7870_nPos_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2540] CVE-2017-7870_nPos_safe... Truth: Safe | Pred: Safe | ✅
+[2541] CVE-2017-7962_rctx_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2542] CVE-2017-7962_rctx_safe... Truth: Safe | Pred: Safe | ✅
+[2543] CVE-2017-8070_usbdev_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2544] CVE-2017-8070_usbdev_safe... Truth: Safe | Pred: Safe | ✅
+[2545] CVE-2017-8287_n_contours_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2546] CVE-2017-8287_n_contours_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2547] CVE-2017-8287_n_contours_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2548] CVE-2017-8287_n_contours_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2549] CVE-2017-8287_n_points_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2550] CVE-2017-8287_n_points_safe... Truth: Safe | Pred: Safe | ✅
+[2551] CVE-2017-8361_psf_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2552] CVE-2018-1000039_mask_colorspace_vulnera... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2553] CVE-2018-1000039_mask_colorspace_safe... Truth: Safe | Pred: Safe | ✅
+[2554] CVE-2018-1002209_name_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2555] CVE-2018-1002209_name_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2556] CVE-2018-1002209_name_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2557] CVE-2018-1002209_name_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2558] CVE-2018-10529_PL_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2559] CVE-2018-10529_PL_safe... Truth: Safe | Pred: Safe | ✅
+[2560] CVE-2018-10768_inkList_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2561] CVE-2018-10768_inkList_safe... Truth: Safe | Pred: Safe | ✅
+[2562] CVE-2018-11378_count_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2563] CVE-2018-11378_count_safe... Truth: Safe | Pred: Safe | ✅
+[2564] CVE-2018-11506_cgc_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2565] CVE-2018-11506_cgc_safe... Truth: Safe | Pred: Safe | ✅
+[2566] CVE-2018-14395_channels_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2567] CVE-2018-14395_channels_safe... Truth: Safe | Pred: Safe | ✅
+[2568] CVE-2018-14395_version_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2569] CVE-2018-14395_version_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2570] CVE-2018-14395_version_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2571] CVE-2018-14395_version_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2572] CVE-2018-14883_offset_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2573] CVE-2018-14883_offset_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2574] CVE-2018-14883_offset_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2575] CVE-2018-14883_offset_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2576] CVE-2018-16435_nFields_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2577] CVE-2018-16435_nFields_safe... Truth: Safe | Pred: Safe | ✅
+[2578] CVE-2018-16541_i_ctx_p_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2579] CVE-2018-16541_i_ctx_p_safe... Truth: Safe | Pred: Safe | ✅
+[2580] CVE-2018-17205_rule_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2581] CVE-2018-17205_rule_safe... Truth: Safe | Pred: Safe | ✅
+[2582] CVE-2018-18311_nlen_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2583] CVE-2018-18311_nlen_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2584] CVE-2018-18311_nlen_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2585] CVE-2018-18311_nlen_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2586] CVE-2018-18311_vlen_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2587] CVE-2018-18311_vlen_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2588] CVE-2018-18311_vlen_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2589] CVE-2018-18311_vlen_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2590] CVE-2018-19058_m_objStr_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2591] CVE-2018-19058_m_objStr_safe... Truth: Safe | Pred: Safe | ✅
+[2592] CVE-2018-20650_obj1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2593] CVE-2018-20650_obj1_safe... Truth: Safe | Pred: Safe | ✅
+[2594] CVE-2018-20783_manifest_len_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2595] CVE-2018-20783_manifest_len_safe... Truth: Safe | Pred: Safe | ✅
+[2596] CVE-2018-21009_length_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2597] CVE-2018-21009_length_safe... Truth: Safe | Pred: Safe | ✅
+[2598] CVE-2018-5804_width_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2599] CVE-2018-5804_width_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2600] CVE-2018-5804_width_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2601] CVE-2018-5804_width_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2602] CVE-2018-5804_width_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2603] CVE-2018-5804_width_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2604] CVE-2018-5804_height_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2605] CVE-2018-5804_height_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2606] CVE-2018-5804_height_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2607] CVE-2018-5804_height_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2608] CVE-2018-5804_height_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2609] CVE-2018-5804_height_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2610] CVE-2018-5805_width_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2611] CVE-2018-5805_width_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2612] CVE-2018-5805_width_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2613] CVE-2018-5805_width_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2614] CVE-2018-5806_width_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2615] CVE-2018-5806_width_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2616] CVE-2018-5806_width_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2617] CVE-2018-5806_width_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2618] CVE-2018-5806_width_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2619] CVE-2018-5806_width_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2620] CVE-2018-5806_height_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2621] CVE-2018-5806_height_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2622] CVE-2018-5806_height_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2623] CVE-2018-5806_height_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2624] CVE-2018-5807_tiff_bps_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2625] CVE-2018-5807_tiff_bps_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2626] CVE-2018-5807_tiff_bps_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2627] CVE-2018-5807_tiff_bps_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2628] CVE-2018-5808_image_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2629] CVE-2018-5808_image_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2630] CVE-2018-5808_image_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2631] CVE-2018-5808_image_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2632] CVE-2018-5808_width_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2633] CVE-2018-5808_width_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2634] CVE-2018-5808_width_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2635] CVE-2018-5808_width_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2636] CVE-2018-5808_width_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2637] CVE-2018-5808_width_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2638] CVE-2018-5810_image_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2639] CVE-2018-5810_image_safe... Truth: Safe | Pred: Safe | ✅
+[2640] CVE-2018-5812_tiff_bps_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2641] CVE-2018-5812_tiff_bps_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2642] CVE-2018-5812_tiff_bps_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2643] CVE-2018-5812_tiff_bps_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2644] CVE-2018-5812_tiff_bps_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2645] CVE-2018-5812_tiff_bps_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2646] CVE-2018-5815_save_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2647] CVE-2018-5815_save_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2648] CVE-2018-5815_save_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2649] CVE-2018-5815_save_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2650] CVE-2018-5815_save_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2651] CVE-2018-5815_save_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2652] CVE-2018-5816_width_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2653] CVE-2018-5816_width_safe... Truth: Safe | Pred: Safe | ✅
+[2654] CVE-2018-6767_ckSize_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2655] CVE-2018-6767_ckSize_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2656] CVE-2018-6767_ckSize_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2657] CVE-2018-6767_ckSize_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2658] CVE-2018-7456_td_samplesperpixel_vulnera... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2659] CVE-2018-7456_td_samplesperpixel_safe... Truth: Safe | Pred: Safe | ✅
+[2660] CVE-2018-7584_tcp_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2661] CVE-2018-7584_tcp_safe... Truth: Safe | Pred: Safe | ✅
+[2662] CVE-2018-7751_end_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2663] CVE-2018-7751_end_safe... Truth: Safe | Pred: Safe | ✅
+[2664] CVE-2018-8043_start_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2665] CVE-2018-8043_start_safe... Truth: Safe | Pred: Safe | ✅
+[2666] CVE-2018-8905_occ_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2667] CVE-2018-8905_occ_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2668] CVE-2018-8905_occ_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2669] CVE-2018-8905_occ_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2670] CVE-2018-8905_op_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2671] CVE-2018-8905_op_safe... Truth: Safe | Pred: Safe | ✅
+[2672] CVE-2019-10873_yy_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2673] CVE-2019-10873_yy_safe... Truth: Safe | Pred: Safe | ✅
+[2674] CVE-2019-11034_dir_start_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2675] CVE-2019-11034_dir_start_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2676] CVE-2019-11034_dir_start_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2677] CVE-2019-11034_dir_start_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2678] CVE-2019-11039_str_left_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2679] CVE-2019-11039_str_left_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2680] CVE-2019-11039_str_left_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2681] CVE-2019-11039_str_left_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2682] CVE-2019-11040_pos_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2683] CVE-2019-11040_pos_safe... Truth: Safe | Pred: Safe | ✅
+[2684] CVE-2019-11040_size_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2685] CVE-2019-11040_size_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2686] CVE-2019-11040_size_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2687] CVE-2019-11041_size_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2688] CVE-2019-11041_size_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2689] CVE-2019-11041_size_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2690] CVE-2019-11041_size_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2691] CVE-2019-11041_size_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2692] CVE-2019-11041_size_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2693] CVE-2019-11041_data_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2694] CVE-2019-11041_data_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2695] CVE-2019-11041_data_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2696] CVE-2019-11041_data_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2697] CVE-2019-11041_image_info_type_t0_vulner... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2698] CVE-2019-11041_image_info_type_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2699] CVE-2019-11041_image_info_type_t1_vulner... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2700] CVE-2019-11041_image_info_type_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2701] CVE-2019-11041_image_info_type_t2_vulner... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2702] CVE-2019-11041_image_info_type_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2703] CVE-2019-12293_npixels_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2704] CVE-2019-12293_npixels_safe... Truth: Safe | Pred: Safe | ✅
+[2705] CVE-2019-12293_component_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2706] CVE-2019-12293_component_safe... Truth: Safe | Pred: Safe | ✅
+[2707] CVE-2019-12614_name_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2708] CVE-2019-12614_name_safe... Truth: Safe | Pred: Safe | ✅
+[2709] CVE-2019-13308_rows_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2710] CVE-2019-13308_rows_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2711] CVE-2019-13308_rows_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2712] CVE-2019-13308_rows_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2713] CVE-2019-13308_columns_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2714] CVE-2019-13308_columns_safe... Truth: Safe | Pred: Safe | ✅
+[2715] CVE-2019-13308_GetPixelChannels_t0_vulne... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2716] CVE-2019-13308_GetPixelChannels_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2717] CVE-2019-13308_GetPixelChannels_t1_vulne... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2718] CVE-2019-13308_GetPixelChannels_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2719] CVE-2019-14494_ky_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2720] CVE-2019-14494_ky_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2721] CVE-2019-14494_ky_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2722] CVE-2019-14494_ky_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2723] CVE-2019-19317_pExpr_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2724] CVE-2019-19317_pExpr_safe... Truth: Safe | Pred: Safe | ✅
+[2725] CVE-2019-19646_pTab_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2726] CVE-2019-19646_pTab_safe... Truth: Safe | Pred: Safe | ✅
+[2727] CVE-2019-19880_bIntToNull_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2728] CVE-2019-19880_bIntToNull_safe... Truth: Safe | Pred: Safe | ✅
+[2729] CVE-2019-19923_pSubitem_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2730] CVE-2019-19923_pSubitem_safe... Truth: Safe | Pred: Safe | ✅
+[2731] CVE-2019-7396_sixel_pixels_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2732] CVE-2019-7396_sixel_pixels_safe... Truth: Safe | Pred: Safe | ✅
+[2733] CVE-2019-7396_image_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2734] CVE-2019-7396_image_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2735] CVE-2019-7396_image_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2736] CVE-2019-7396_image_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2737] CVE-2019-7396_image_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2738] CVE-2019-7396_image_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2739] CVE-2019-7396_image_t3_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2740] CVE-2019-7396_image_t3_safe... Truth: Safe | Pred: Safe | ✅
+[2741] CVE-2019-7396_image_t4_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2742] CVE-2019-7396_image_t4_safe... Truth: Safe | Pred: Safe | ✅
+[2743] CVE-2019-7396_image_t5_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2744] CVE-2019-7396_image_t5_safe... Truth: Safe | Pred: Safe | ✅
+[2745] CVE-2019-7663_td_transferfunction_t0_vul... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2746] CVE-2019-7663_td_transferfunction_t0_saf... Truth: Safe | Pred: Safe | ✅
+[2747] CVE-2019-7663_td_transferfunction_t1_vul... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2748] CVE-2019-7663_td_transferfunction_t1_saf... Truth: Safe | Pred: Safe | ✅
+[2749] CVE-2019-7663_td_transferfunction_t2_vul... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2750] CVE-2019-7663_td_transferfunction_t2_saf... Truth: Safe | Pred: Safe | ✅
+[2751] CVE-2019-9021_pos_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2752] CVE-2019-9021_pos_safe... Truth: Safe | Pred: Safe | ✅
+[2753] CVE-2019-9021_filename_len_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2754] CVE-2019-9021_filename_len_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2755] CVE-2019-9021_filename_len_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2756] CVE-2019-9021_filename_len_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2757] CVE-2019-9022_type_to_fetch_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2758] CVE-2019-9022_type_to_fetch_safe... Truth: Safe | Pred: Safe | ✅
+[2759] CVE-2019-9200_nBits_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2760] CVE-2019-9200_nBits_safe... Truth: Safe | Pred: Safe | ✅
+[2761] CVE-2019-9640_length_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2762] CVE-2019-9640_length_safe... Truth: Safe | Pred: Safe | ✅
+[2763] CVE-2019-9640_pos_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2764] CVE-2019-9640_pos_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2765] CVE-2019-9640_pos_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2766] CVE-2019-9640_pos_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2767] CVE-2019-9640_pos_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2768] CVE-2019-9640_pos_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2769] CVE-2019-9640_data_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2770] CVE-2019-9640_data_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2771] CVE-2019-9640_data_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2772] CVE-2019-9640_data_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2773] CVE-2019-9959_bufSize_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2774] CVE-2019-9959_bufSize_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2775] CVE-2019-9959_bufSize_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2776] CVE-2019-9959_bufSize_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2777] CVE-2013-0878_advance_line_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2778] CVE-2013-0878_advance_line_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2779] CVE-2010-4157_ha_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2780] CVE-2010-4157_ha_safe... Truth: Safe | Pred: Safe | ✅
+[2781] CVE-2010-2959_nframes_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2782] CVE-2010-2959_nframes_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2783] CVE-2010-2959_nframes_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2784] CVE-2010-2959_nframes_t1_safe... Truth: Safe | Pred: Vulnerable | ❌
+[2785] CVE-2010-2959_nframes_t2_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2786] CVE-2010-2959_nframes_t2_safe... Truth: Safe | Pred: Safe | ✅
+[2787] CVE-2010-2959_datalen_t0_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2788] CVE-2010-2959_datalen_t0_safe... Truth: Safe | Pred: Safe | ✅
+[2789] CVE-2010-2959_datalen_t1_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2790] CVE-2010-2959_datalen_t1_safe... Truth: Safe | Pred: Safe | ✅
+[2791] CVE-2014-9659_bitCount_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2792] CVE-2014-9659_bitCount_safe... Truth: Safe | Pred: Safe | ✅
+[2793] CVE-2010-3084_tp_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2794] CVE-2010-3084_tp_safe... Truth: Safe | Pred: Safe | ✅
+[2795] CVE-2010-3015_ec_block_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2796] CVE-2010-3015_ec_block_safe... Truth: Safe | Pred: Safe | ✅
+[2797] CVE-2010-3080_dp_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2798] CVE-2010-3080_dp_safe... Truth: Safe | Pred: Safe | ✅
+[2799] CVE-2016-10269_sp_vulnerable... Truth: Vulnerable | Pred: Vulnerable | ✅
+[2800] CVE-2016-10269_sp_safe... Truth: Safe | Pred: Vulnerable | ❌
+
+Benchmark run complete.
+Summary saved to logs/gemini_benchmark/summary_20260413_184001.txt

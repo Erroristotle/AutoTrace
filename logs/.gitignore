@@ -1,0 +1,3 @@
+# Ignore operational batch logs, expose only per-CVE logs for reviewers
+*.log
+!CVE-*.log

@@ -1,0 +1,4332 @@
+{
+  "label": "manual_review",
+  "count": 158,
+  "cves": [
+    "CVE-2008-2826",
+    "CVE-2008-3275",
+    "CVE-2008-3911",
+    "CVE-2009-2767",
+    "CVE-2010-0006",
+    "CVE-2010-3880",
+    "CVE-2010-4164",
+    "CVE-2010-4263",
+    "CVE-2010-4342",
+    "CVE-2010-4527",
+    "CVE-2011-1598",
+    "CVE-2011-1748",
+    "CVE-2011-1771",
+    "CVE-2011-2213",
+    "CVE-2011-3346",
+    "CVE-2011-4031",
+    "CVE-2011-4621",
+    "CVE-2012-0038",
+    "CVE-2012-0044",
+    "CVE-2012-0855",
+    "CVE-2012-0856",
+    "CVE-2012-0859",
+    "CVE-2012-1146",
+    "CVE-2012-2100",
+    "CVE-2012-6616",
+    "CVE-2013-0868",
+    "CVE-2013-0876",
+    "CVE-2013-0877",
+    "CVE-2013-0878",
+    "CVE-2013-3670",
+    "CVE-2013-3671",
+    "CVE-2013-4263",
+    "CVE-2013-4514",
+    "CVE-2013-7009",
+    "CVE-2013-7010",
+    "CVE-2013-7014",
+    "CVE-2013-7024",
+    "CVE-2013-7339",
+    "CVE-2014-0160",
+    "CVE-2014-0195",
+    "CVE-2014-3144",
+    "CVE-2014-3145",
+    "CVE-2014-3183",
+    "CVE-2014-3512",
+    "CVE-2014-4608",
+    "CVE-2014-4656",
+    "CVE-2014-7826",
+    "CVE-2014-8176",
+    "CVE-2014-8546",
+    "CVE-2014-8884",
+    "CVE-2014-9318",
+    "CVE-2014-9319",
+    "CVE-2014-9496",
+    "CVE-2014-9658",
+    "CVE-2014-9659",
+    "CVE-2014-9665",
+    "CVE-2014-9672",
+    "CVE-2014-9683",
+    "CVE-2015-0289",
+    "CVE-2015-1790",
+    "CVE-2015-2304",
+    "CVE-2015-3456",
+    "CVE-2015-4002",
+    "CVE-2015-4003",
+    "CVE-2015-6819",
+    "CVE-2015-8317",
+    "CVE-2015-8363",
+    "CVE-2015-8900",
+    "CVE-2015-8957",
+    "CVE-2016-10028",
+    "CVE-2016-10159",
+    "CVE-2016-10169",
+    "CVE-2016-10191",
+    "CVE-2016-10269",
+    "CVE-2016-10504",
+    "CVE-2016-1834",
+    "CVE-2016-1836",
+    "CVE-2016-1840",
+    "CVE-2016-2070",
+    "CVE-2016-2105",
+    "CVE-2016-2108",
+    "CVE-2016-2176",
+    "CVE-2016-2177",
+    "CVE-2016-2180",
+    "CVE-2016-2181",
+    "CVE-2016-2857",
+    "CVE-2016-5352",
+    "CVE-2016-5689",
+    "CVE-2016-6303",
+    "CVE-2016-6304",
+    "CVE-2016-6490",
+    "CVE-2016-6491",
+    "CVE-2016-6888",
+    "CVE-2016-6911",
+    "CVE-2016-7116",
+    "CVE-2016-7126",
+    "CVE-2016-7127",
+    "CVE-2016-7514",
+    "CVE-2016-7799",
+    "CVE-2016-7908",
+    "CVE-2016-7913",
+    "CVE-2016-8646",
+    "CVE-2016-8669",
+    "CVE-2016-8674",
+    "CVE-2016-8691",
+    "CVE-2016-8692",
+    "CVE-2016-9298",
+    "CVE-2016-9539",
+    "CVE-2016-9540",
+    "CVE-2017-0375",
+    "CVE-2017-0376",
+    "CVE-2017-1000414",
+    "CVE-2017-1000494",
+    "CVE-2017-11523",
+    "CVE-2017-11719",
+    "CVE-2017-12997",
+    "CVE-2017-13021",
+    "CVE-2017-13024",
+    "CVE-2017-13025",
+    "CVE-2017-13032",
+    "CVE-2017-13036",
+    "CVE-2017-13037",
+    "CVE-2017-13040",
+    "CVE-2017-13043",
+    "CVE-2017-14058",
+    "CVE-2017-14152",
+    "CVE-2017-14246",
+    "CVE-2017-5225",
+    "CVE-2017-5973",
+    "CVE-2017-6439",
+    "CVE-2017-7857",
+    "CVE-2017-7858",
+    "CVE-2017-7870",
+    "CVE-2017-7962",
+    "CVE-2017-8063",
+    "CVE-2017-8070",
+    "CVE-2017-8361",
+    "CVE-2018-1002209",
+    "CVE-2018-10768",
+    "CVE-2018-11506",
+    "CVE-2018-14395",
+    "CVE-2018-16541",
+    "CVE-2018-17205",
+    "CVE-2018-19058",
+    "CVE-2018-20650",
+    "CVE-2018-20783",
+    "CVE-2018-6767",
+    "CVE-2018-7584",
+    "CVE-2018-7751",
+    "CVE-2018-8043",
+    "CVE-2019-12614",
+    "CVE-2019-13298",
+    "CVE-2019-13308",
+    "CVE-2019-19317",
+    "CVE-2019-19646",
+    "CVE-2019-19880",
+    "CVE-2019-7396",
+    "CVE-2019-9022"
+  ],
+  "cases": [
+    {
+      "cve_id": "CVE-2008-2826",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 4,
+      "repeated_frontier_variables": {
+        "addr_num": 4
+      },
+      "gt_layers": 1,
+      "pred_layers": 2,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2008-3275",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 1,
+      "frontier_starts": 11,
+      "repeated_frontier_variables": {
+        "inode": 7,
+        "dir": 3
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2008-3911",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 5,
+      "repeated_frontier_variables": {
+        "len": 4
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "method_not_in_cpg",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2009-2767",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 6,
+      "repeated_frontier_variables": {
+        "nsleep": 4,
+        "which_clock": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "timeout_partial_success",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2010-0006",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 2,
+      "frontier_starts": 6,
+      "repeated_frontier_variables": {
+        "net": 6
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2010-3880",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 1,
+      "frontier_starts": 5,
+      "repeated_frontier_variables": {
+        "bc": 3,
+        "nlmsg_len": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 2,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "timeout_partial_success",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2010-4164",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 10,
+      "frontier_starts": 6,
+      "repeated_frontier_variables": {
+        "len": 5
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2010-4263",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 6,
+      "frontier_starts": 12,
+      "repeated_frontier_variables": {
+        "vlgrp": 8,
+        "q_vector": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2010-4342",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 4,
+      "repeated_frontier_variables": {
+        "edev": 3
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2010-4527",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 5,
+      "repeated_frontier_variables": {
+        "name": 2,
+        "present": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "method_not_in_cpg",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2011-1598",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 7,
+      "repeated_frontier_variables": {
+        "sk": 5,
+        "sock": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 2,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "timeout_partial_success",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2011-1748",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 9,
+      "repeated_frontier_variables": {
+        "sk": 4,
+        "sock->sk": 3,
+        "ro": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "method_not_in_cpg",
+        "timeout_partial_success",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2011-1771",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 1,
+      "frontier_starts": 5,
+      "repeated_frontier_variables": {
+        "private_data": 5
+      },
+      "gt_layers": 2,
+      "pred_layers": 2,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2011-2213",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 0,
+      "repeated_frontier_variables": {},
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "patch_function_only",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2011-3346",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 3,
+      "frontier_starts": 12,
+      "repeated_frontier_variables": {
+        "buflen": 4,
+        "iov_base": 4,
+        "xfer": 4
+      },
+      "gt_layers": 2,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "patch_function_only",
+        "too_shallow_cross_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2011-4031",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 1,
+      "frontier_starts": 6,
+      "repeated_frontier_variables": {
+        "asf": 2,
+        "buf": 2,
+        "cur_len": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2011-4621",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 8,
+      "repeated_frontier_variables": {
+        "skip_clock_update": 4,
+        "on_rq": 2,
+        "se": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "timeout_partial_success",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2012-0038",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 2,
+      "frontier_starts": 0,
+      "repeated_frontier_variables": {},
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2012-0044",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 1,
+      "frontier_starts": 8,
+      "repeated_frontier_variables": {
+        "num_clips": 7
+      },
+      "gt_layers": 1,
+      "pred_layers": 2,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2012-0855",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 7,
+      "repeated_frontier_variables": {
+        "curtileno": 4,
+        "numXtiles": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "method_not_in_cpg",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2012-0856",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 6,
+      "repeated_frontier_variables": {
+        "height": 3,
+        "width": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "method_not_in_cpg",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2012-0859",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 4,
+      "repeated_frontier_variables": {
+        "y0": 3
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "timeout_partial_success",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2012-1146",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 2,
+      "frontier_starts": 3,
+      "repeated_frontier_variables": {
+        "primary": 3
+      },
+      "gt_layers": 1,
+      "pred_layers": 2,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2012-2100",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 3,
+      "repeated_frontier_variables": {},
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2012-6616",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 4,
+      "repeated_frontier_variables": {
+        "end": 4
+      },
+      "gt_layers": 3,
+      "pred_layers": 2,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "timeout_partial_success",
+        "too_shallow_cross_function",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2013-0868",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 3,
+      "repeated_frontier_variables": {
+        "len1": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2013-0876",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 5,
+      "repeated_frontier_variables": {
+        "decoded_size": 4
+      },
+      "gt_layers": 2,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "patch_function_only",
+        "timeout_partial_success",
+        "too_shallow_cross_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2013-0877",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 1,
+      "frontier_starts": 5,
+      "repeated_frontier_variables": {
+        "decoded_size": 3
+      },
+      "gt_layers": 1,
+      "pred_layers": 5,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2013-0878",
+      "wrong_list_reason": "status=failed_cv_extraction",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 1,
+      "repeated_frontier_variables": {},
+      "gt_layers": 2,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "patch_function_only",
+        "timeout_partial_success",
+        "too_shallow_cross_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2013-3670",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 3,
+      "repeated_frontier_variables": {
+        "pd": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2013-3671",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 1,
+      "frontier_starts": 4,
+      "repeated_frontier_variables": {
+        "avc": 2,
+        "parent": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2013-4263",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 3,
+      "repeated_frontier_variables": {
+        "plane": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "method_not_in_cpg",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2013-4514",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 0,
+      "repeated_frontier_variables": {},
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "corrupt_clone",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2013-7009",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 3,
+      "repeated_frontier_variables": {
+        "pixel_ptr": 3
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "method_not_in_cpg",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2013-7010",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 2,
+      "frontier_starts": 7,
+      "repeated_frontier_variables": {
+        "dst": 6
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2013-7014",
+      "wrong_list_reason": "status=failed_cv_extraction",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 1,
+      "repeated_frontier_variables": {},
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2013-7024",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 2,
+      "repeated_frontier_variables": {
+        "cdy": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2013-7339",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 10,
+      "frontier_starts": 5,
+      "repeated_frontier_variables": {
+        "device": 4
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2014-0160",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 1,
+      "frontier_starts": 5,
+      "repeated_frontier_variables": {
+        "length": 2,
+        "payload": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 2,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "timeout_partial_success",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2014-0195",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 4,
+      "repeated_frontier_variables": {
+        "msg_len": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2014-3144",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 1,
+      "frontier_starts": 3,
+      "repeated_frontier_variables": {
+        "len": 3
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2014-3145",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 1,
+      "frontier_starts": 3,
+      "repeated_frontier_variables": {
+        "len": 3
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2014-3183",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 3,
+      "frontier_starts": 8,
+      "repeated_frontier_variables": {
+        "count": 8
+      },
+      "gt_layers": 1,
+      "pred_layers": 2,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2014-3512",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 3,
+      "frontier_starts": 2,
+      "repeated_frontier_variables": {
+        "cAB": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "patch_function_only"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2014-4608",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 2,
+      "frontier_starts": 5,
+      "repeated_frontier_variables": {
+        "op": 3
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2014-4656",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 3,
+      "repeated_frontier_variables": {
+        "count": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "timeout_partial_success",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2014-7826",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 4,
+      "repeated_frontier_variables": {
+        "syscall_nr": 4
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "patch_function_only",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2014-8176",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 1,
+      "frontier_starts": 9,
+      "repeated_frontier_variables": {
+        "data": 5,
+        "buf": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2014-8546",
+      "wrong_list_reason": "status=failed_cv_extraction",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 1,
+      "repeated_frontier_variables": {},
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2014-8884",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 11,
+      "frontier_starts": 9,
+      "repeated_frontier_variables": {
+        "msg_len": 4,
+        "msg": 3,
+        "cmd": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2014-9318",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 5,
+      "repeated_frontier_variables": {
+        "frame_size": 4
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2014-9319",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 6,
+      "repeated_frontier_variables": {
+        "num_long_term_ref_pics_sps": 4
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "method_not_in_cpg",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2014-9496",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 8,
+      "repeated_frontier_variables": {
+        "count": 3,
+        "num": 3,
+        "mask": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 6,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2014-9658",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 8,
+      "repeated_frontier_variables": {
+        "length": 6,
+        "p_next": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2014-9659",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 1,
+      "frontier_starts": 12,
+      "repeated_frontier_variables": {
+        "bitCount": 6,
+        "hintMask": 4,
+        "opStack": 2
+      },
+      "gt_layers": 3,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "timeout_partial_success",
+        "too_shallow_cross_function",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2014-9665",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 14,
+      "repeated_frontier_variables": {
+        "rows": 6,
+        "map": 4,
+        "width": 4
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "method_not_in_cpg",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2014-9672",
+      "wrong_list_reason": "empty_triggers",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 2,
+      "frontier_starts": 8,
+      "repeated_frontier_variables": {
+        "string_count": 8
+      },
+      "gt_layers": 1,
+      "pred_layers": 4,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2014-9683",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 3,
+      "repeated_frontier_variables": {
+        "dst": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2015-0289",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 13,
+      "repeated_frontier_variables": {
+        "btmp": 4,
+        "p7": 4,
+        "sign": 3,
+        "os": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2015-1790",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 7,
+      "repeated_frontier_variables": {
+        "data_body": 3,
+        "contents": 2,
+        "enc_data": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "method_not_in_cpg",
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2015-2304",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 1,
+      "frontier_starts": 16,
+      "repeated_frontier_variables": {
+        "extract_flags": 8,
+        "if": 4,
+        "name": 2,
+        "src": 2
+      },
+      "gt_layers": 4,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "too_shallow_cross_function",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2015-3456",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 2,
+      "frontier_starts": 14,
+      "repeated_frontier_variables": {
+        "data_pos": 6,
+        "fdctrl": 4,
+        "fifo": 4
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "patch_function_only"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2015-4002",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 3,
+      "repeated_frontier_variables": {},
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "timeout_partial_success",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2015-4003",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 2,
+      "repeated_frontier_variables": {},
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2015-6819",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 4,
+      "frontier_starts": 3,
+      "repeated_frontier_variables": {},
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2015-8317",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 9,
+      "frontier_starts": 6,
+      "repeated_frontier_variables": {
+        "encoding": 3,
+        "RAW": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2015-8363",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 4,
+      "frontier_starts": 10,
+      "repeated_frontier_variables": {
+        "ncomponents": 6,
+        "comp": 2,
+        "marker": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 2,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "timeout_partial_success",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2015-8900",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 5,
+      "repeated_frontier_variables": {
+        "height": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "method_not_in_cpg",
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2015-8957",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 13,
+      "repeated_frontier_variables": {
+        "maplength": 5,
+        "colors": 4,
+        "depth": 4
+      },
+      "gt_layers": 1,
+      "pred_layers": 2,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "method_not_in_cpg",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-10028",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 1,
+      "frontier_starts": 4,
+      "repeated_frontier_variables": {
+        "max_size": 4
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-10159",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 8,
+      "repeated_frontier_variables": {
+        "endbuffer": 3,
+        "buffer": 2,
+        "filename_len": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "method_not_in_cpg",
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-10169",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 3,
+      "frontier_starts": 11,
+      "repeated_frontier_variables": {
+        "bytecnt": 4,
+        "byte_length": 2,
+        "channel_reordering": 2,
+        "low": 2
+      },
+      "gt_layers": 2,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "timeout_partial_success",
+        "too_shallow_cross_function",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-10191",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 3,
+      "frontier_starts": 7,
+      "repeated_frontier_variables": {
+        "size": 4,
+        "hdr": 2
+      },
+      "gt_layers": 3,
+      "pred_layers": 6,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "patch_function_only",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-10269",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 4,
+      "repeated_frontier_variables": {
+        "td_bitspersample": 2,
+        "td_samplesperpixel": 2
+      },
+      "gt_layers": 3,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "patch_function_only",
+        "too_shallow_cross_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-10504",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 2,
+      "frontier_starts": 10,
+      "repeated_frontier_variables": {
+        "l_data_size": 4,
+        "data_size": 3,
+        "p_code_block->data_size": 2
+      },
+      "gt_layers": 3,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "right_function_wrong_line",
+        "too_shallow_cross_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-1834",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 1,
+      "frontier_starts": 13,
+      "repeated_frontier_variables": {
+        "len": 7,
+        "size": 4
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "patch_function_only",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-1836",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 1,
+      "frontier_starts": 6,
+      "repeated_frontier_variables": {
+        "end": 4,
+        "processor": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "timeout_partial_success",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-1840",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "partial_success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 1,
+      "frontier_starts": 11,
+      "repeated_frontier_variables": {
+        "cur": 7,
+        "len": 4
+      },
+      "gt_layers": 1,
+      "pred_layers": 8,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-2070",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 10,
+      "frontier_starts": 5,
+      "repeated_frontier_variables": {
+        "prior_cwnd": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 9,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-2105",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 15,
+      "frontier_starts": 9,
+      "repeated_frontier_variables": {
+        "inl": 4,
+        "num": 4
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-2108",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 24,
+      "frontier_starts": 16,
+      "repeated_frontier_variables": {
+        "bn": 6,
+        "a->type": 2,
+        "ai": 2,
+        "length": 2,
+        "neg": 2,
+        "type": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-2176",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 13,
+      "frontier_starts": 14,
+      "repeated_frontier_variables": {
+        "num": 7,
+        "length": 5,
+        "ebcdic_buf": 2
+      },
+      "gt_layers": 2,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "patch_function_only",
+        "too_shallow_cross_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-2177",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 4,
+      "repeated_frontier_variables": {
+        "session_id": 2,
+        "session_length": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "timeout_partial_success",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-2180",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 4,
+      "repeated_frontier_variables": {
+        "len": 2,
+        "obj_txt": 2
+      },
+      "gt_layers": 2,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "patch_function_only",
+        "too_shallow_cross_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-2181",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 1,
+      "frontier_starts": 9,
+      "repeated_frontier_variables": {
+        "epoch": 4,
+        "seq_num": 4
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-2857",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 2,
+      "frontier_starts": 3,
+      "repeated_frontier_variables": {
+        "length": 3
+      },
+      "gt_layers": 1,
+      "pred_layers": 5,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-5352",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 1,
+      "frontier_starts": 4,
+      "repeated_frontier_variables": {
+        "eapol_len": 4
+      },
+      "gt_layers": 1,
+      "pred_layers": 5,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-5689",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 2,
+      "frontier_starts": 6,
+      "repeated_frontier_variables": {
+        "data": 2,
+        "pixel": 2,
+        "red": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-6303",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 3,
+      "repeated_frontier_variables": {
+        "len": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "method_not_in_cpg",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-6304",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 3,
+      "frontier_starts": 2,
+      "repeated_frontier_variables": {},
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-6490",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 1,
+      "frontier_starts": 4,
+      "repeated_frontier_variables": {
+        "len": 2,
+        "sz": 2
+      },
+      "gt_layers": 5,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "patch_function_only",
+        "too_shallow_cross_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-6491",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 2,
+      "frontier_starts": 3,
+      "repeated_frontier_variables": {
+        "count": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-6888",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 4,
+      "frontier_starts": 8,
+      "repeated_frontier_variables": {
+        "max_frags": 5
+      },
+      "gt_layers": 1,
+      "pred_layers": 3,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-6911",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 0,
+      "repeated_frontier_variables": {},
+      "gt_layers": null,
+      "pred_layers": null,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-7116",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 15,
+      "repeated_frontier_variables": {
+        "root_qid": 8,
+        "qid": 4,
+        "wnames": 3
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-7126",
+      "wrong_list_reason": "empty_triggers",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 15,
+      "repeated_frontier_variables": {
+        "ncolors": 8,
+        "extended": 4,
+        "im": 2
+      },
+      "gt_layers": 4,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "too_shallow_cross_function",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-7127",
+      "wrong_list_reason": "empty_triggers",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 16,
+      "repeated_frontier_variables": {
+        "output": 8,
+        "input": 6
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-7514",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 1,
+      "frontier_starts": 12,
+      "repeated_frontier_variables": {
+        "colormap": 4,
+        "depth": 4,
+        "type": 4
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "timeout_partial_success",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-7799",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 2,
+      "frontier_starts": 7,
+      "repeated_frontier_variables": {
+        "format": 3,
+        "Image": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 9,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-7908",
+      "wrong_list_reason": "empty_triggers",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 2,
+      "repeated_frontier_variables": {
+        "length": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "method_not_in_cpg"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-7913",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 1,
+      "repeated_frontier_variables": {},
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-8646",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 1,
+      "frontier_starts": 4,
+      "repeated_frontier_variables": {
+        "more": 2
+      },
+      "gt_layers": 3,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "patch_function_only",
+        "timeout_partial_success",
+        "too_shallow_cross_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-8669",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 1,
+      "frontier_starts": 3,
+      "repeated_frontier_variables": {
+        "divider": 3
+      },
+      "gt_layers": 1,
+      "pred_layers": 2,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-8674",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 1,
+      "frontier_starts": 4,
+      "repeated_frontier_variables": {
+        "orphans": 4
+      },
+      "gt_layers": 3,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "too_shallow_cross_function",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-8691",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 1,
+      "frontier_starts": 10,
+      "repeated_frontier_variables": {
+        "hsamp": 4,
+        "vsamp": 4
+      },
+      "gt_layers": 7,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "patch_function_only",
+        "timeout_partial_success",
+        "too_shallow_cross_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-8692",
+      "wrong_list_reason": "empty_triggers",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 12,
+      "repeated_frontier_variables": {
+        "vsamp": 6,
+        "hsamp": 4
+      },
+      "gt_layers": 7,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "patch_function_only",
+        "too_shallow_cross_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-9298",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 10,
+      "repeated_frontier_variables": {
+        "columns": 4,
+        "kernel": 3,
+        "rows": 3
+      },
+      "gt_layers": 3,
+      "pred_layers": 6,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-9539",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 10,
+      "repeated_frontier_variables": {
+        "tilebuf": 6,
+        "tile_buffsize": 4
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2016-9540",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 14,
+      "repeated_frontier_variables": {
+        "colb": 6,
+        "imagew": 5,
+        "imagewidth": 2
+      },
+      "gt_layers": 2,
+      "pred_layers": 4,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "method_not_in_cpg"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-0375",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 7,
+      "repeated_frontier_variables": {
+        "purpose": 3,
+        "cpath": 2
+      },
+      "gt_layers": 4,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "patch_function_only",
+        "timeout_partial_success",
+        "too_shallow_cross_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-0376",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 1,
+      "frontier_starts": 13,
+      "repeated_frontier_variables": {
+        "purpose": 7,
+        "command": 4
+      },
+      "gt_layers": 3,
+      "pred_layers": 2,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "timeout_partial_success",
+        "too_shallow_cross_function",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-1000414",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 13,
+      "repeated_frontier_variables": {
+        "anSofSampFact": 5,
+        "m_anSofHorzSampFact_Hi": 4,
+        "m_anSofVertSampFact_Vi": 4
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-1000494",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 7,
+      "repeated_frontier_variables": {
+        "topelt": 6
+      },
+      "gt_layers": 3,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "patch_function_only",
+        "too_shallow_cross_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-11523",
+      "wrong_list_reason": "empty_triggers",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 10,
+      "repeated_frontier_variables": {
+        "image": 6,
+        "text": 3
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-11719",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 5,
+      "repeated_frontier_variables": {
+        "mb_height": 4
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "method_not_in_cpg",
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-12997",
+      "wrong_list_reason": "empty_triggers",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 1,
+      "frontier_starts": 6,
+      "repeated_frontier_variables": {
+        "sublen": 5
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-13021",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 5,
+      "repeated_frontier_variables": {
+        "dp": 2,
+        "icmp6_data16": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-13024",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 1,
+      "frontier_starts": 3,
+      "repeated_frontier_variables": {
+        "bp": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-13025",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 1,
+      "frontier_starts": 6,
+      "repeated_frontier_variables": {
+        "bp": 6
+      },
+      "gt_layers": 2,
+      "pred_layers": 9,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "patch_function_only"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-13032",
+      "wrong_list_reason": "empty_triggers",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 14,
+      "repeated_frontier_variables": {
+        "length": 8,
+        "data": 6
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-13036",
+      "wrong_list_reason": "empty_triggers",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 4,
+      "frontier_starts": 4,
+      "repeated_frontier_variables": {
+        "hello_options": 4
+      },
+      "gt_layers": 1,
+      "pred_layers": 9,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-13037",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 9,
+      "repeated_frontier_variables": {
+        "cp": 6,
+        "len": 2
+      },
+      "gt_layers": 2,
+      "pred_layers": 8,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "timeout_partial_success",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-13040",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 8,
+      "repeated_frontier_variables": {
+        "opt_len": 5,
+        "csum": 2
+      },
+      "gt_layers": 2,
+      "pred_layers": 2,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "patch_function_only"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-13043",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 2,
+      "frontier_starts": 3,
+      "repeated_frontier_variables": {
+        "pptr": 3
+      },
+      "gt_layers": 2,
+      "pred_layers": 9,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "patch_function_only"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-14058",
+      "wrong_list_reason": "empty_triggers",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 4,
+      "repeated_frontier_variables": {
+        "max_reload": 2,
+        "n_segments": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-14152",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 5,
+      "frontier_starts": 10,
+      "repeated_frontier_variables": {
+        "numresolution": 5,
+        "numresolutions": 2,
+        "res_spec": 2
+      },
+      "gt_layers": 3,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "patch_function_only",
+        "too_shallow_cross_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-14246",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 1,
+      "frontier_starts": 12,
+      "repeated_frontier_variables": {
+        "buffer": 6,
+        "count": 4,
+        "alaw_encode": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-5225",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 18,
+      "repeated_frontier_variables": {
+        "bitspersample": 8,
+        "bps": 6,
+        "in": 2,
+        "scanlinesizein": 2
+      },
+      "gt_layers": 2,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "patch_function_only",
+        "too_shallow_cross_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-5973",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 2,
+      "frontier_starts": 8,
+      "repeated_frontier_variables": {
+        "link_cnt": 6,
+        "count": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 3,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "patch_function_only",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-6439",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 2,
+      "frontier_starts": 3,
+      "repeated_frontier_variables": {
+        "size": 3
+      },
+      "gt_layers": 2,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "patch_function_only",
+        "too_shallow_cross_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-7857",
+      "wrong_list_reason": "empty_triggers",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 8,
+      "repeated_frontier_variables": {
+        "num_instances": 8
+      },
+      "gt_layers": 3,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "too_shallow_cross_function",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-7858",
+      "wrong_list_reason": "empty_triggers",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 1,
+      "frontier_starts": 11,
+      "repeated_frontier_variables": {
+        "instance_index": 4,
+        "num_instances": 4,
+        "face_instance_index": 2
+      },
+      "gt_layers": 3,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "too_shallow_cross_function",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-7870",
+      "wrong_list_reason": "empty_triggers",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 16,
+      "repeated_frontier_variables": {
+        "mnPoints": 8,
+        "mpPointAry": 2,
+        "nNewSize": 2,
+        "nPos": 2,
+        "nSpace": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "timeout_partial_success",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-7962",
+      "wrong_list_reason": "empty_triggers",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 16,
+      "repeated_frontier_variables": {
+        "image_width": 8,
+        "image_height": 6
+      },
+      "gt_layers": 4,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "patch_function_only",
+        "timeout_partial_success",
+        "too_shallow_cross_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-8063",
+      "wrong_list_reason": "empty_triggers",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 1,
+      "frontier_starts": 3,
+      "repeated_frontier_variables": {},
+      "gt_layers": 2,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "patch_function_only",
+        "timeout_partial_success",
+        "too_shallow_cross_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-8070",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 3,
+      "repeated_frontier_variables": {},
+      "gt_layers": 2,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "patch_function_only",
+        "timeout_partial_success",
+        "too_shallow_cross_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2017-8361",
+      "wrong_list_reason": "empty_triggers",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 1,
+      "frontier_starts": 7,
+      "repeated_frontier_variables": {
+        "channels": 2,
+        "metadata": 2,
+        "stream_info": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2018-1002209",
+      "wrong_list_reason": "empty_triggers",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 3,
+      "frontier_starts": 7,
+      "repeated_frontier_variables": {
+        "name": 3,
+        "absFilePath": 2,
+        "zip": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "timeout_partial_success",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2018-10768",
+      "wrong_list_reason": "empty_triggers",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 9,
+      "repeated_frontier_variables": {
+        "path": 4,
+        "inkList": 3,
+        "inkListLength": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "method_not_in_cpg",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2018-11506",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 1,
+      "frontier_starts": 2,
+      "repeated_frontier_variables": {
+        "sense": 2
+      },
+      "gt_layers": 2,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "patch_function_only",
+        "timeout_partial_success",
+        "too_shallow_cross_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2018-14395",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 10,
+      "repeated_frontier_variables": {
+        "channels": 6,
+        "par": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 9,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "method_not_in_cpg",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2018-16541",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 1,
+      "frontier_starts": 5,
+      "repeated_frontier_variables": {
+        "device": 2,
+        "pgs": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2018-17205",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 9,
+      "repeated_frontier_variables": {
+        "state": 7,
+        "rule": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "method_not_in_cpg"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2018-19058",
+      "wrong_list_reason": "empty_triggers",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 2,
+      "repeated_frontier_variables": {
+        "m_objStr": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2018-20650",
+      "wrong_list_reason": "empty_triggers",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 16,
+      "repeated_frontier_variables": {
+        "fileSpec": 8,
+        "fileSpecA": 6,
+        "obj1": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "method_not_in_cpg",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2018-20783",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 1,
+      "frontier_starts": 5,
+      "repeated_frontier_variables": {
+        "buffer": 2,
+        "endbuffer": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "wrong_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2018-6767",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "list",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 7,
+      "repeated_frontier_variables": {
+        "ckSize": 3,
+        "FILE": 2,
+        "infile": 2
+      },
+      "gt_layers": null,
+      "pred_layers": null,
+      "function_match": false,
+      "any_function_match": false,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "method_not_in_cpg",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2018-7584",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 2,
+      "frontier_starts": 8,
+      "repeated_frontier_variables": {
+        "tmp_line": 4,
+        "tmp_line_len": 4
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2018-7751",
+      "wrong_list_reason": "empty_triggers",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 1,
+      "frontier_starts": 1,
+      "repeated_frontier_variables": {},
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2018-8043",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 4,
+      "repeated_frontier_variables": {
+        "start": 4
+      },
+      "gt_layers": 1,
+      "pred_layers": 2,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": true,
+      "within_5_lines": true,
+      "buckets": [
+        "method_not_in_cpg",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2019-12614",
+      "wrong_list_reason": "empty_triggers",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 3,
+      "repeated_frontier_variables": {
+        "name": 2
+      },
+      "gt_layers": 2,
+      "pred_layers": 2,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2019-13298",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 2,
+      "frontier_starts": 10,
+      "repeated_frontier_variables": {
+        "enhance_image": 5,
+        "image": 3,
+        "channel_map": 2
+      },
+      "gt_layers": 2,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "right_function_wrong_line",
+        "timeout_partial_success",
+        "too_shallow_cross_function"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2019-13308",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 1,
+      "frontier_starts": 5,
+      "repeated_frontier_variables": {
+        "columns": 2,
+        "rows": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2019-19317",
+      "wrong_list_reason": "empty_triggers",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 0,
+      "frontier_starts": 9,
+      "repeated_frontier_variables": {
+        "colUsed": 4,
+        "pTab": 4
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2019-19646",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": true,
+      "validation_errors": 0,
+      "frontier_starts": 7,
+      "repeated_frontier_variables": {
+        "colFlags": 2,
+        "notNull": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "right_function_wrong_line",
+        "timeout_partial_success"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2019-19880",
+      "wrong_list_reason": "status=failed",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 4,
+      "frontier_starts": 9,
+      "repeated_frontier_variables": {
+        "op": 4,
+        "zToken": 3
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": true,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2019-7396",
+      "wrong_list_reason": "no_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 1,
+      "frontier_starts": 4,
+      "repeated_frontier_variables": {
+        "sixel_pixels": 3
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    },
+    {
+      "cve_id": "CVE-2019-9022",
+      "wrong_list_reason": "corrupt_result_json",
+      "result_status": "success",
+      "trigger_shape": "dict",
+      "has_triggers": true,
+      "timeout_like": false,
+      "validation_errors": 11,
+      "frontier_starts": 12,
+      "repeated_frontier_variables": {
+        "dlen": 8,
+        "size_t": 2,
+        "type_to_fetch": 2
+      },
+      "gt_layers": 1,
+      "pred_layers": 1,
+      "function_match": true,
+      "any_function_match": true,
+      "line_match": false,
+      "within_5_lines": false,
+      "buckets": [
+        "llm_output_invalid",
+        "method_not_in_cpg",
+        "right_function_wrong_line"
+      ],
+      "retryable": false,
+      "retry_class": "manual_review"
+    }
+  ]
+}

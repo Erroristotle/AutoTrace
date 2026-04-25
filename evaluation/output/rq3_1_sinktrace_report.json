@@ -1,0 +1,20 @@
+{
+  "rq": "RQ3_1",
+  "shared_subset_size": 1252,
+  "models": {
+    "AutoTrace": {
+      "model": "AutoTrace",
+      "total": 1252,
+      "skipped_empty": 0,
+      "func_hit": 1143,
+      "func_hit_pct": 91.29392971246007,
+      "exact_line": 786,
+      "exact_line_pct": 62.77955271565495,
+      "exact_stmt": 794,
+      "exact_stmt_pct": 63.418530351437695,
+      "cross_func_total": 247,
+      "cross_func_correct": 158,
+      "cross_func_pct": 63.96761133603239
+    }
+  }
+}

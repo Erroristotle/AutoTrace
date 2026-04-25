@@ -1,0 +1,130 @@
+CWE-119 - Buffer Errors (Improper Restriction of Operations within the Bounds of a Memory Buffer)
+CWE-120 - Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')
+CWE-125 - Out-of-bounds Read
+CWE-189 - Numeric Errors (deprecated, now mapped to CWE-682)
+CWE-190 - Integer Overflow or Wraparound
+CWE-191 - Integer Underflow
+CWE-22 - Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')
+CWE-369 - Divide By Zero
+CWE-401 - Missing Release of Memory after Effective Lifetime
+CWE-415 - Double Free
+CWE-416 - Use After Free
+CWE-476 - NULL Pointer Dereference
+CWE-617 - Reachable Assertion
+CWE-772 - Missing Release of Resource after Effective Lifetime
+CWE-787 - Out-of-bounds Write
+CWE-835 - Loop with Unreachable Exit Condition ('Infinite Loop')
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+# Joern Vulnerability Sink Groups
+
+## 1. The Core "Memory Corruption" Group (The Big 6)
+
+**Joern Query Focus:**  
+Data flow from untrusted source to these memory operations.
+
+### CWE-120
+- **Vulnerability:** Classic Buffer Overflow  
+- **Sink (Joern Trigger):** strcpy, strcat, gets, sprintf  
+- **Why Joern is good:** Joern can easily find calls to these specific dangerous functions.
+
+### CWE-119
+- **Vulnerability:** Memory Bounds Error  
+- **Sink (Joern Trigger):** memcpy, memmove, memset  
+- **Why Joern is good:** Generic bounds errors; track whether the size parameter matches the buffer size.
+
+### CWE-787
+- **Vulnerability:** Out-of-bounds Write  
+- **Sink (Joern Trigger):** buf[i] = ... (array assignment)  
+- **Why Joern is good:** The sink is the assignment operation; check if `i` can exceed `len(buf)`.
+
+### CWE-125
+- **Vulnerability:** Out-of-bounds Read  
+- **Sink (Joern Trigger):** val = buf[i] (array access)  
+- **Why Joern is good:** The sink is the read operation.
+
+### CWE-476
+- **Vulnerability:** NULL Pointer Dereference  
+- **Sink (Joern Trigger):** `*ptr`, `ptr->member`  
+- **Why Joern is good:** The sink is the dereference; Joern checks if `ptr` can be NULL using dominator analysis.
+
+### CWE-416
+- **Vulnerability:** Use After Free (UAF)  
+- **Sink (Joern Trigger):** `*ptr` (dereference)  
+- **Why Joern is good:** The sink is using `ptr` after a call to `free(ptr)`.
+
+---
+
+## 2. The "Integer & Calculation" Group
+
+**Joern Query Focus:**  
+Data flow from source → math → memory allocation or loop.
+
+**Note:** These are usually root causes, but for sink detection we look at where the bad math is used.
+
+### CWE-190
+- **Vulnerability:** Integer Overflow  
+- **Sink (Joern Trigger):** malloc(size), calloc(n, size)
+
+### CWE-191
+- **Vulnerability:** Integer Underflow  
+- **Sink (Joern Trigger):** malloc(size), loop conditions
+
+### CWE-680
+- **Vulnerability:** Integer Overflow to Buffer Overflow  
+- **Sink (Joern Trigger):** malloc(n * size)
+
+### CWE-131
+- **Vulnerability:** Incorrect Buffer Size Calculation  
+- **Sink (Joern Trigger):** malloc(sizeof(ptr))
+
+### CWE-369
+- **Vulnerability:** Divide By Zero  
+- **Sink (Joern Trigger):** `/` or `%` operator
+
+---
+
+## 3. The "System Interaction" Group
+
+These are C-level injection or resource-handling bugs. Very common in system tools (e.g., ffmpeg, augeas).
+
+### CWE-78
+- **Vulnerability:** OS Command Injection  
+- **Sink (Joern Trigger):** system(), popen(), exec*()
+
+### CWE-134
+- **Vulnerability:** Format String Vulnerability  
+- **Sink (Joern Trigger):** printf, sprintf, syslog
+
+### CWE-22
+- **Vulnerability:** Path Traversal  
+- **Sink (Joern Trigger):** fopen, open, remove, rename
+
+### CWE-367
+- **Vulnerability:** TOCTOU (Race Condition)  
+- **Sink (Joern Trigger):** open() after access()
+
+### CWE-415
+- **Vulnerability:** Double Free  
+- **Sink (Joern Trigger):** free(ptr)
+
+### CWE-772
+- **Vulnerability:** Memory / Resource Leak  
+- **Sink (Joern Trigger):** return statement or end of scope
+
+---
+
+## 4. The "Dangerous Functions" Group (C-Specific)
+
+Joern is excellent at flagging these banned or discouraged API usages.
+
+### CWE-242
+- **Vulnerability:** Use of Inherently Dangerous Function  
+- **Sink (Joern Trigger):** gets(), mktemp()
+
+### CWE-467
+- **Vulnerability:** Use of sizeof() on a Pointer Type  
+- **Sink (Joern Trigger):** sizeof() operator
+
+### CWE-676
+- **Vulnerability:** Use of Potentially Dangerous Functions  
+- **Sink (Joern Trigger):** strcpy, strcat

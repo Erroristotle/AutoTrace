@@ -1,0 +1,47 @@
+{
+  "Gemini-3-Flash": {
+    "n": 2481,
+    "covered": 2481,
+    "errors": 0,
+    "acc": 98.7,
+    "prec": 98.7,
+    "rec": 98.7,
+    "f1": 98.7
+  },
+  "GLM-4.7-Flash": {
+    "n": 2480,
+    "covered": 2480,
+    "errors": 1,
+    "acc": 79.7,
+    "prec": 79.7,
+    "rec": 79.7,
+    "f1": 79.7
+  },
+  "Qwen3-Coder-Next": {
+    "n": 2091,
+    "covered": 2091,
+    "errors": 173,
+    "acc": 85.1,
+    "prec": 85.2,
+    "rec": 85.2,
+    "f1": 85.1
+  },
+  "Qwen3.5-9B": {
+    "n": 1625,
+    "covered": 1625,
+    "errors": 856,
+    "acc": 67.6,
+    "prec": 67.6,
+    "rec": 67.6,
+    "f1": 67.6
+  },
+  "DeepSeek-R1-8B": {
+    "n": 1532,
+    "covered": 1532,
+    "errors": 949,
+    "acc": 57.9,
+    "prec": 57.9,
+    "rec": 57.8,
+    "f1": 57.7
+  }
+}

@@ -1,0 +1,2018 @@
+[
+  {
+    "id": "CVE-2013-6381_req_len_t0_vulnerable",
+    "cve_id": "CVE-2013-6381",
+    "variable": "req_len",
+    "file": "CVE-2013-6381_req_len_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2013-6381_req_len_t1_vulnerable",
+    "cve_id": "CVE-2013-6381",
+    "variable": "req_len",
+    "file": "CVE-2013-6381_req_len_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2013-6381_req_len_t2_vulnerable",
+    "cve_id": "CVE-2013-6381",
+    "variable": "req_len",
+    "file": "CVE-2013-6381_req_len_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2013-6381_req_len_t3_vulnerable",
+    "cve_id": "CVE-2013-6381",
+    "variable": "req_len",
+    "file": "CVE-2013-6381_req_len_t3_vulnerable.json"
+  },
+  {
+    "id": "CVE-2013-6381_req_len_t4_vulnerable",
+    "cve_id": "CVE-2013-6381",
+    "variable": "req_len",
+    "file": "CVE-2013-6381_req_len_t4_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-4565_ca_vulnerable",
+    "cve_id": "CVE-2012-4565",
+    "variable": "ca",
+    "file": "CVE-2012-4565_ca_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13012_ip_vulnerable",
+    "cve_id": "CVE-2017-13012",
+    "variable": "ip",
+    "file": "CVE-2017-13012_ip_vulnerable.json"
+  },
+  {
+    "id": "CVE-2009-4307_groups_per_flex_t0_vulnerable",
+    "cve_id": "CVE-2009-4307",
+    "variable": "groups_per_flex",
+    "file": "CVE-2009-4307_groups_per_flex_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2009-4307_groups_per_flex_t1_vulnerable",
+    "cve_id": "CVE-2009-4307",
+    "variable": "groups_per_flex",
+    "file": "CVE-2009-4307_groups_per_flex_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2009-4307_groups_per_flex_t2_vulnerable",
+    "cve_id": "CVE-2009-4307",
+    "variable": "groups_per_flex",
+    "file": "CVE-2009-4307_groups_per_flex_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2009-4307_groups_per_flex_t3_vulnerable",
+    "cve_id": "CVE-2009-4307",
+    "variable": "groups_per_flex",
+    "file": "CVE-2009-4307_groups_per_flex_t3_vulnerable.json"
+  },
+  {
+    "id": "CVE-2009-4307_sbi_t0_vulnerable",
+    "cve_id": "CVE-2009-4307",
+    "variable": "sbi",
+    "file": "CVE-2009-4307_sbi_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2009-4307_sbi_t1_vulnerable",
+    "cve_id": "CVE-2009-4307",
+    "variable": "sbi",
+    "file": "CVE-2009-4307_sbi_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2009-4307_sbi_t2_vulnerable",
+    "cve_id": "CVE-2009-4307",
+    "variable": "sbi",
+    "file": "CVE-2009-4307_sbi_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2009-4307_sbi_t3_vulnerable",
+    "cve_id": "CVE-2009-4307",
+    "variable": "sbi",
+    "file": "CVE-2009-4307_sbi_t3_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-5579_modem_status_poll_vulnerable",
+    "cve_id": "CVE-2017-5579",
+    "variable": "modem_status_poll",
+    "file": "CVE-2017-5579_modem_status_poll_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-5579_fifo_timeout_timer_vulnerable",
+    "cve_id": "CVE-2017-5579",
+    "variable": "fifo_timeout_timer",
+    "file": "CVE-2017-5579_fifo_timeout_timer_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-5579_recv_fifo_vulnerable",
+    "cve_id": "CVE-2017-5579",
+    "variable": "recv_fifo",
+    "file": "CVE-2017-5579_recv_fifo_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-5579_xmit_fifo_vulnerable",
+    "cve_id": "CVE-2017-5579",
+    "variable": "xmit_fifo",
+    "file": "CVE-2017-5579_xmit_fifo_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-7396_sixel_pixels_t0_vulnerable",
+    "cve_id": "CVE-2019-7396",
+    "variable": "sixel_pixels",
+    "file": "CVE-2019-7396_sixel_pixels_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-7396_sixel_pixels_t1_vulnerable",
+    "cve_id": "CVE-2019-7396",
+    "variable": "sixel_pixels",
+    "file": "CVE-2019-7396_sixel_pixels_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-7396_sixel_pixels_t2_vulnerable",
+    "cve_id": "CVE-2019-7396",
+    "variable": "sixel_pixels",
+    "file": "CVE-2019-7396_sixel_pixels_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2015-8745_addr_vulnerable",
+    "cve_id": "CVE-2015-8745",
+    "variable": "addr",
+    "file": "CVE-2015-8745_addr_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-2384_args_t0_vulnerable",
+    "cve_id": "CVE-2012-2384",
+    "variable": "args",
+    "file": "CVE-2012-2384_args_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-2384_args_t1_vulnerable",
+    "cve_id": "CVE-2012-2384",
+    "variable": "args",
+    "file": "CVE-2012-2384_args_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-2384_cliprects_t0_vulnerable",
+    "cve_id": "CVE-2012-2384",
+    "variable": "cliprects",
+    "file": "CVE-2012-2384_cliprects_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-2384_cliprects_t1_vulnerable",
+    "cve_id": "CVE-2012-2384",
+    "variable": "cliprects",
+    "file": "CVE-2012-2384_cliprects_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-9102_xattr_fidp_t0_vulnerable",
+    "cve_id": "CVE-2016-9102",
+    "variable": "xattr_fidp",
+    "file": "CVE-2016-9102_xattr_fidp_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-9102_xattr_fidp_t1_vulnerable",
+    "cve_id": "CVE-2016-9102",
+    "variable": "xattr_fidp",
+    "file": "CVE-2016-9102_xattr_fidp_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-9102_value_t0_vulnerable",
+    "cve_id": "CVE-2016-9102",
+    "variable": "value",
+    "file": "CVE-2016-9102_value_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-9102_value_t1_vulnerable",
+    "cve_id": "CVE-2016-9102",
+    "variable": "value",
+    "file": "CVE-2016-9102_value_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-5689_pixel_vulnerable",
+    "cve_id": "CVE-2016-5689",
+    "variable": "pixel",
+    "file": "CVE-2016-5689_pixel_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-5689_data_t0_vulnerable",
+    "cve_id": "CVE-2016-5689",
+    "variable": "data",
+    "file": "CVE-2016-5689_data_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-5689_data_t1_vulnerable",
+    "cve_id": "CVE-2016-5689",
+    "variable": "data",
+    "file": "CVE-2016-5689_data_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-5689_red_vulnerable",
+    "cve_id": "CVE-2016-5689",
+    "variable": "red",
+    "file": "CVE-2016-5689_red_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-13406_entries_t0_vulnerable",
+    "cve_id": "CVE-2018-13406",
+    "variable": "entries",
+    "file": "CVE-2018-13406_entries_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-13406_entries_t1_vulnerable",
+    "cve_id": "CVE-2018-13406",
+    "variable": "entries",
+    "file": "CVE-2018-13406_entries_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-13406_cmap_t0_vulnerable",
+    "cve_id": "CVE-2018-13406",
+    "variable": "cmap",
+    "file": "CVE-2018-13406_cmap_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-13406_cmap_t1_vulnerable",
+    "cve_id": "CVE-2018-13406",
+    "variable": "cmap",
+    "file": "CVE-2018-13406_cmap_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-13406_cmap_t2_vulnerable",
+    "cve_id": "CVE-2018-13406",
+    "variable": "cmap",
+    "file": "CVE-2018-13406_cmap_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-13406_len_t0_vulnerable",
+    "cve_id": "CVE-2018-13406",
+    "variable": "len",
+    "file": "CVE-2018-13406_len_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-13406_len_t1_vulnerable",
+    "cve_id": "CVE-2018-13406",
+    "variable": "len",
+    "file": "CVE-2018-13406_len_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-13406_len_t2_vulnerable",
+    "cve_id": "CVE-2018-13406",
+    "variable": "len",
+    "file": "CVE-2018-13406_len_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-5578_iov_vulnerable",
+    "cve_id": "CVE-2017-5578",
+    "variable": "iov",
+    "file": "CVE-2017-5578_iov_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-5931_max_len_t0_vulnerable",
+    "cve_id": "CVE-2017-5931",
+    "variable": "max_len",
+    "file": "CVE-2017-5931_max_len_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-5931_max_len_t1_vulnerable",
+    "cve_id": "CVE-2017-5931",
+    "variable": "max_len",
+    "file": "CVE-2017-5931_max_len_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-5931_max_len_t2_vulnerable",
+    "cve_id": "CVE-2017-5931",
+    "variable": "max_len",
+    "file": "CVE-2017-5931_max_len_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-5931_curr_size_vulnerable",
+    "cve_id": "CVE-2017-5931",
+    "variable": "curr_size",
+    "file": "CVE-2017-5931_curr_size_vulnerable.json"
+  },
+  {
+    "id": "CVE-2009-2406_body_size_vulnerable",
+    "cve_id": "CVE-2009-2406",
+    "variable": "body_size",
+    "file": "CVE-2009-2406_body_size_vulnerable.json"
+  },
+  {
+    "id": "CVE-2009-2406_contents_vulnerable",
+    "cve_id": "CVE-2009-2406",
+    "variable": "contents",
+    "file": "CVE-2009-2406_contents_vulnerable.json"
+  },
+  {
+    "id": "CVE-2009-2406_packet_size_vulnerable",
+    "cve_id": "CVE-2009-2406",
+    "variable": "packet_size",
+    "file": "CVE-2009-2406_packet_size_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-8064_d_vulnerable",
+    "cve_id": "CVE-2017-8064",
+    "variable": "d",
+    "file": "CVE-2017-8064_d_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-8064_name_vulnerable",
+    "cve_id": "CVE-2017-8064",
+    "variable": "name",
+    "file": "CVE-2017-8064_name_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-11377_len_vulnerable",
+    "cve_id": "CVE-2018-11377",
+    "variable": "len",
+    "file": "CVE-2018-11377_len_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13004_l2info_t0_vulnerable",
+    "cve_id": "CVE-2017-13004",
+    "variable": "l2info",
+    "file": "CVE-2017-13004_l2info_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13004_l2info_t1_vulnerable",
+    "cve_id": "CVE-2017-13004",
+    "variable": "l2info",
+    "file": "CVE-2017-13004_l2info_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13004_l2info_t2_vulnerable",
+    "cve_id": "CVE-2017-13004",
+    "variable": "l2info",
+    "file": "CVE-2017-13004_l2info_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13004_l2info_t3_vulnerable",
+    "cve_id": "CVE-2017-13004",
+    "variable": "l2info",
+    "file": "CVE-2017-13004_l2info_t3_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-7175_pcd_table_t0_vulnerable",
+    "cve_id": "CVE-2019-7175",
+    "variable": "pcd_table",
+    "file": "CVE-2019-7175_pcd_table_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-7175_pcd_table_t1_vulnerable",
+    "cve_id": "CVE-2019-7175",
+    "variable": "pcd_table",
+    "file": "CVE-2019-7175_pcd_table_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-7175_pcd_table_t2_vulnerable",
+    "cve_id": "CVE-2019-7175",
+    "variable": "pcd_table",
+    "file": "CVE-2019-7175_pcd_table_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-7175_length_t0_vulnerable",
+    "cve_id": "CVE-2019-7175",
+    "variable": "length",
+    "file": "CVE-2019-7175_length_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-7175_length_t1_vulnerable",
+    "cve_id": "CVE-2019-7175",
+    "variable": "length",
+    "file": "CVE-2019-7175_length_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-7175_length_t2_vulnerable",
+    "cve_id": "CVE-2019-7175",
+    "variable": "length",
+    "file": "CVE-2019-7175_length_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13010_str2_vulnerable",
+    "cve_id": "CVE-2017-13010",
+    "variable": "str2",
+    "file": "CVE-2017-13010_str2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13310_reconstruct_image_t0_vulnerable",
+    "cve_id": "CVE-2019-13310",
+    "variable": "reconstruct_image",
+    "file": "CVE-2019-13310_reconstruct_image_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13310_reconstruct_image_t1_vulnerable",
+    "cve_id": "CVE-2019-13310",
+    "variable": "reconstruct_image",
+    "file": "CVE-2019-13310_reconstruct_image_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13310_image_t0_vulnerable",
+    "cve_id": "CVE-2019-13310",
+    "variable": "image",
+    "file": "CVE-2019-13310_image_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13310_image_t1_vulnerable",
+    "cve_id": "CVE-2019-13310",
+    "variable": "image",
+    "file": "CVE-2019-13310_image_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13310_insert_image_vulnerable",
+    "cve_id": "CVE-2019-13310",
+    "variable": "insert_image",
+    "file": "CVE-2019-13310_insert_image_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13310_images_vulnerable",
+    "cve_id": "CVE-2019-13310",
+    "variable": "images",
+    "file": "CVE-2019-13310_images_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13310_difference_image_t0_vulnerable",
+    "cve_id": "CVE-2019-13310",
+    "variable": "difference_image",
+    "file": "CVE-2019-13310_difference_image_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13310_difference_image_t1_vulnerable",
+    "cve_id": "CVE-2019-13310",
+    "variable": "difference_image",
+    "file": "CVE-2019-13310_difference_image_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13005_cb_proc_vulnerable",
+    "cve_id": "CVE-2017-13005",
+    "variable": "cb_proc",
+    "file": "CVE-2017-13005_cb_proc_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13005_rp_vulnerable",
+    "cve_id": "CVE-2017-13005",
+    "variable": "rp",
+    "file": "CVE-2017-13005_rp_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13035_id_len_vulnerable",
+    "cve_id": "CVE-2017-13035",
+    "variable": "id_len",
+    "file": "CVE-2017-13035_id_len_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13035_cp_vulnerable",
+    "cve_id": "CVE-2017-13035",
+    "variable": "cp",
+    "file": "CVE-2017-13035_cp_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13133_image_t0_vulnerable",
+    "cve_id": "CVE-2019-13133",
+    "variable": "image",
+    "file": "CVE-2019-13133_image_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13133_image_t1_vulnerable",
+    "cve_id": "CVE-2019-13133",
+    "variable": "image",
+    "file": "CVE-2019-13133_image_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13133_image_info_vulnerable",
+    "cve_id": "CVE-2019-13133",
+    "variable": "image_info",
+    "file": "CVE-2019-13133_image_info_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13133_exception_vulnerable",
+    "cve_id": "CVE-2019-13133",
+    "variable": "exception",
+    "file": "CVE-2019-13133_exception_vulnerable.json"
+  },
+  {
+    "id": "CVE-2009-1897_sk_vulnerable",
+    "cve_id": "CVE-2009-1897",
+    "variable": "sk",
+    "file": "CVE-2009-1897_sk_vulnerable.json"
+  },
+  {
+    "id": "CVE-2009-1897_tun_vulnerable",
+    "cve_id": "CVE-2009-1897",
+    "variable": "tun",
+    "file": "CVE-2009-1897_tun_vulnerable.json"
+  },
+  {
+    "id": "CVE-2009-3638_nent_t0_vulnerable",
+    "cve_id": "CVE-2009-3638",
+    "variable": "nent",
+    "file": "CVE-2009-3638_nent_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2009-3638_nent_t1_vulnerable",
+    "cve_id": "CVE-2009-3638",
+    "variable": "nent",
+    "file": "CVE-2009-3638_nent_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2009-3638_cpuid_entries_vulnerable",
+    "cve_id": "CVE-2009-3638",
+    "variable": "cpuid_entries",
+    "file": "CVE-2009-3638_cpuid_entries_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-2383_args_t0_vulnerable",
+    "cve_id": "CVE-2012-2383",
+    "variable": "args",
+    "file": "CVE-2012-2383_args_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-2383_args_t1_vulnerable",
+    "cve_id": "CVE-2012-2383",
+    "variable": "args",
+    "file": "CVE-2012-2383_args_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-2383_args_t2_vulnerable",
+    "cve_id": "CVE-2012-2383",
+    "variable": "args",
+    "file": "CVE-2012-2383_args_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-2383_exec2_list_vulnerable",
+    "cve_id": "CVE-2012-2383",
+    "variable": "exec2_list",
+    "file": "CVE-2012-2383_exec2_list_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-0848_smp_vulnerable",
+    "cve_id": "CVE-2012-0848",
+    "variable": "smp",
+    "file": "CVE-2012-0848_smp_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-0848_count_vulnerable",
+    "cve_id": "CVE-2012-0848",
+    "variable": "count",
+    "file": "CVE-2012-0848_count_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-7995_ehci_vulnerable",
+    "cve_id": "CVE-2016-7995",
+    "variable": "ehci",
+    "file": "CVE-2016-7995_ehci_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-7995_isgl_vulnerable",
+    "cve_id": "CVE-2016-7995",
+    "variable": "isgl",
+    "file": "CVE-2016-7995_isgl_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-7995_pg_vulnerable",
+    "cve_id": "CVE-2016-7995",
+    "variable": "pg",
+    "file": "CVE-2016-7995_pg_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-7995_off_vulnerable",
+    "cve_id": "CVE-2016-7995",
+    "variable": "off",
+    "file": "CVE-2016-7995_off_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-7995_len_vulnerable",
+    "cve_id": "CVE-2016-7995",
+    "variable": "len",
+    "file": "CVE-2016-7995_len_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13134_GetNextImageInList_vulnerable",
+    "cve_id": "CVE-2019-13134",
+    "variable": "GetNextImageInList",
+    "file": "CVE-2019-13134_GetNextImageInList_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13134_image_vulnerable",
+    "cve_id": "CVE-2019-13134",
+    "variable": "image",
+    "file": "CVE-2019-13134_image_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13134_next_vulnerable",
+    "cve_id": "CVE-2019-13134",
+    "variable": "next",
+    "file": "CVE-2019-13134_next_vulnerable.json"
+  },
+  {
+    "id": "CVE-2013-1773_maxlen_vulnerable",
+    "cve_id": "CVE-2013-1773",
+    "variable": "maxlen",
+    "file": "CVE-2013-1773_maxlen_vulnerable.json"
+  },
+  {
+    "id": "CVE-2013-1773_key_t0_vulnerable",
+    "cve_id": "CVE-2013-1773",
+    "variable": "key",
+    "file": "CVE-2013-1773_key_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2013-1773_key_t1_vulnerable",
+    "cve_id": "CVE-2013-1773",
+    "variable": "key",
+    "file": "CVE-2013-1773_key_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2013-2094_event_id_vulnerable",
+    "cve_id": "CVE-2013-2094",
+    "variable": "event_id",
+    "file": "CVE-2013-2094_event_id_vulnerable.json"
+  },
+  {
+    "id": "CVE-2013-2094_config_vulnerable",
+    "cve_id": "CVE-2013-2094",
+    "variable": "config",
+    "file": "CVE-2013-2094_config_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-9914_ops_t0_vulnerable",
+    "cve_id": "CVE-2016-9914",
+    "variable": "ops",
+    "file": "CVE-2016-9914_ops_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-9914_ops_t1_vulnerable",
+    "cve_id": "CVE-2016-9914",
+    "variable": "ops",
+    "file": "CVE-2016-9914_ops_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-9914_cleanup_vulnerable",
+    "cve_id": "CVE-2016-9914",
+    "variable": "cleanup",
+    "file": "CVE-2016-9914_cleanup_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-9914_private_vulnerable",
+    "cve_id": "CVE-2016-9914",
+    "variable": "private",
+    "file": "CVE-2016-9914_private_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-8069_data_vulnerable",
+    "cve_id": "CVE-2017-8069",
+    "variable": "data",
+    "file": "CVE-2017-8069_data_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-8069_size_vulnerable",
+    "cve_id": "CVE-2017-8069",
+    "variable": "size",
+    "file": "CVE-2017-8069_size_vulnerable.json"
+  },
+  {
+    "id": "CVE-2011-2517_ssid_vulnerable",
+    "cve_id": "CVE-2011-2517",
+    "variable": "ssid",
+    "file": "CVE-2011-2517_ssid_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-3364_nfca_poll_vulnerable",
+    "cve_id": "CVE-2012-3364",
+    "variable": "nfca_poll",
+    "file": "CVE-2012-3364_nfca_poll_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-3364_nfcb_poll_vulnerable",
+    "cve_id": "CVE-2012-3364",
+    "variable": "nfcb_poll",
+    "file": "CVE-2012-3364_nfcb_poll_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-3364_nfcf_poll_vulnerable",
+    "cve_id": "CVE-2012-3364",
+    "variable": "nfcf_poll",
+    "file": "CVE-2012-3364_nfcf_poll_vulnerable.json"
+  },
+  {
+    "id": "CVE-2013-1860_urb_vulnerable",
+    "cve_id": "CVE-2013-1860",
+    "variable": "urb",
+    "file": "CVE-2013-1860_urb_vulnerable.json"
+  },
+  {
+    "id": "CVE-2013-1860_desc_vulnerable",
+    "cve_id": "CVE-2013-1860",
+    "variable": "desc",
+    "file": "CVE-2013-1860_desc_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-6704_v_vulnerable",
+    "cve_id": "CVE-2012-6704",
+    "variable": "v",
+    "file": "CVE-2012-6704_v_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-6704_sk_vulnerable",
+    "cve_id": "CVE-2012-6704",
+    "variable": "sk",
+    "file": "CVE-2012-6704_sk_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-0850_v_off_vulnerable",
+    "cve_id": "CVE-2012-0850",
+    "variable": "v_off",
+    "file": "CVE-2012-0850_v_off_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-0850_div_t0_vulnerable",
+    "cve_id": "CVE-2012-0850",
+    "variable": "div",
+    "file": "CVE-2012-0850_div_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-0850_div_t1_vulnerable",
+    "cve_id": "CVE-2012-0850",
+    "variable": "div",
+    "file": "CVE-2012-0850_div_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-10250_box_vulnerable",
+    "cve_id": "CVE-2016-10250",
+    "variable": "box",
+    "file": "CVE-2016-10250_box_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-10250_ops_vulnerable",
+    "cve_id": "CVE-2016-10250",
+    "variable": "ops",
+    "file": "CVE-2016-10250_ops_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-10250_type_vulnerable",
+    "cve_id": "CVE-2016-10250",
+    "variable": "type",
+    "file": "CVE-2016-10250_type_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-10250_datalen_vulnerable",
+    "cve_id": "CVE-2016-10250",
+    "variable": "datalen",
+    "file": "CVE-2016-10250_datalen_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-10250_len_vulnerable",
+    "cve_id": "CVE-2016-10250",
+    "variable": "len",
+    "file": "CVE-2016-10250_len_vulnerable.json"
+  },
+  {
+    "id": "CVE-2014-9670_firstCol_vulnerable",
+    "cve_id": "CVE-2014-9670",
+    "variable": "firstCol",
+    "file": "CVE-2014-9670_firstCol_vulnerable.json"
+  },
+  {
+    "id": "CVE-2014-9670_lastCol_vulnerable",
+    "cve_id": "CVE-2014-9670",
+    "variable": "lastCol",
+    "file": "CVE-2014-9670_lastCol_vulnerable.json"
+  },
+  {
+    "id": "CVE-2014-9670_firstRow_vulnerable",
+    "cve_id": "CVE-2014-9670",
+    "variable": "firstRow",
+    "file": "CVE-2014-9670_firstRow_vulnerable.json"
+  },
+  {
+    "id": "CVE-2014-9670_lastRow_t0_vulnerable",
+    "cve_id": "CVE-2014-9670",
+    "variable": "lastRow",
+    "file": "CVE-2014-9670_lastRow_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2014-9670_lastRow_t1_vulnerable",
+    "cve_id": "CVE-2014-9670",
+    "variable": "lastRow",
+    "file": "CVE-2014-9670_lastRow_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-8066_hconf_vulnerable",
+    "cve_id": "CVE-2017-8066",
+    "variable": "hconf",
+    "file": "CVE-2017-8066_hconf_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-8043_r_vulnerable",
+    "cve_id": "CVE-2018-8043",
+    "variable": "r",
+    "file": "CVE-2018-8043_r_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-11310_profile_vulnerable",
+    "cve_id": "CVE-2017-11310",
+    "variable": "profile",
+    "file": "CVE-2017-11310_profile_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-11310_profiles_vulnerable",
+    "cve_id": "CVE-2017-11310",
+    "variable": "profiles",
+    "file": "CVE-2017-11310_profiles_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-11310_image_vulnerable",
+    "cve_id": "CVE-2017-11310",
+    "variable": "image",
+    "file": "CVE-2017-11310_image_vulnerable.json"
+  },
+  {
+    "id": "CVE-2014-9673_rlen_vulnerable",
+    "cve_id": "CVE-2014-9673",
+    "variable": "rlen",
+    "file": "CVE-2014-9673_rlen_vulnerable.json"
+  },
+  {
+    "id": "CVE-2014-9673_len_vulnerable",
+    "cve_id": "CVE-2014-9673",
+    "variable": "len",
+    "file": "CVE-2014-9673_len_vulnerable.json"
+  },
+  {
+    "id": "CVE-2014-9673_pfb_pos_vulnerable",
+    "cve_id": "CVE-2014-9673",
+    "variable": "pfb_pos",
+    "file": "CVE-2014-9673_pfb_pos_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-0851_sps_vulnerable",
+    "cve_id": "CVE-2012-0851",
+    "variable": "sps",
+    "file": "CVE-2012-0851_sps_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-9373_ports_vulnerable",
+    "cve_id": "CVE-2017-9373",
+    "variable": "ports",
+    "file": "CVE-2017-9373_ports_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-9373_port_t0_vulnerable",
+    "cve_id": "CVE-2017-9373",
+    "variable": "port",
+    "file": "CVE-2017-9373_port_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-9373_port_t1_vulnerable",
+    "cve_id": "CVE-2017-9373",
+    "variable": "port",
+    "file": "CVE-2017-9373_port_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-0847_samplesref_vulnerable",
+    "cve_id": "CVE-2012-0847",
+    "variable": "samplesref",
+    "file": "CVE-2012-0847_samplesref_vulnerable.json"
+  },
+  {
+    "id": "CVE-2009-2407_encrypted_key_size_vulnerable",
+    "cve_id": "CVE-2009-2407",
+    "variable": "encrypted_key_size",
+    "file": "CVE-2009-2407_encrypted_key_size_vulnerable.json"
+  },
+  {
+    "id": "CVE-2009-2407_body_size_vulnerable",
+    "cve_id": "CVE-2009-2407",
+    "variable": "body_size",
+    "file": "CVE-2009-2407_body_size_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13137_page_geometry_vulnerable",
+    "cve_id": "CVE-2019-13137",
+    "variable": "page_geometry",
+    "file": "CVE-2019-13137_page_geometry_vulnerable.json"
+  },
+  {
+    "id": "CVE-2011-1593_nr_vulnerable",
+    "cve_id": "CVE-2011-1593",
+    "variable": "nr",
+    "file": "CVE-2011-1593_nr_vulnerable.json"
+  },
+  {
+    "id": "CVE-2011-1593_last_t0_vulnerable",
+    "cve_id": "CVE-2011-1593",
+    "variable": "last",
+    "file": "CVE-2011-1593_last_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2011-1593_last_t1_vulnerable",
+    "cve_id": "CVE-2011-1593",
+    "variable": "last",
+    "file": "CVE-2011-1593_last_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2011-1593_last_t2_vulnerable",
+    "cve_id": "CVE-2011-1593",
+    "variable": "last",
+    "file": "CVE-2011-1593_last_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2011-1593_pid_ns_vulnerable",
+    "cve_id": "CVE-2011-1593",
+    "variable": "pid_ns",
+    "file": "CVE-2011-1593_pid_ns_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-7397_xref_vulnerable",
+    "cve_id": "CVE-2019-7397",
+    "variable": "xref",
+    "file": "CVE-2019-7397_xref_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-12293_w_vulnerable",
+    "cve_id": "CVE-2019-12293",
+    "variable": "w",
+    "file": "CVE-2019-12293_w_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-12293_component_t0_vulnerable",
+    "cve_id": "CVE-2019-12293",
+    "variable": "component",
+    "file": "CVE-2019-12293_component_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-12293_component_t1_vulnerable",
+    "cve_id": "CVE-2019-12293",
+    "variable": "component",
+    "file": "CVE-2019-12293_component_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-5857_unref_vulnerable",
+    "cve_id": "CVE-2017-5857",
+    "variable": "unref",
+    "file": "CVE-2017-5857_unref_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-5857_resource_id_vulnerable",
+    "cve_id": "CVE-2017-5857",
+    "variable": "resource_id",
+    "file": "CVE-2017-5857_resource_id_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-15033_scanline_t0_vulnerable",
+    "cve_id": "CVE-2017-15033",
+    "variable": "scanline",
+    "file": "CVE-2017-15033_scanline_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-15033_scanline_t1_vulnerable",
+    "cve_id": "CVE-2017-15033",
+    "variable": "scanline",
+    "file": "CVE-2017-15033_scanline_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-15033_scanline_t2_vulnerable",
+    "cve_id": "CVE-2017-15033",
+    "variable": "scanline",
+    "file": "CVE-2017-15033_scanline_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-15033_chroma_image_t0_vulnerable",
+    "cve_id": "CVE-2017-15033",
+    "variable": "chroma_image",
+    "file": "CVE-2017-15033_chroma_image_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-15033_chroma_image_t1_vulnerable",
+    "cve_id": "CVE-2017-15033",
+    "variable": "chroma_image",
+    "file": "CVE-2017-15033_chroma_image_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-11379_nb10_hdr_t0_vulnerable",
+    "cve_id": "CVE-2018-11379",
+    "variable": "nb10_hdr",
+    "file": "CVE-2018-11379_nb10_hdr_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-11379_nb10_hdr_t1_vulnerable",
+    "cve_id": "CVE-2018-11379",
+    "variable": "nb10_hdr",
+    "file": "CVE-2018-11379_nb10_hdr_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-11379_nb10_hdr_t2_vulnerable",
+    "cve_id": "CVE-2018-11379",
+    "variable": "nb10_hdr",
+    "file": "CVE-2018-11379_nb10_hdr_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-11379_file_name_vulnerable",
+    "cve_id": "CVE-2018-11379",
+    "variable": "file_name",
+    "file": "CVE-2018-11379_file_name_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-3400_spm_t0_vulnerable",
+    "cve_id": "CVE-2012-3400",
+    "variable": "spm",
+    "file": "CVE-2012-3400_spm_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-3400_spm_t1_vulnerable",
+    "cve_id": "CVE-2012-3400",
+    "variable": "spm",
+    "file": "CVE-2012-3400_spm_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-3400_spm_t2_vulnerable",
+    "cve_id": "CVE-2012-3400",
+    "variable": "spm",
+    "file": "CVE-2012-3400_spm_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13296_image_vulnerable",
+    "cve_id": "CVE-2019-13296",
+    "variable": "image",
+    "file": "CVE-2019-13296_image_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13309_reconstruct_image_t0_vulnerable",
+    "cve_id": "CVE-2019-13309",
+    "variable": "reconstruct_image",
+    "file": "CVE-2019-13309_reconstruct_image_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13309_reconstruct_image_t1_vulnerable",
+    "cve_id": "CVE-2019-13309",
+    "variable": "reconstruct_image",
+    "file": "CVE-2019-13309_reconstruct_image_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13309_image_t0_vulnerable",
+    "cve_id": "CVE-2019-13309",
+    "variable": "image",
+    "file": "CVE-2019-13309_image_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13309_image_t1_vulnerable",
+    "cve_id": "CVE-2019-13309",
+    "variable": "image",
+    "file": "CVE-2019-13309_image_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13309_insert_image_vulnerable",
+    "cve_id": "CVE-2019-13309",
+    "variable": "insert_image",
+    "file": "CVE-2019-13309_insert_image_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13309_images_vulnerable",
+    "cve_id": "CVE-2019-13309",
+    "variable": "images",
+    "file": "CVE-2019-13309_images_vulnerable.json"
+  },
+  {
+    "id": "CVE-2009-4004_bank_num_vulnerable",
+    "cve_id": "CVE-2009-4004",
+    "variable": "bank_num",
+    "file": "CVE-2009-4004_bank_num_vulnerable.json"
+  },
+  {
+    "id": "CVE-2009-4004_mcg_cap_vulnerable",
+    "cve_id": "CVE-2009-4004",
+    "variable": "mcg_cap",
+    "file": "CVE-2009-4004_mcg_cap_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-11378_op_vulnerable",
+    "cve_id": "CVE-2018-11378",
+    "variable": "op",
+    "file": "CVE-2018-11378_op_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-11378_count_t0_vulnerable",
+    "cve_id": "CVE-2018-11378",
+    "variable": "count",
+    "file": "CVE-2018-11378_count_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-11378_count_t1_vulnerable",
+    "cve_id": "CVE-2018-11378",
+    "variable": "count",
+    "file": "CVE-2018-11378_count_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-9060_rect_vulnerable",
+    "cve_id": "CVE-2017-9060",
+    "variable": "rect",
+    "file": "CVE-2017-9060_rect_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-12989_bp_vulnerable",
+    "cve_id": "CVE-2017-12989",
+    "variable": "bp",
+    "file": "CVE-2017-12989_bp_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-12989_endp_vulnerable",
+    "cve_id": "CVE-2017-12989",
+    "variable": "endp",
+    "file": "CVE-2017-12989_endp_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13008_ssid_t0_vulnerable",
+    "cve_id": "CVE-2017-13008",
+    "variable": "ssid",
+    "file": "CVE-2017-13008_ssid_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13008_ssid_t1_vulnerable",
+    "cve_id": "CVE-2017-13008",
+    "variable": "ssid",
+    "file": "CVE-2017-13008_ssid_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13008_ssid_t2_vulnerable",
+    "cve_id": "CVE-2017-13008",
+    "variable": "ssid",
+    "file": "CVE-2017-13008_ssid_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13008_challenge_t0_vulnerable",
+    "cve_id": "CVE-2017-13008",
+    "variable": "challenge",
+    "file": "CVE-2017-13008_challenge_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13008_challenge_t1_vulnerable",
+    "cve_id": "CVE-2017-13008",
+    "variable": "challenge",
+    "file": "CVE-2017-13008_challenge_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13008_challenge_t2_vulnerable",
+    "cve_id": "CVE-2017-13008",
+    "variable": "challenge",
+    "file": "CVE-2017-13008_challenge_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13008_rates_t0_vulnerable",
+    "cve_id": "CVE-2017-13008",
+    "variable": "rates",
+    "file": "CVE-2017-13008_rates_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13008_rates_t1_vulnerable",
+    "cve_id": "CVE-2017-13008",
+    "variable": "rates",
+    "file": "CVE-2017-13008_rates_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13008_tim_t0_vulnerable",
+    "cve_id": "CVE-2017-13008",
+    "variable": "tim",
+    "file": "CVE-2017-13008_tim_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13008_tim_t1_vulnerable",
+    "cve_id": "CVE-2017-13008",
+    "variable": "tim",
+    "file": "CVE-2017-13008_tim_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13008_offset_t0_vulnerable",
+    "cve_id": "CVE-2017-13008",
+    "variable": "offset",
+    "file": "CVE-2017-13008_offset_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13008_offset_t1_vulnerable",
+    "cve_id": "CVE-2017-13008",
+    "variable": "offset",
+    "file": "CVE-2017-13008_offset_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13008_length_vulnerable",
+    "cve_id": "CVE-2017-13008",
+    "variable": "length",
+    "file": "CVE-2017-13008_length_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13002_ep_vulnerable",
+    "cve_id": "CVE-2017-13002",
+    "variable": "ep",
+    "file": "CVE-2017-13002_ep_vulnerable.json"
+  },
+  {
+    "id": "CVE-2015-8666_len_vulnerable",
+    "cve_id": "CVE-2015-8666",
+    "variable": "len",
+    "file": "CVE-2015-8666_len_vulnerable.json"
+  },
+  {
+    "id": "CVE-2015-8666_sts_vulnerable",
+    "cve_id": "CVE-2015-8666",
+    "variable": "sts",
+    "file": "CVE-2015-8666_sts_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-14058_max_reload_vulnerable",
+    "cve_id": "CVE-2017-14058",
+    "variable": "max_reload",
+    "file": "CVE-2017-14058_max_reload_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-10328_parser_vulnerable",
+    "cve_id": "CVE-2016-10328",
+    "variable": "parser",
+    "file": "CVE-2016-10328_parser_vulnerable.json"
+  },
+  {
+    "id": "CVE-2009-4005_fifo_vulnerable",
+    "cve_id": "CVE-2009-4005",
+    "variable": "fifo",
+    "file": "CVE-2009-4005_fifo_vulnerable.json"
+  },
+  {
+    "id": "CVE-2009-4005_data_vulnerable",
+    "cve_id": "CVE-2009-4005",
+    "variable": "data",
+    "file": "CVE-2009-4005_data_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-10268_rowsperstrip_vulnerable",
+    "cve_id": "CVE-2016-10268",
+    "variable": "rowsperstrip",
+    "file": "CVE-2016-10268_rowsperstrip_vulnerable.json"
+  },
+  {
+    "id": "CVE-2014-9667_table_vulnerable",
+    "cve_id": "CVE-2014-9667",
+    "variable": "table",
+    "file": "CVE-2014-9667_table_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-8577_qiov_full_t0_vulnerable",
+    "cve_id": "CVE-2016-8577",
+    "variable": "qiov_full",
+    "file": "CVE-2016-8577_qiov_full_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-8577_qiov_full_t1_vulnerable",
+    "cve_id": "CVE-2016-8577",
+    "variable": "qiov_full",
+    "file": "CVE-2016-8577_qiov_full_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-8577_qiov_full_t2_vulnerable",
+    "cve_id": "CVE-2016-8577",
+    "variable": "qiov_full",
+    "file": "CVE-2016-8577_qiov_full_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2014-9318_frame_size_vulnerable",
+    "cve_id": "CVE-2014-9318",
+    "variable": "frame_size",
+    "file": "CVE-2014-9318_frame_size_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-12427_msl_info_vulnerable",
+    "cve_id": "CVE-2017-12427",
+    "variable": "msl_info",
+    "file": "CVE-2017-12427_msl_info_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-12427_image_info_t0_vulnerable",
+    "cve_id": "CVE-2017-12427",
+    "variable": "image_info",
+    "file": "CVE-2017-12427_image_info_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-12427_image_info_t1_vulnerable",
+    "cve_id": "CVE-2017-12427",
+    "variable": "image_info",
+    "file": "CVE-2017-12427_image_info_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-12427_draw_info_t0_vulnerable",
+    "cve_id": "CVE-2017-12427",
+    "variable": "draw_info",
+    "file": "CVE-2017-12427_draw_info_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-12427_draw_info_t1_vulnerable",
+    "cve_id": "CVE-2017-12427",
+    "variable": "draw_info",
+    "file": "CVE-2017-12427_draw_info_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-12427_image_vulnerable",
+    "cve_id": "CVE-2017-12427",
+    "variable": "image",
+    "file": "CVE-2017-12427_image_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-12427_attributes_vulnerable",
+    "cve_id": "CVE-2017-12427",
+    "variable": "attributes",
+    "file": "CVE-2017-12427_attributes_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-12427_group_info_vulnerable",
+    "cve_id": "CVE-2017-12427",
+    "variable": "group_info",
+    "file": "CVE-2017-12427_group_info_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-9913_tag_t0_vulnerable",
+    "cve_id": "CVE-2016-9913",
+    "variable": "tag",
+    "file": "CVE-2016-9913_tag_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-9913_tag_t1_vulnerable",
+    "cve_id": "CVE-2016-9913",
+    "variable": "tag",
+    "file": "CVE-2016-9913_tag_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-9913_fs_root_vulnerable",
+    "cve_id": "CVE-2016-9913",
+    "variable": "fs_root",
+    "file": "CVE-2016-9913_fs_root_vulnerable.json"
+  },
+  {
+    "id": "CVE-2010-3873_dte_facs_t0_vulnerable",
+    "cve_id": "CVE-2010-3873",
+    "variable": "dte_facs",
+    "file": "CVE-2010-3873_dte_facs_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2010-3873_dte_facs_t1_vulnerable",
+    "cve_id": "CVE-2010-3873",
+    "variable": "dte_facs",
+    "file": "CVE-2010-3873_dte_facs_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-7466_xhci_vulnerable",
+    "cve_id": "CVE-2016-7466",
+    "variable": "xhci",
+    "file": "CVE-2016-7466_xhci_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-7466_msix_table_mmio_vulnerable",
+    "cve_id": "CVE-2016-7466",
+    "variable": "msix_table_mmio",
+    "file": "CVE-2016-7466_msix_table_mmio_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-7466_msix_pba_vulnerable",
+    "cve_id": "CVE-2016-7466",
+    "variable": "msix_pba",
+    "file": "CVE-2016-7466_msix_pba_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-7466_msix_entry_used_vulnerable",
+    "cve_id": "CVE-2016-7466",
+    "variable": "msix_entry_used",
+    "file": "CVE-2016-7466_msix_entry_used_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-7466_msix_pba_mmio_vulnerable",
+    "cve_id": "CVE-2016-7466",
+    "variable": "msix_pba_mmio",
+    "file": "CVE-2016-7466_msix_pba_mmio_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-7466_mem_vulnerable",
+    "cve_id": "CVE-2016-7466",
+    "variable": "mem",
+    "file": "CVE-2016-7466_mem_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-5552_att_rb_vulnerable",
+    "cve_id": "CVE-2017-5552",
+    "variable": "att_rb",
+    "file": "CVE-2017-5552_att_rb_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-5552_res_iovs_vulnerable",
+    "cve_id": "CVE-2017-5552",
+    "variable": "res_iovs",
+    "file": "CVE-2017-5552_res_iovs_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-5552_nr_entries_vulnerable",
+    "cve_id": "CVE-2017-5552",
+    "variable": "nr_entries",
+    "file": "CVE-2017-5552_nr_entries_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13031_dp_vulnerable",
+    "cve_id": "CVE-2017-13031",
+    "variable": "dp",
+    "file": "CVE-2017-13031_dp_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13001_len_t0_vulnerable",
+    "cve_id": "CVE-2017-13001",
+    "variable": "len",
+    "file": "CVE-2017-13001_len_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13001_len_t1_vulnerable",
+    "cve_id": "CVE-2017-13001",
+    "variable": "len",
+    "file": "CVE-2017-13001_len_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13001_sfsname_t0_vulnerable",
+    "cve_id": "CVE-2017-13001",
+    "variable": "sfsname",
+    "file": "CVE-2017-13001_sfsname_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13001_sfsname_t1_vulnerable",
+    "cve_id": "CVE-2017-13001",
+    "variable": "sfsname",
+    "file": "CVE-2017-13001_sfsname_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13001_dp_t0_vulnerable",
+    "cve_id": "CVE-2017-13001",
+    "variable": "dp",
+    "file": "CVE-2017-13001_dp_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13001_dp_t1_vulnerable",
+    "cve_id": "CVE-2017-13001",
+    "variable": "dp",
+    "file": "CVE-2017-13001_dp_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2011-0521_num_t0_vulnerable",
+    "cve_id": "CVE-2011-0521",
+    "variable": "num",
+    "file": "CVE-2011-0521_num_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2011-0521_num_t1_vulnerable",
+    "cve_id": "CVE-2011-0521",
+    "variable": "num",
+    "file": "CVE-2011-0521_num_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2013-2850_extra_response_vulnerable",
+    "cve_id": "CVE-2013-2850",
+    "variable": "extra_response",
+    "file": "CVE-2013-2850_extra_response_vulnerable.json"
+  },
+  {
+    "id": "CVE-2013-2850_key_vulnerable",
+    "cve_id": "CVE-2013-2850",
+    "variable": "key",
+    "file": "CVE-2013-2850_key_vulnerable.json"
+  },
+  {
+    "id": "CVE-2013-2850_value_vulnerable",
+    "cve_id": "CVE-2013-2850",
+    "variable": "value",
+    "file": "CVE-2013-2850_value_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13003_obj_tlen_t0_vulnerable",
+    "cve_id": "CVE-2017-13003",
+    "variable": "obj_tlen",
+    "file": "CVE-2017-13003_obj_tlen_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13003_obj_tlen_t1_vulnerable",
+    "cve_id": "CVE-2017-13003",
+    "variable": "obj_tlen",
+    "file": "CVE-2017-13003_obj_tlen_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13003_subobj_len_t0_vulnerable",
+    "cve_id": "CVE-2017-13003",
+    "variable": "subobj_len",
+    "file": "CVE-2017-13003_subobj_len_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13003_subobj_len_t1_vulnerable",
+    "cve_id": "CVE-2017-13003",
+    "variable": "subobj_len",
+    "file": "CVE-2017-13003_subobj_len_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13003_subobj_len_t2_vulnerable",
+    "cve_id": "CVE-2017-13003",
+    "variable": "subobj_len",
+    "file": "CVE-2017-13003_subobj_len_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13003_offset_t0_vulnerable",
+    "cve_id": "CVE-2017-13003",
+    "variable": "offset",
+    "file": "CVE-2017-13003_offset_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13003_offset_t1_vulnerable",
+    "cve_id": "CVE-2017-13003",
+    "variable": "offset",
+    "file": "CVE-2017-13003_offset_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13003_offset_t2_vulnerable",
+    "cve_id": "CVE-2017-13003",
+    "variable": "offset",
+    "file": "CVE-2017-13003_offset_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2011-2182_rec_vulnerable",
+    "cve_id": "CVE-2011-2182",
+    "variable": "rec",
+    "file": "CVE-2011-2182_rec_vulnerable.json"
+  },
+  {
+    "id": "CVE-2011-2182_num_vulnerable",
+    "cve_id": "CVE-2011-2182",
+    "variable": "num",
+    "file": "CVE-2011-2182_num_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-0854_output_samples_u8_t0_vulnerable",
+    "cve_id": "CVE-2012-0854",
+    "variable": "output_samples_u8",
+    "file": "CVE-2012-0854_output_samples_u8_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2012-0854_output_samples_u8_t1_vulnerable",
+    "cve_id": "CVE-2012-0854",
+    "variable": "output_samples_u8",
+    "file": "CVE-2012-0854_output_samples_u8_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-7377_fidp_t0_vulnerable",
+    "cve_id": "CVE-2017-7377",
+    "variable": "fidp",
+    "file": "CVE-2017-7377_fidp_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-7377_fidp_t1_vulnerable",
+    "cve_id": "CVE-2017-7377",
+    "variable": "fidp",
+    "file": "CVE-2017-7377_fidp_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-7377_fid_type_t0_vulnerable",
+    "cve_id": "CVE-2017-7377",
+    "variable": "fid_type",
+    "file": "CVE-2017-7377_fid_type_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-7377_fid_type_t1_vulnerable",
+    "cve_id": "CVE-2017-7377",
+    "variable": "fid_type",
+    "file": "CVE-2017-7377_fid_type_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2011-1759_nsops_t0_vulnerable",
+    "cve_id": "CVE-2011-1759",
+    "variable": "nsops",
+    "file": "CVE-2011-1759_nsops_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2011-1759_nsops_t1_vulnerable",
+    "cve_id": "CVE-2011-1759",
+    "variable": "nsops",
+    "file": "CVE-2011-1759_nsops_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2011-1759_nsops_t2_vulnerable",
+    "cve_id": "CVE-2011-1759",
+    "variable": "nsops",
+    "file": "CVE-2011-1759_nsops_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2014-9664_cur_vulnerable",
+    "cve_id": "CVE-2014-9664",
+    "variable": "cur",
+    "file": "CVE-2014-9664_cur_vulnerable.json"
+  },
+  {
+    "id": "CVE-2014-9664_cursor_vulnerable",
+    "cve_id": "CVE-2014-9664",
+    "variable": "cursor",
+    "file": "CVE-2014-9664_cursor_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-9105_oldfidp_vulnerable",
+    "cve_id": "CVE-2016-9105",
+    "variable": "oldfidp",
+    "file": "CVE-2016-9105_oldfidp_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-20467_bmp_info_t0_vulnerable",
+    "cve_id": "CVE-2018-20467",
+    "variable": "bmp_info",
+    "file": "CVE-2018-20467_bmp_info_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-20467_bmp_info_t1_vulnerable",
+    "cve_id": "CVE-2018-20467",
+    "variable": "bmp_info",
+    "file": "CVE-2018-20467_bmp_info_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-20467_number_colors_t0_vulnerable",
+    "cve_id": "CVE-2018-20467",
+    "variable": "number_colors",
+    "file": "CVE-2018-20467_number_colors_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-20467_number_colors_t1_vulnerable",
+    "cve_id": "CVE-2018-20467",
+    "variable": "number_colors",
+    "file": "CVE-2018-20467_number_colors_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-20467_number_colors_t2_vulnerable",
+    "cve_id": "CVE-2018-20467",
+    "variable": "number_colors",
+    "file": "CVE-2018-20467_number_colors_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-20467_offset_vulnerable",
+    "cve_id": "CVE-2018-20467",
+    "variable": "offset",
+    "file": "CVE-2018-20467_offset_vulnerable.json"
+  },
+  {
+    "id": "CVE-2010-2521_argp_vulnerable",
+    "cve_id": "CVE-2010-2521",
+    "variable": "argp",
+    "file": "CVE-2010-2521_argp_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-12995_l_t0_vulnerable",
+    "cve_id": "CVE-2017-12995",
+    "variable": "l",
+    "file": "CVE-2017-12995_l_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-12995_l_t1_vulnerable",
+    "cve_id": "CVE-2017-12995",
+    "variable": "l",
+    "file": "CVE-2017-12995_l_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-12995_l_t2_vulnerable",
+    "cve_id": "CVE-2017-12995",
+    "variable": "l",
+    "file": "CVE-2017-12995_l_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-12995_compress_vulnerable",
+    "cve_id": "CVE-2017-12995",
+    "variable": "compress",
+    "file": "CVE-2017-12995_compress_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-12995_ndo_vulnerable",
+    "cve_id": "CVE-2017-12995",
+    "variable": "ndo",
+    "file": "CVE-2017-12995_ndo_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-12995_chars_processed_vulnerable",
+    "cve_id": "CVE-2017-12995",
+    "variable": "chars_processed",
+    "file": "CVE-2017-12995_chars_processed_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-12995_data_size_vulnerable",
+    "cve_id": "CVE-2017-12995",
+    "variable": "data_size",
+    "file": "CVE-2017-12995_data_size_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-12995_ndo_snapend_vulnerable",
+    "cve_id": "CVE-2017-12995",
+    "variable": "ndo_snapend",
+    "file": "CVE-2017-12995_ndo_snapend_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-12995_cp_vulnerable",
+    "cve_id": "CVE-2017-12995",
+    "variable": "cp",
+    "file": "CVE-2017-12995_cp_vulnerable.json"
+  },
+  {
+    "id": "CVE-2014-9658_length_vulnerable",
+    "cve_id": "CVE-2014-9658",
+    "variable": "length",
+    "file": "CVE-2014-9658_length_vulnerable.json"
+  },
+  {
+    "id": "CVE-2011-3940_st_t0_vulnerable",
+    "cve_id": "CVE-2011-3940",
+    "variable": "st",
+    "file": "CVE-2011-3940_st_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2011-3940_st_t1_vulnerable",
+    "cve_id": "CVE-2011-3940",
+    "variable": "st",
+    "file": "CVE-2011-3940_st_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2011-3940_vsize_vulnerable",
+    "cve_id": "CVE-2011-3940",
+    "variable": "vsize",
+    "file": "CVE-2011-3940_vsize_vulnerable.json"
+  },
+  {
+    "id": "CVE-2011-3940_asize_vulnerable",
+    "cve_id": "CVE-2011-3940",
+    "variable": "asize",
+    "file": "CVE-2011-3940_asize_vulnerable.json"
+  },
+  {
+    "id": "CVE-2015-8631_client_name_t0_vulnerable",
+    "cve_id": "CVE-2015-8631",
+    "variable": "client_name",
+    "file": "CVE-2015-8631_client_name_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2015-8631_client_name_t1_vulnerable",
+    "cve_id": "CVE-2015-8631",
+    "variable": "client_name",
+    "file": "CVE-2015-8631_client_name_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2015-8631_client_name_t2_vulnerable",
+    "cve_id": "CVE-2015-8631",
+    "variable": "client_name",
+    "file": "CVE-2015-8631_client_name_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2015-8631_service_name_t0_vulnerable",
+    "cve_id": "CVE-2015-8631",
+    "variable": "service_name",
+    "file": "CVE-2015-8631_service_name_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2015-8631_service_name_t1_vulnerable",
+    "cve_id": "CVE-2015-8631",
+    "variable": "service_name",
+    "file": "CVE-2015-8631_service_name_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2015-8631_prime_arg_t0_vulnerable",
+    "cve_id": "CVE-2015-8631",
+    "variable": "prime_arg",
+    "file": "CVE-2015-8631_prime_arg_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2015-8631_prime_arg_t1_vulnerable",
+    "cve_id": "CVE-2015-8631",
+    "variable": "prime_arg",
+    "file": "CVE-2015-8631_prime_arg_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-7864_face_vulnerable",
+    "cve_id": "CVE-2017-7864",
+    "variable": "face",
+    "file": "CVE-2017-7864_face_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-7864_valid_vulnerable",
+    "cve_id": "CVE-2017-7864",
+    "variable": "valid",
+    "file": "CVE-2017-7864_valid_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-5856_cmd_vulnerable",
+    "cve_id": "CVE-2017-5856",
+    "variable": "cmd",
+    "file": "CVE-2017-5856_cmd_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-5856_iov_size_vulnerable",
+    "cve_id": "CVE-2017-5856",
+    "variable": "iov_size",
+    "file": "CVE-2017-5856_iov_size_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-5856_len_t0_vulnerable",
+    "cve_id": "CVE-2017-5856",
+    "variable": "len",
+    "file": "CVE-2017-5856_len_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-5856_len_t1_vulnerable",
+    "cve_id": "CVE-2017-5856",
+    "variable": "len",
+    "file": "CVE-2017-5856_len_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2007-6761_map_t0_vulnerable",
+    "cve_id": "CVE-2007-6761",
+    "variable": "map",
+    "file": "CVE-2007-6761_map_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2007-6761_map_t1_vulnerable",
+    "cve_id": "CVE-2007-6761",
+    "variable": "map",
+    "file": "CVE-2007-6761_map_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-16640_chunk_vulnerable",
+    "cve_id": "CVE-2018-16640",
+    "variable": "chunk",
+    "file": "CVE-2018-16640_chunk_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-16640_jng_width_vulnerable",
+    "cve_id": "CVE-2018-16640",
+    "variable": "jng_width",
+    "file": "CVE-2018-16640_jng_width_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-8086_orig_value_vulnerable",
+    "cve_id": "CVE-2017-8086",
+    "variable": "orig_value",
+    "file": "CVE-2017-8086_orig_value_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-8086_xattr_len_vulnerable",
+    "cve_id": "CVE-2017-8086",
+    "variable": "xattr_len",
+    "file": "CVE-2017-8086_xattr_len_vulnerable.json"
+  },
+  {
+    "id": "CVE-2011-3951_avpkt_t0_vulnerable",
+    "cve_id": "CVE-2011-3951",
+    "variable": "avpkt",
+    "file": "CVE-2011-3951_avpkt_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2011-3951_avpkt_t1_vulnerable",
+    "cve_id": "CVE-2011-3951",
+    "variable": "avpkt",
+    "file": "CVE-2011-3951_avpkt_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2011-3951_stereo_t0_vulnerable",
+    "cve_id": "CVE-2011-3951",
+    "variable": "stereo",
+    "file": "CVE-2011-3951_stereo_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2011-3951_stereo_t1_vulnerable",
+    "cve_id": "CVE-2011-3951",
+    "variable": "stereo",
+    "file": "CVE-2011-3951_stereo_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2010-4650_iov_t0_vulnerable",
+    "cve_id": "CVE-2010-4650",
+    "variable": "iov",
+    "file": "CVE-2010-4650_iov_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2010-4650_iov_t1_vulnerable",
+    "cve_id": "CVE-2010-4650",
+    "variable": "iov",
+    "file": "CVE-2010-4650_iov_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2010-4650_iov_t2_vulnerable",
+    "cve_id": "CVE-2010-4650",
+    "variable": "iov",
+    "file": "CVE-2010-4650_iov_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2010-4650_in_iov_vulnerable",
+    "cve_id": "CVE-2010-4650",
+    "variable": "in_iov",
+    "file": "CVE-2010-4650_in_iov_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13301_textlist_vulnerable",
+    "cve_id": "CVE-2019-13301",
+    "variable": "textlist",
+    "file": "CVE-2019-13301_textlist_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13301_annotate_info_vulnerable",
+    "cve_id": "CVE-2019-13301",
+    "variable": "annotate_info",
+    "file": "CVE-2019-13301_annotate_info_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13301_annotate_t0_vulnerable",
+    "cve_id": "CVE-2019-13301",
+    "variable": "annotate",
+    "file": "CVE-2019-13301_annotate_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-13301_annotate_t1_vulnerable",
+    "cve_id": "CVE-2019-13301",
+    "variable": "annotate",
+    "file": "CVE-2019-13301_annotate_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13034_bp_vulnerable",
+    "cve_id": "CVE-2017-13034",
+    "variable": "bp",
+    "file": "CVE-2017-13034_bp_vulnerable.json"
+  },
+  {
+    "id": "CVE-2019-7395_compressed_pixels_vulnerable",
+    "cve_id": "CVE-2019-7395",
+    "variable": "compressed_pixels",
+    "file": "CVE-2019-7395_compressed_pixels_vulnerable.json"
+  },
+  {
+    "id": "CVE-2011-3945_offsets_vulnerable",
+    "cve_id": "CVE-2011-3945",
+    "variable": "offsets",
+    "file": "CVE-2011-3945_offsets_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-5809_row_vulnerable",
+    "cve_id": "CVE-2018-5809",
+    "variable": "row",
+    "file": "CVE-2018-5809_row_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-5809_c_vulnerable",
+    "cve_id": "CVE-2018-5809",
+    "variable": "c",
+    "file": "CVE-2018-5809_c_vulnerable.json"
+  },
+  {
+    "id": "CVE-2018-5809_len_vulnerable",
+    "cve_id": "CVE-2018-5809",
+    "variable": "len",
+    "file": "CVE-2018-5809_len_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-15032_canvas_image_t0_vulnerable",
+    "cve_id": "CVE-2017-15032",
+    "variable": "canvas_image",
+    "file": "CVE-2017-15032_canvas_image_t0_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-15032_canvas_image_t1_vulnerable",
+    "cve_id": "CVE-2017-15032",
+    "variable": "canvas_image",
+    "file": "CVE-2017-15032_canvas_image_t1_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-15032_canvas_image_t2_vulnerable",
+    "cve_id": "CVE-2017-15032",
+    "variable": "canvas_image",
+    "file": "CVE-2017-15032_canvas_image_t2_vulnerable.json"
+  },
+  {
+    "id": "CVE-2016-10166_u_vulnerable",
+    "cve_id": "CVE-2016-10166",
+    "variable": "u",
+    "file": "CVE-2016-10166_u_vulnerable.json"
+  },
+  {
+    "id": "CVE-2009-1385_length_vulnerable",
+    "cve_id": "CVE-2009-1385",
+    "variable": "length",
+    "file": "CVE-2009-1385_length_vulnerable.json"
+  },
+  {
+    "id": "CVE-2013-1929_tp_vulnerable",
+    "cve_id": "CVE-2013-1929",
+    "variable": "tp",
+    "file": "CVE-2013-1929_tp_vulnerable.json"
+  },
+  {
+    "id": "CVE-2013-1929_len_vulnerable",
+    "cve_id": "CVE-2013-1929",
+    "variable": "len",
+    "file": "CVE-2013-1929_len_vulnerable.json"
+  },
+  {
+    "id": "CVE-2007-6151_bname_vulnerable",
+    "cve_id": "CVE-2007-6151",
+    "variable": "bname",
+    "file": "CVE-2007-6151_bname_vulnerable.json"
+  },
+  {
+    "id": "CVE-2017-13000_caplen_vulnerable",
+    "cve_id": "CVE-2017-13000",
+    "variable": "caplen",
+    "file": "CVE-2017-13000_caplen_vulnerable.json"
+  },
+  {
+    "id": "CVE-2010-1084_str_vulnerable",
+    "cve_id": "CVE-2010-1084",
+    "variable": "str",
+    "file": "CVE-2010-1084_str_vulnerable.json"
+  }
+]

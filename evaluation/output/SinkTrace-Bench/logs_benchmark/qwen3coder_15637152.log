@@ -1,0 +1,277 @@
+=== Qwen3-Coder-Next (H100) ===
+Pipeline ready on cuda:0
+Dataset: 2594 samples
+Resuming: 2194 samples already done, skipping.
+Processing 620 samples...
+
+[    1] CVE-2008-2826_addr_num_t0_vulnerable               | Truth: Vulnerable | Pred: Error(no label: 'V**   the      ** the**   0   **  **  **            � ** c ** the   ** **  **  *') | ❌ | Acc: 0.0%
+[    2] CVE-2008-2826_addr_num_t0_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[    3] CVE-2008-2826_addr_num_t1_vulnerable               | Truth: Vulnerable | Pred: Error(no label: 'V**      ** **  ** **   ** **...  ******') | ❌ | Acc: 33.3%
+[    4] CVE-2008-2826_addr_num_t1_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[    5] CVE-2008-3275_dentry_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 60.0%
+[    6] CVE-2008-3275_dentry_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 66.7%
+[    7] CVE-2008-3911_len_vulnerable                       | Truth: Vulnerable | Pred: Error(no label: 'V挑剔! the \xa0    sky  ** **  ** ** ** ** **  ** ** ** **    ** **** the ** the the') | ❌ | Acc: 57.1%
+[    8] CVE-2008-3911_len_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 62.5%
+[    9] CVE-2009-2287_vcpu_vulnerable                      | Truth: Vulnerable | Pred: Error(no label: 'V1') | ❌ | Acc: 55.6%
+[   10] CVE-2009-2767_nsleep_vulnerable                    | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 50.0%
+[   11] CVE-2009-2767_nsleep_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 54.5%
+[   12] CVE-2009-2768_bprm_vulnerable                      | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 58.3%
+[   13] CVE-2009-2768_bprm_safe                            | Truth: Safe       | Pred: Error(no label: 'V0 **   0 ** the the ** the ** 的 **`` virus **') | ❌ | Acc: 53.8%
+[   14] CVE-2010-0006_net_vulnerable                       | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 57.1%
+[   15] CVE-2010-0006_net_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 60.0%
+[   16] CVE-2010-2478_rule_cnt_t0_vulnerable               | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 56.2%
+[   17] CVE-2010-2478_rule_cnt_t0_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 58.8%
+[   18] CVE-2010-2478_rule_cnt_t1_vulnerable               | Truth: Vulnerable | Pred: Error(no label: 'V   the  ** **\n   humor the        !') | ❌ | Acc: 55.6%
+[   19] CVE-2010-2478_rule_cnt_t1_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 57.9%
+[   20] CVE-2010-3067_nr_vulnerable                        | Truth: Vulnerable | Pred: Error(no label: 'V the     \n ** 00 the ** **') | ❌ | Acc: 55.0%
+[   21] CVE-2010-3067_nr_safe                              | Truth: Safe       | Pred: Safe       | ✅ | Acc: 57.1%
+[   22] CVE-2010-3880_bc_vulnerable                        | Truth: Vulnerable | Pred: Error(no label: 'V   8The   **** the 的       **          cosm') | ❌ | Acc: 54.5%
+[   23] CVE-2010-3880_bc_safe                              | Truth: Safe       | Pred: Safe       | ✅ | Acc: 56.5%
+[   24] CVE-2010-4162_end_t0_vulnerable                    | Truth: Vulnerable | Pred: Error(no label: 'Vare0') | ❌ | Acc: 54.2%
+[   25] CVE-2010-4162_end_t1_vulnerable                    | Truth: Vulnerable | Pred: Error(no label: 'V\xa0 the\t  histogram``   **** ******! 2 the the there the **') | ❌ | Acc: 52.0%
+[   26] CVE-2010-4162_end_t2_vulnerable                    | Truth: Vulnerable | Pred: Error(no label: 'Vover binary ** 0  the called```0 **    the  1 大发 thes排 ** ** the  binary  0   c') | ❌ | Acc: 50.0%
+[   27] CVE-2010-4162_end_t3_vulnerable                    | Truth: Vulnerable | Pred: Error(no label: 'Vous ** **') | ❌ | Acc: 48.1%
+[   28] CVE-2010-4162_start_t0_vulnerable                  | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 50.0%
+[   29] CVE-2010-4162_start_t1_vulnerable                  | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 48.3%
+[   30] CVE-2010-4162_start_t2_vulnerable                  | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 50.0%
+[   31] CVE-2010-4164_len_vulnerable                       | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 51.6%
+[   32] CVE-2010-4164_len_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.1%
+[   33] CVE-2010-4263_vlan_tag_vulnerable                  | Truth: Vulnerable | Pred: Error(no label: 'VV ** the **  the the  the!  the  the...') | ❌ | Acc: 51.5%
+[   34] CVE-2010-4263_vlan_tag_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 52.9%
+[   35] CVE-2010-4342_edev_vulnerable                      | Truth: Vulnerable | Pred: Error(no label: 'V<|fim_suffix|>  \n    ** ** ** ** ** **的 ** **...     **<|fim_suffix|>CSI') | ❌ | Acc: 51.4%
+[   36] CVE-2010-4342_edev_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 52.8%
+[   37] CVE-2010-4527_name_t0_vulnerable                   | Truth: Vulnerable | Pred: Error(no label: 'V the math     1** ** **  ** ** ** ** math  ** ** ** ** **** ** the,  binary tho') | ❌ | Acc: 51.4%
+[   38] CVE-2010-4527_name_t0_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 52.6%
+[   39] CVE-2010-4527_name_t1_vulnerable                   | Truth: Vulnerable | Pred: Error(no label: 'V的****       **\n **  ** **  **   ** **  ** **  \t   ``   \t      that� c的') | ❌ | Acc: 51.3%
+[   40] CVE-2010-4527_name_t1_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 52.5%
+[   41] CVE-2011-1478_vlan_tci_vulnerable                  | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 51.2%
+[   42] CVE-2011-1478_vlan_tci_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 52.4%
+[   43] CVE-2011-1598_sk_t0_vulnerable                     | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 51.2%
+[   44] CVE-2011-1598_sk_t0_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 52.3%
+[   45] CVE-2011-1598_sk_t1_vulnerable                     | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 51.1%
+[   46] CVE-2011-1598_sk_t1_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 52.2%
+[   47] CVE-2011-1748_sk_t0_vulnerable                     | Truth: Vulnerable | Pred: Error(no label: 'V the   ** the binary   ** cogn') | ❌ | Acc: 51.1%
+[   48] CVE-2011-1748_sk_t0_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 52.1%
+[   49] CVE-2011-1748_sk_t1_vulnerable                     | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 51.0%
+[   50] CVE-2011-1748_sk_t1_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 52.0%
+[   51] CVE-2011-1748_sk_t2_vulnerable                     | Truth: Vulnerable | Pred: Error(no label: 'V  0  ** ** **    **  the   ** ** ** **   **aeda Binder  �**\t** **') | ❌ | Acc: 51.0%
+[   52] CVE-2011-1748_sk_t2_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 51.9%
+[   53] CVE-2011-1748_sock->sk_t0_vulnerable               | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 50.9%
+[   54] CVE-2011-1748_sock->sk_t0_safe                     | Truth: Safe       | Pred: Error(no label: 'V') | ❌ | Acc: 50.0%
+[   55] CVE-2011-1748_sock->sk_t1_vulnerable               | Truth: Vulnerable | Pred: Error(no label: 'V... **1') | ❌ | Acc: 49.1%
+[   56] CVE-2011-1748_sock->sk_t1_safe                     | Truth: Safe       | Pred: Error(no label: 'Ving **1的!     the\n\t c  **        the...   **   **\t    **  ** \t ** the the') | ❌ | Acc: 48.2%
+[   57] CVE-2011-1748_sock->sk_t2_vulnerable               | Truth: Vulnerable | Pred: Error(no label: 'V<|fim_suffix|>') | ❌ | Acc: 47.4%
+[   58] CVE-2011-1748_sock->sk_t2_safe                     | Truth: Safe       | Pred: Error(no label: 'V the ** ** ** **     <|fim_suffix|>**  ** **0  reason **0 the . **  **** fuel') | ❌ | Acc: 46.6%
+[   59] CVE-2011-1771_private_data_t0_vulnerable           | Truth: Vulnerable | Pred: Error(no label: 'Vord 情人节!  11 the...  the') | ❌ | Acc: 45.8%
+[   60] CVE-2011-1771_private_data_t0_safe                 | Truth: Safe       | Pred: Safe       | ✅ | Acc: 46.7%
+[   61] CVE-2011-1771_private_data_t1_vulnerable           | Truth: Vulnerable | Pred: Error(no label: 'V01 1 binary  ** **  the') | ❌ | Acc: 45.9%
+[   62] CVE-2011-1771_private_data_t1_safe                 | Truth: Safe       | Pred: Safe       | ✅ | Acc: 46.8%
+[   63] CVE-2011-2213_cc_vulnerable                        | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 46.0%
+[   64] CVE-2011-2213_cc_safe                              | Truth: Safe       | Pred: Error(no label: 'V... **  **      ** ** **     the \t the sem的') | ❌ | Acc: 45.3%
+[   65] CVE-2011-2521_hwc_vulnerable                       | Truth: Vulnerable | Pred: Error(no label: 'V0') | ❌ | Acc: 44.6%
+[   66] CVE-2011-3929_ach_t0_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 45.5%
+[   67] CVE-2011-3929_ach_t0_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 46.3%
+[   68] CVE-2011-3929_ach_t1_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 47.1%
+[   69] CVE-2011-3929_ach_t1_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 47.8%
+[   70] CVE-2011-4031_asf_vulnerable                       | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 47.1%
+[   71] CVE-2011-4031_asf_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 47.9%
+[   72] CVE-2011-4621_tsk_vulnerable                       | Truth: Vulnerable | Pred: Error(no label: 'V ** the the **') | ❌ | Acc: 47.2%
+[   73] CVE-2011-4621_tsk_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 47.9%
+[   74] CVE-2012-0038_count_vulnerable                     | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 47.3%
+[   75] CVE-2012-0038_count_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 48.0%
+[   76] CVE-2012-0044_num_clips_t0_vulnerable              | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 47.4%
+[   77] CVE-2012-0044_num_clips_t0_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 48.1%
+[   78] CVE-2012-0044_num_clips_t1_vulnerable              | Truth: Vulnerable | Pred: Error(no label: 'V... the the... virus virus 1  binary **\n  the') | ❌ | Acc: 47.4%
+[   79] CVE-2012-0044_num_clips_t1_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 48.1%
+[   80] CVE-2012-0855_numXtiles_t0_vulnerable              | Truth: Vulnerable | Pred: Error(no label: 'V\xa0   **的 the...  the **   ! **的') | ❌ | Acc: 47.5%
+[   81] CVE-2012-0855_numXtiles_t0_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 48.1%
+[   82] CVE-2012-0855_numXtiles_t1_vulnerable              | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 47.6%
+[   83] CVE-2012-0855_numXtiles_t1_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 48.2%
+[   84] CVE-2012-0856_height_vulnerable                    | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 47.6%
+[   85] CVE-2012-0859_y0_vulnerable                        | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 47.1%
+[   86] CVE-2012-0859_y0_safe                              | Truth: Safe       | Pred: Safe       | ✅ | Acc: 47.7%
+[   87] CVE-2012-1146_primary_t0_vulnerable                | Truth: Vulnerable | Pred: Error(no label: 'V **   **  the ** the            sometimes   **  ** **\t ** ** cosm the the the t') | ❌ | Acc: 47.1%
+[   88] CVE-2012-1146_primary_t0_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 47.7%
+[   89] CVE-2012-1146_primary_t1_vulnerable                | Truth: Vulnerable | Pred: Error(no label: 'V **') | ❌ | Acc: 47.2%
+[   90] CVE-2012-1146_primary_t1_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 47.8%
+[   91] CVE-2012-2100_s_log_groups_per_flex_t0_vulnerable  | Truth: Vulnerable | Pred: Error(no label: 'V0') | ❌ | Acc: 47.3%
+[   92] CVE-2012-2100_s_log_groups_per_flex_t0_safe        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 47.8%
+[   93] CVE-2012-2100_s_log_groups_per_flex_t1_vulnerable  | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 47.3%
+[   94] CVE-2012-2100_s_log_groups_per_flex_t1_safe        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 47.9%
+[   95] CVE-2012-2100_s_log_groups_per_flex_t2_vulnerable  | Truth: Vulnerable | Pred: Error(no label: 'V binary  **  **   the ** the    ** **   the1 the   hyper crypto') | ❌ | Acc: 47.4%
+[   96] CVE-2012-2100_s_log_groups_per_flex_t2_safe        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 47.9%
+[   97] CVE-2012-5669_glyph_enc_t0_vulnerable              | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 48.5%
+[   98] CVE-2012-5669_glyph_enc_t0_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 49.0%
+[   99] CVE-2012-5669_glyph_enc_t1_vulnerable              | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 49.5%
+[  100] CVE-2012-5669_glyph_enc_t1_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  101] CVE-2012-5669_have_t0_vulnerable                   | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 49.5%
+[  102] CVE-2012-5669_have_t0_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  103] CVE-2012-5669_have_t1_vulnerable                   | Truth: Vulnerable | Pred: Error(no label: 'V...  the    **    "      ** ** **的的**  **  the  ``  **  **  the **  \t **  ** **') | ❌ | Acc: 49.5%
+[  104] CVE-2012-5669_have_t1_safe                         | Truth: Safe       | Pred: Error(no label: 'V  ** youth **') | ❌ | Acc: 49.0%
+[  105] CVE-2012-5670_glyph_enc_t0_vulnerable              | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 49.5%
+[  106] CVE-2012-5670_glyph_enc_t0_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.0%
+[  107] CVE-2012-5670_glyph_enc_t1_vulnerable              | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 50.5%
+[  108] CVE-2012-5670_glyph_enc_t1_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.9%
+[  109] CVE-2013-0859_count_t0_vulnerable                  | Truth: Vulnerable | Pred: Error(no label: 'V ****  **') | ❌ | Acc: 50.5%
+[  110] CVE-2013-0859_count_t0_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.9%
+[  111] CVE-2013-0859_count_t1_vulnerable                  | Truth: Vulnerable | Pred: Error(no label: 'Vphanumeric virus  binary **\n the ** **  the the ** **  oose **** agnar **...') | ❌ | Acc: 50.5%
+[  112] CVE-2013-0859_count_t1_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 50.9%
+[  113] CVE-2013-0868_len1_vulnerable                      | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 51.3%
+[  114] CVE-2013-0868_len1_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 51.8%
+[  115] CVE-2013-0877_decoded_size_vulnerable              | Truth: Vulnerable | Pred: Error(no label: 'V荞  ** ** ! crystal!!') | ❌ | Acc: 51.3%
+[  116] CVE-2013-0877_decoded_size_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 51.7%
+[  117] CVE-2016-10169_bytecnt_t0_vulnerable               | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 52.1%
+[  118] CVE-2016-10169_bytecnt_t0_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 52.5%
+[  119] CVE-2016-10169_bytecnt_t1_vulnerable               | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 52.9%
+[  120] CVE-2016-10169_bytecnt_t1_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.3%
+[  121] CVE-2013-1415_issuer_vulnerable                    | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 52.9%
+[  122] CVE-2013-1415_issuer_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.3%
+[  123] CVE-2013-1415_serial_vulnerable                    | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 52.8%
+[  124] CVE-2013-1415_serial_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.2%
+[  125] CVE-2013-3670_pd_vulnerable                        | Truth: Vulnerable | Pred: Error(no label: 'V的! the the0  **** ****  **...  ** the ****** ** **\t的``** **  的 奠基    the   digi') | ❌ | Acc: 52.8%
+[  126] CVE-2013-3670_pd_safe                              | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.2%
+[  127] CVE-2013-3671_type_vulnerable                      | Truth: Vulnerable | Pred: Error(no label: 'V......! **\\\\ ** ** ** **  ** London') | ❌ | Acc: 52.8%
+[  128] CVE-2013-3671_type_safe                            | Truth: Safe       | Pred: Error(no label: 'V     0 Student ** ** ****啤\\\\********...\nQString Magnet ** ** ****linger\\\\cw chi') | ❌ | Acc: 52.3%
+[  129] CVE-2013-4263_sar_vulnerable                       | Truth: Vulnerable | Pred: Error(no label: 'V   **!! the the  the') | ❌ | Acc: 51.9%
+[  130] CVE-2013-4263_sar_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 52.3%
+[  131] CVE-2013-4514_u16_vulnerable                       | Truth: Vulnerable | Pred: Error(no label: 'Vurable!  calendar') | ❌ | Acc: 51.9%
+[  132] CVE-2013-7009_pixel_ptr_t0_vulnerable              | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 51.5%
+[  133] CVE-2013-7009_pixel_ptr_t0_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 51.9%
+[  134] CVE-2013-7009_pixel_ptr_t1_vulnerable              | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 52.2%
+[  135] CVE-2013-7009_pixel_ptr_t1_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 52.6%
+[  136] CVE-2013-7010_dst_t0_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 52.9%
+[  137] CVE-2013-7010_dst_t0_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.3%
+[  138] CVE-2013-7010_dst_t1_vulnerable                    | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 52.9%
+[  139] CVE-2013-7010_dst_t1_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.2%
+[  140] CVE-2013-7014_add_bytes_l2_c_t0_vulnerable         | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 52.9%
+[  141] CVE-2013-7014_add_bytes_l2_c_t0_safe               | Truth: Safe       | Pred: Error(no label: 'V `') | ❌ | Acc: 52.5%
+[  142] CVE-2013-7014_add_bytes_l2_c_t1_vulnerable         | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 52.1%
+[  143] CVE-2013-7014_add_bytes_l2_c_t1_safe               | Truth: Safe       | Pred: Vulnerable | ❌ | Acc: 51.7%
+[  144] CVE-2013-7023_overread_index_t0_vulnerable         | Truth: Vulnerable | Pred: Error(no label: 'V   **   ** honest      the      **   **   the     \n **') | ❌ | Acc: 51.4%
+[  145] CVE-2013-7023_overread_index_t0_safe               | Truth: Safe       | Pred: Error(no label: 'V') | ❌ | Acc: 51.0%
+[  146] CVE-2013-7023_overread_index_t1_vulnerable         | Truth: Vulnerable | Pred: Error(no label: 'V **0  the\t ``  的 ** **1  the \t  \t  \t ** ** ** **   the      ! ** ** super ** **') | ❌ | Acc: 50.7%
+[  147] CVE-2013-7023_overread_index_t1_safe               | Truth: Safe       | Pred: Error(no label: 'V://') | ❌ | Acc: 50.3%
+[  148] CVE-2013-7023_next_t0_vulnerable                   | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 50.7%
+[  149] CVE-2013-7023_next_t0_safe                         | Truth: Safe       | Pred: Error(no label: 'V0 ** the  ** ** **') | ❌ | Acc: 50.3%
+[  150] CVE-2013-7023_next_t1_vulnerable                   | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 50.7%
+[  151] CVE-2013-7023_next_t1_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 51.0%
+[  152] CVE-2013-7023_next_t2_vulnerable                   | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 51.3%
+[  153] CVE-2013-7023_next_t2_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 51.6%
+[  154] CVE-2013-7023_new_buffer_t0_vulnerable             | Truth: Vulnerable | Pred: Error(no label: 'Vc **') | ❌ | Acc: 51.3%
+[  155] CVE-2013-7023_new_buffer_t0_safe                   | Truth: Safe       | Pred: Safe       | ✅ | Acc: 51.6%
+[  156] CVE-2013-7023_new_buffer_t1_vulnerable             | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 51.3%
+[  157] CVE-2013-7023_new_buffer_t1_safe                   | Truth: Safe       | Pred: Safe       | ✅ | Acc: 51.6%
+[  158] CVE-2013-7023_new_buffer_t2_vulnerable             | Truth: Vulnerable | Pred: Error(no label: 'V0 **') | ❌ | Acc: 51.3%
+[  159] CVE-2013-7023_new_buffer_t2_safe                   | Truth: Safe       | Pred: Safe       | ✅ | Acc: 51.6%
+[  160] CVE-2013-7024_codsty_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 51.9%
+[  161] CVE-2013-7024_codsty_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 52.2%
+[  162] CVE-2013-7339_device_vulnerable                    | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 52.5%
+[  163] CVE-2013-7339_device_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 52.8%
+[  164] CVE-2014-0160_rrec_vulnerable                      | Truth: Vulnerable | Pred: Error(no label: 'V  **的 2 the** \n        ** ** the   - 0\n   **...   ** ......  the  the the **  t') | ❌ | Acc: 52.4%
+[  165] CVE-2014-0160_rrec_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 52.7%
+[  166] CVE-2014-0195_frag_vulnerable                      | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 53.0%
+[  167] CVE-2014-0195_frag_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.3%
+[  168] CVE-2013-0876_decoded_size_t0_vulnerable           | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 53.6%
+[  169] CVE-2013-0876_decoded_size_t0_safe                 | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.8%
+[  170] CVE-2013-0876_decoded_size_t1_vulnerable           | Truth: Vulnerable | Pred: Error(no label: 'V ** ** ** ** **  ** ** **  **** the**** ****  ** ** ** ** ** the **** ** **  **') | ❌ | Acc: 53.5%
+[  171] CVE-2013-0876_decoded_size_t1_safe                 | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.8%
+[  172] CVE-2014-3144_len_t0_vulnerable                    | Truth: Vulnerable | Pred: Error(no label: 'V0 under') | ❌ | Acc: 53.5%
+[  173] CVE-2014-3144_len_t0_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.8%
+[  174] CVE-2014-3144_len_t1_vulnerable                    | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 53.4%
+[  175] CVE-2014-3144_len_t1_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.7%
+[  176] CVE-2014-3145_len_t0_vulnerable                    | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 53.4%
+[  177] CVE-2014-3145_len_t0_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.7%
+[  178] CVE-2014-3145_len_t1_vulnerable                    | Truth: Vulnerable | Pred: Error(no label: 'V清香') | ❌ | Acc: 53.4%
+[  179] CVE-2014-3145_len_t1_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.6%
+[  180] CVE-2014-3145_len_t2_vulnerable                    | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 53.3%
+[  181] CVE-2014-3145_len_t2_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.6%
+[  182] CVE-2014-3183_count_vulnerable                     | Truth: Vulnerable | Pred: Error(no label: 'Vampire') | ❌ | Acc: 53.3%
+[  183] CVE-2014-3183_count_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.6%
+[  184] CVE-2014-3512_cAB_t0_vulnerable                    | Truth: Vulnerable | Pred: Error(no label: 'V binary **!<') | ❌ | Acc: 53.3%
+[  185] CVE-2014-3512_cAB_t0_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.5%
+[  186] CVE-2014-3512_cAB_t1_vulnerable                    | Truth: Vulnerable | Pred: Error(no label: 'V** ! **                **  bl bl楔             ** ** bi   humor harmonic catal.') | ❌ | Acc: 53.2%
+[  187] CVE-2014-3512_cAB_t1_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.5%
+[  188] CVE-2014-3512_cAB_t2_vulnerable                    | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 53.2%
+[  189] CVE-2014-3512_cAB_t2_safe                          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.4%
+[  190] CVE-2014-4608_ip_t0_vulnerable                     | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 53.2%
+[  191] CVE-2014-4608_ip_t0_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.4%
+[  192] CVE-2014-4608_ip_t1_vulnerable                     | Truth: Vulnerable | Pred: Error(no label: 'V11 binary binary1') | ❌ | Acc: 53.1%
+[  193] CVE-2014-4608_ip_t1_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.4%
+[  194] CVE-2014-4608_ip_t2_vulnerable                     | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 53.1%
+[  195] CVE-2014-4608_ip_t2_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.3%
+[  196] CVE-2014-4656_card_vulnerable                      | Truth: Vulnerable | Pred: Error(no label: 'V**     ** **       ****璨 **') | ❌ | Acc: 53.1%
+[  197] CVE-2014-4656_card_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.3%
+[  198] CVE-2014-7826_syscall_nr_vulnerable                | Truth: Vulnerable | Pred: Error(no label: 'V ** **!') | ❌ | Acc: 53.0%
+[  199] CVE-2014-7826_syscall_nr_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.3%
+[  200] CVE-2014-7937_ptns_to_read_vulnerable              | Truth: Vulnerable | Pred: Error(no label: 'V cold') | ❌ | Acc: 53.0%
+[  201] CVE-2014-7937_ptns_to_read_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.2%
+[  202] CVE-2014-8130__TIFFmalloc_vulnerable               | Truth: Vulnerable | Pred: Error(no label: 'V** **  **的的   的...') | ❌ | Acc: 53.0%
+[  203] CVE-2014-8130__TIFFmalloc_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.2%
+[  204] CVE-2014-8176_rdata_vulnerable                     | Truth: Vulnerable | Pred: Error(no label: 'V** ** **\t         the  ******                the** **\t   \t   \t   \t \t the    **!') | ❌ | Acc: 52.9%
+[  205] CVE-2014-8176_rdata_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.2%
+[  206] CVE-2014-8176_data_vulnerable                      | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 53.4%
+[  207] CVE-2014-8176_data_safe                            | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.6%
+[  208] CVE-2014-8546_cinepak_decode_vectors_vulnerable    | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 53.4%
+[  209] CVE-2014-8546_cinepak_decode_vectors_safe          | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.6%
+[  210] CVE-2014-8884_cmd_vulnerable                       | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 53.3%
+[  211] CVE-2014-8884_cmd_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.6%
+[  212] CVE-2014-9318_width_t0_vulnerable                  | Truth: Vulnerable | Pred: Error(no label: 'V the **  **! ** ** ** 2 **  **!! ** **** **') | ❌ | Acc: 53.3%
+[  213] CVE-2014-9318_width_t0_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.5%
+[  214] CVE-2014-9318_width_t1_vulnerable                  | Truth: Vulnerable | Pred: Error(no label: 'V **  **  **! **!!  **   binary  ! ** the **4  binary **') | ❌ | Acc: 53.3%
+[  215] CVE-2014-9318_width_t1_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.5%
+[  216] CVE-2014-9318_width_t2_vulnerable                  | Truth: Vulnerable | Pred: Error(no label: 'V    **  **  **  ** ** ** ** ** ** ** ** **** 的 **') | ❌ | Acc: 53.2%
+[  217] CVE-2014-9318_width_t2_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.5%
+[  218] CVE-2014-9319_sps_vulnerable                       | Truth: Vulnerable | Pred: Error(no label: 'V的   ****  ** !      **   **         **  the                    ** **  ** **   *') | ❌ | Acc: 53.2%
+[  219] CVE-2014-9319_sps_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.4%
+[  220] CVE-2014-9496_count_t0_vulnerable                  | Truth: Vulnerable | Pred: Error(no label: 'V的!  ** the the') | ❌ | Acc: 53.2%
+[  221] CVE-2014-9496_count_t0_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.4%
+[  222] CVE-2014-9496_count_t1_vulnerable                  | Truth: Vulnerable | Pred: Error(no label: 'V\t   ** the  **') | ❌ | Acc: 53.2%
+[  223] CVE-2014-9496_count_t1_safe                        | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.4%
+[  224] CVE-2014-9662_builder_t0_vulnerable                | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 53.6%
+[  225] CVE-2014-9662_builder_t0_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.8%
+[  226] CVE-2014-9662_builder_t1_vulnerable                | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 54.0%
+[  227] CVE-2014-9662_builder_t1_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 54.2%
+[  228] CVE-2014-9662_builder_t2_vulnerable                | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 53.9%
+[  229] CVE-2014-9662_builder_t2_safe                      | Truth: Safe       | Pred: Safe       | ✅ | Acc: 54.1%
+[  230] CVE-2014-9665_map_vulnerable                       | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 53.9%
+[  231] CVE-2014-9666_strike_index_array_t0_vulnerable     | Truth: Vulnerable | Pred: Error(no label: 'V** ** **  ** the! ** ****** the ** \t \t! **') | ❌ | Acc: 53.7%
+[  232] CVE-2014-9666_strike_index_array_t0_safe           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.9%
+[  233] CVE-2014-9666_strike_index_array_t1_vulnerable     | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 54.1%
+[  234] CVE-2014-9666_strike_index_array_t1_safe           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 54.3%
+[  235] CVE-2014-9669_end_vulnerable                       | Truth: Vulnerable | Pred: Error(no label: 'V0') | ❌ | Acc: 54.0%
+[  236] CVE-2014-9669_end_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 54.2%
+[  237] CVE-2014-9672_string_count_vulnerable              | Truth: Vulnerable | Pred: Error(no label: 'V the ** **d** **  **  **     **  **  the **   cosm **  cosm  **  **  cosm **  *') | ❌ | Acc: 54.0%
+[  238] CVE-2014-9672_string_count_safe                    | Truth: Safe       | Pred: Safe       | ✅ | Acc: 54.2%
+[  239] CVE-2014-9683_dst_byte_offset_vulnerable           | Truth: Vulnerable | Pred: Error(no label: 'Ving the design **S') | ❌ | Acc: 54.0%
+[  240] CVE-2014-9683_dst_byte_offset_safe                 | Truth: Safe       | Pred: Error(no label: 'V') | ❌ | Acc: 53.8%
+[  241] CVE-2014-9683_dst_vulnerable                       | Truth: Vulnerable | Pred: Error(no label: 'V**   the    1 the  ** **') | ❌ | Acc: 53.5%
+[  242] CVE-2014-9683_dst_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.7%
+[  243] CVE-2015-0288_pktmp_vulnerable                     | Truth: Vulnerable | Pred: Error(no label: 'V the...          ** **  ** **  ** ****** ****') | ❌ | Acc: 53.5%
+[  244] CVE-2015-0288_pktmp_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.7%
+[  245] CVE-2015-0289_p7_t0_vulnerable                     | Truth: Vulnerable | Pred: Error(no label: 'V **    的  the  **  **  **') | ❌ | Acc: 53.5%
+[  246] CVE-2015-0289_p7_t0_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.7%
+[  247] CVE-2015-0289_p7_t1_vulnerable                     | Truth: Vulnerable | Pred: Error(no label: 'V... the ** **的 the  the ** 1    the  **...,!  0 **  **  the the... oct\n! \t! the') | ❌ | Acc: 53.4%
+[  248] CVE-2015-0289_p7_t1_safe                           | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.6%
+[  249] CVE-2015-0289_p7_t2_vulnerable                     | Truth: Vulnerable | Pred: Error(no label: 'V   the 2  the   ** **') | ❌ | Acc: 53.4%
+[  250] CVE-2015-0289_p7_t2_safe                           | Truth: Safe       | Pred: Vulnerable | ❌ | Acc: 53.2%
+[  251] CVE-2015-0289_sign_t0_vulnerable                   | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 53.0%
+[  252] CVE-2015-0289_sign_t0_safe                         | Truth: Safe       | Pred: Error(no label: 'V **** the the **** ing100 Microsoft!  the **的   the the!  **  the') | ❌ | Acc: 52.8%
+[  253] CVE-2015-0289_sign_t1_vulnerable                   | Truth: Vulnerable | Pred: Error(no label: 'Ving the    **** **    projected   的**   **       的!!!') | ❌ | Acc: 52.6%
+[  254] CVE-2015-0289_sign_t1_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 52.8%
+[  255] CVE-2015-0289_sign_t2_vulnerable                   | Truth: Vulnerable | Pred: Error(no label: 'V **') | ❌ | Acc: 52.5%
+[  256] CVE-2015-0289_sign_t2_safe                         | Truth: Safe       | Pred: Safe       | ✅ | Acc: 52.7%
+[  257] CVE-2015-1790_enc_data_t0_vulnerable               | Truth: Vulnerable | Pred: Error(no label: 'V the the the   10 **...  the ** **  1  the     **\t\t   the the **  the the the') | ❌ | Acc: 52.5%
+[  258] CVE-2015-1790_enc_data_t0_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 52.7%
+[  259] CVE-2015-1790_enc_data_t1_vulnerable               | Truth: Vulnerable | Pred: Error(no label: 'V the  **  **  ** ** ** ** ** ** **  **  ** ** ** **') | ❌ | Acc: 52.5%
+[  260] CVE-2015-1790_enc_data_t1_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 52.7%
+[  261] CVE-2015-1790_data_body_vulnerable                 | Truth: Vulnerable | Pred: Error(no label: 'V\t \t****  **  **') | ❌ | Acc: 52.5%
+[  262] CVE-2015-1790_data_body_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 52.7%
+[  263] CVE-2015-3456_pos_vulnerable                       | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 52.5%
+[  264] CVE-2015-3456_pos_safe                             | Truth: Safe       | Pred: Safe       | ✅ | Acc: 52.7%
+[  265] CVE-2015-4002_data_len_t0_vulnerable               | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 52.8%
+[  266] CVE-2015-4002_data_len_t0_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.0%
+[  267] CVE-2015-4002_data_len_t1_vulnerable               | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 52.8%
+[  268] CVE-2015-4002_data_len_t1_safe                     | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.0%
+[  269] CVE-2015-4003_unit_size_vulnerable                 | Truth: Vulnerable | Pred: Vulnerable | ✅ | Acc: 53.2%
+[  270] CVE-2015-4003_unit_size_safe                       | Truth: Safe       | Pred: Safe       | ✅ | Acc: 53.3%
+[  271] CVE-2015-4003_body_vulnerable                      | Truth: Vulnerable | Pred: Error(no label: 'V') | ❌ | Acc: 53.1%
