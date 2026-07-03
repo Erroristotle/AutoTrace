@@ -1,0 +1,11 @@
+{
+  "total_samples": 1542,
+  "vulnerable_samples": 771,
+  "fixed_samples": 771,
+  "raw_samples_pre_dedup": 2801,
+  "cves_covered": 540,
+  "format": "rich",
+  "skipped": {
+    "skipped_no_triggers": 113
+  }
+}
